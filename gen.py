@@ -55,8 +55,8 @@ BeehiveInnovations/pal-mcp-server|ai|11783|0|90-365d||58
 idosal/git-mcp|devtools|8460|0|90-365d||58
 Coding-Solo/godot-mcp|other|6093|0|90-365d||58
 executeautomation/mcp-playwright|browser|5666|0|90-365d||58
-excalidraw/excalidraw-mcp|other|5522|0|90-365d||58
 Pimzino/spec-workflow-mcp|devtools|4303|0|90-365d||57
+excalidraw/excalidraw-mcp|other|5522|0|90-365d||57
 louislva/claude-peers-mcp|ai|2206|0|90-365d||57
 korotovsky/slack-mcp-server|productivity|1866|0|90-365d||57
 isaacphi/mcp-language-server|devtools|1609|0|90-365d||56
@@ -88,9 +88,9 @@ PL={"<=30d":"≤30d","30-90d":"30–90d","<=90d*":"≤90d*","90-365d":"90–365d
 CL={"Healthy":"h","Stale":"s","Archived":"a","Broken":"a"}
 CATS=[("browser","Browser &amp; scraping"),("devtools","Dev tools &amp; git"),("databases","Databases"),("files","Files &amp; office"),("search","Search"),("cloud","Cloud &amp; infra"),("productivity","Productivity"),("ai","AI &amp; memory"),("other","Other")]
 slug=lambda r:r.lower().replace("/","-")
-NAV='<header><a class="logo" href="/">● MCP Status</a><nav><a href="/">Ranking</a><a href="/status.html">Status</a><a href="/methodology.html">Methodology</a><a href="/submit.html">Submit</a></nav></header>'
+NAV='<header><a class="logo" href="/">● MCP Status</a><nav><a href="/">Ranking</a><a href="/compare/">Compare</a><a href="/status.html">Status</a><a href="/methodology.html">Methodology</a><a href="/submit.html">Submit</a></nav></header>'
 def head(t,d,path,extra=""):
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{t}</title><meta name="description" content="{d}"><link rel="canonical" href="{S}{path}"><link rel="stylesheet" href="/style.css">{extra}</head><body>\n{NAV}<main>\n'
+    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{t}</title><meta name="description" content="{d}"><link rel="canonical" href="{S}{path}"><meta property="og:type" content="website"><meta property="og:site_name" content="MCP Status"><meta property="og:title" content="{t}"><meta property="og:description" content="{d}"><meta property="og:url" content="{S}{path}"><meta name="twitter:card" content="summary"><link rel="stylesheet" href="/style.css">{extra}</head><body>\n{NAV}<main>\n'
 FOOT='</main><footer>MCP Status · data checked 2026-10-15 06:50 UTC from GitHub &amp; npm/PyPI · <a href="/methodology.html">methodology</a> · <a href="/data/servers.json">raw JSON</a> · <a href="/llms.txt">llms.txt</a></footer></body></html>\n'
 def badge(s): return f'<span class="b {CL[s["label"]]}">{s["score"]} {s["label"]}</span>'
 def note(s): return '<span class="note">⚠ README: “no longer actively maintained” — Notion recommends its hosted Remote Notion MCP.</span>' if "note" in s else ""
@@ -107,7 +107,7 @@ h+=f'<div class="stats"><div class="stat"><b>{len(srv)}</b>servers</div><div cla
 h+="".join(f'<a href="/category/{k}.html">{n} ({sum(1 for s in srv if s["category"]==k)})</a>' for k,n in CATS)+'</div>\n'
 h+='<table><thead><tr><th>#</th><th>Server</th><th class="hide-sm">Category</th><th>Health</th><th>Stars</th><th class="hide-sm">Last push</th><th class="hide-sm">Package</th></tr></thead><tbody>\n'
 for s in srv:
-    h+=f'<tr id="{slug(s["repo"])}"><td>{s["rank"]}</td><td><a href="https://github.com/{s["repo"]}">{s["repo"]}</a>{note(s)}</td><td class="hide-sm"><a href="/category/{s["category"]}.html">{s["category"]}</a></td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td class="hide-sm">{PL[s["push"]]}</td>{pkg(s)}</tr>\n'
+    h+=f'<tr id="{slug(s["repo"])}"><td>{s["rank"]}</td><td><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a>{note(s)}</td><td class="hide-sm"><a href="/category/{s["category"]}.html">{s["category"]}</a></td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td class="hide-sm">{PL[s["push"]]}</td>{pkg(s)}</tr>\n'
 h+='</tbody></table>\n<p class="mut">* pushed within 90 days; 30-day bucket not yet verified. “unchecked” = package not yet verified against npm/PyPI (scores 0 on that component).</p>\n'
 h+='<div class="card" id="newsletter"><h2 style="margin-top:0">Weekly MCP health digest</h2><p class="mut">Which servers broke, got archived, or launched this week. No spam.</p>\n<form name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html"><input type="hidden" name="form-name" value="newsletter"><p hidden><label>Leave empty <input name="bot-field"></label></p><input type="email" name="email" required placeholder="you@example.com"> <button type="submit">Subscribe</button></form></div>\n'
 open("index.html","w").write(h+FOOT)
@@ -119,19 +119,29 @@ LEAD={
 "search":("Best web search MCP servers","<b>exa-labs/exa-mcp-server</b> (97, npm verified) for web search; <b>arxiv-mcp-server</b> (77) for papers. Firecrawl (browser category) also offers search."),
 "cloud":("Best cloud &amp; infra MCP servers: AWS, Cloudflare, Kubernetes, Terraform","<b>awslabs/mcp</b> (78) for AWS and <b>cloudflare/mcp-server-cloudflare</b> (77). For Kubernetes, <b>containers/kubernetes-mcp-server</b> (67) edges out Flux159’s."),
 "productivity":("Best productivity MCP servers: Notion, n8n, Slack, Obsidian","<b>czlonkowski/n8n-mcp</b> (79) for automation. <b>makenotion/notion-mcp-server</b> scores 97 but its README says it is <b>no longer actively maintained</b> — Notion recommends its hosted Remote Notion MCP instead. apple-mcp is archived."),
-"ai":("AI, memory &amp; multi-model MCP servers","no server in this category is currently Healthy. The freshest is <b>jamubc/gemini-mcp-tool</b> (67). notebooklm-mcp is archived. For code memory see <a href=\"/#deusdata-codebase-memory-mcp\">codebase-memory-mcp</a> (79, dev tools)."),
+"ai":("AI, memory &amp; multi-model MCP servers","no server in this category is currently Healthy. The freshest is <b>jamubc/gemini-mcp-tool</b> (67). notebooklm-mcp is archived. For code memory see <a href=\"/server/deusdata-codebase-memory-mcp.html\">codebase-memory-mcp</a> (79, dev tools)."),
 "other":("Other MCP servers: Blender, Unity, Godot, KiCAD, Windows","<b>mcp-for-blender</b> (79), <b>unity-mcp</b> (78), <b>Windows-MCP</b> (78) and <b>KiCAD-MCP-Server</b> (77) are healthy; Godot and Unreal servers are stale.")}
+def cat_faq(k,n,ss):
+    nn=n.replace("&amp;","and"); best=ss[0]; act=[s for s in ss if not s["archived"]]
+    arch=[s["repo"] for s in ss if s["archived"]]
+    qa=[(f"What is the best {nn} MCP server right now?",f"As of the 2026-10-15 check, {best['repo']} has the highest health score in this category ({best['score']}/100, {best['label']})."),
+        (f"How many {nn} MCP servers are tracked?",f"{len(ss)} servers: {sum(s['label']=='Healthy' for s in ss)} Healthy, {sum(s['label']=='Stale' for s in ss)} Stale, {len(arch)} Archived."),
+        (f"Which {nn} MCP servers are archived?",("Archived on GitHub: "+", ".join(arch)+".") if arch else "None of the tracked servers in this category are archived as of 2026-10-15."),
+        ("How is the health score calculated?","Repo exists 25, not archived 20, last push within 30/90/365 days 25/15/5, verified npm or PyPI package 20, stars up to 10 on a log scale.")]
+    ld={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in qa]}
+    return '<h2>FAQ</h2>'+"".join(f'<h3>{q}</h3><p>{a}</p>' for q,a in qa)+'<script type="application/ld+json">'+json.dumps(ld)+'</script>\n'
 for k,n in CATS:
     t,lead=LEAD[k]; ss=[s for s in srv if s["category"]==k]
     c=head(t+" (Oct 2026, health-ranked)",f"Health-ranked {n.replace('&amp;','and')} MCP servers with dated checks and archived/stale flags.",f"/category/{k}.html")
     c+=f'<h1>{t}</h1><p class="lead"><b>Short answer (2026-10-15):</b> {lead}</p>\n<table><thead><tr><th>Server</th><th>Health</th><th>Stars</th><th>Last push</th></tr></thead><tbody>\n'
-    for s in ss: c+=f'<tr><td><a href="/#{slug(s["repo"])}">{s["repo"]}</a>{note(s)}</td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td>{PL[s["push"]]}</td></tr>\n'
-    open(f"category/{k}.html","w").write(c+'</tbody></table><p><a href="/">← All servers</a></p>\n'+FOOT)
+    for s in ss: c+=f'<tr><td><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a>{note(s)}</td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td>{PL[s["push"]]}</td></tr>\n'
+    c+='</tbody></table>\n'+cat_faq(k,n,ss)+'<p><a href="/">← All servers</a></p>\n'
+    open(f"category/{k}.html","w").write(c+FOOT)
 arch=[s for s in srv if s["archived"]]; old=[s for s in srv if s["push"]==">365d" and not s["archived"]]
 st=head("MCP server status: archived &amp; stale flags (2026-10-15) — MCP Status","Archived and stale MCP servers flagged from dated GitHub checks.","/status.html")
-st+=f'<h1>Status &amp; flags</h1><p class="lead">Check run <b>2026-10-15 06:50 UTC</b> · {len(srv)} servers · {cnt["Healthy"]} Healthy · {cnt["Stale"]} Stale · {cnt["Archived"]} Archived · {cnt["Broken"]} Broken.</p>\n<h2>Archived repositories</h2><ul>'+"".join(f'<li><a href="/#{slug(s["repo"])}">{s["repo"]}</a> — {s["stars"]:,}★</li>' for s in arch)+'</ul>\n'
-st+='<h2>Maintenance warnings</h2><ul><li><a href="/#makenotion-notion-mcp-server">makenotion/notion-mcp-server</a> — package README says this self-hosted server is “no longer actively maintained or supported”; Notion recommends its hosted Remote Notion MCP.</li></ul>\n'
-st+='<h2>No push in over a year</h2><ul>'+"".join(f'<li><a href="/#{slug(s["repo"])}">{s["repo"]}</a></li>' for s in old)+'</ul>\n'
+st+=f'<h1>Status &amp; flags</h1><p class="lead">Check run <b>2026-10-15 06:50 UTC</b> · {len(srv)} servers · {cnt["Healthy"]} Healthy · {cnt["Stale"]} Stale · {cnt["Archived"]} Archived · {cnt["Broken"]} Broken.</p>\n<h2>Archived repositories</h2><ul>'+"".join(f'<li><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a> — {s["stars"]:,}★</li>' for s in arch)+'</ul>\n'
+st+='<h2>Maintenance warnings</h2><ul><li><a href="/server/makenotion-notion-mcp-server.html">makenotion/notion-mcp-server</a> — package README says this self-hosted server is “no longer actively maintained or supported”; Notion recommends its hosted Remote Notion MCP.</li></ul>\n'
+st+='<h2>No push in over a year</h2><ul>'+"".join(f'<li><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a></li>' for s in old)+'</ul>\n'
 st+='<h2>Check log</h2><table><thead><tr><th>When (UTC)</th><th>Check</th><th>Result</th></tr></thead><tbody><tr><td>2026-10-15 06:50</td><td>GitHub repo metadata (stars, archived)</td><td>73 exist, 5 archived</td></tr><tr><td>2026-10-15 06:50</td><td>Push recency (30d / 90d / 365d buckets)</td><td>28 ≤30d in healthy set, 9 &gt;1 year</td></tr><tr><td>2026-10-15 06:50</td><td>Package resolves on npm / PyPI</td><td>6 verified, 67 not yet checked</td></tr></tbody></table>\n'
 open("status.html","w").write(st+FOOT)
 faq={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is the MCP Status health score calculated?","acceptedAnswer":{"@type":"Answer","text":"Repo exists 25, not archived 20, last push within 30 days 25 (90 days 15, 365 days 5), package verified on npm or PyPI 20, stars up to 10 on a log scale. Healthy is 75+, Stale 40-74, Broken below 40; archived repos are always labelled Archived."}},{"@type":"Question","name":"How often is data refreshed?","acceptedAnswer":{"@type":"Answer","text":"Every listing shows its check date. The first full check ran 2026-10-15; daily automated refreshes are being set up."}}]}
@@ -206,4 +216,5 @@ Plain static site (no build step) ranking Model Context Protocol servers by a da
 ## Score (0–100)
 Repo exists 25 · not archived 20 · last push ≤30d 25 / ≤90d 15 / ≤365d 5 · verified package 20 · stars round(10·log10(stars)/5). Healthy ≥75, Stale 40–74, Broken <40; archived repos always labelled Archived.
 """)
+exec(open("gen_seo.py").read())
 print(cnt, len(srv))
