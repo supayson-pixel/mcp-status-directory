@@ -1,0 +1,33 @@
+# MCP Status
+
+> MCP Status (https://mcp-status-directory.netlify.app) is a health-ranked directory of Model Context Protocol (MCP) servers. Every listing carries a dated, evidence-based health score (0-100) from public signals: GitHub repo exists, archived flag, last push recency, whether the npm/PyPI package resolves, and stars. Archived and stale servers are flagged explicitly.
+
+Last full check: 2026-10-15T06:50Z. 73 servers: 28 Healthy, 40 Stale, 5 Archived.
+
+## Key pages
+- [Ranked list of all servers](https://mcp-status-directory.netlify.app/)
+- [Status / archived & stale flags](https://mcp-status-directory.netlify.app/status.html)
+- [Methodology](https://mcp-status-directory.netlify.app/methodology.html)
+- [Raw data JSON](https://mcp-status-directory.netlify.app/data/servers.json)
+
+## Best MCP servers by use case (healthiest first, as of 2026-10-15)
+- Browser automation: ChromeDevTools/chrome-devtools-mcp (99), microsoft/playwright-mcp (99)
+- Web scraping: firecrawl/firecrawl-mcp-server (98), apify/apify-mcp-server (78)
+- Web search: exa-labs/exa-mcp-server (97), blazickjp/arxiv-mcp-server (77, papers)
+- Databases: googleapis/mcp-toolbox (78); crystaldba/postgres-mcp (67, stale)
+- Git / GitHub: github/github-mcp-server (79)
+- Files / office: haris-musa/excel-mcp-server (97), wonderwhy-er/DesktopCommanderMCP (78)
+- Cloud / infra: awslabs/mcp (78), cloudflare/mcp-server-cloudflare (77)
+- Productivity: makenotion/notion-mcp-server (97, but README says no longer actively maintained; Notion recommends its hosted Remote Notion MCP), czlonkowski/n8n-mcp (79)
+- Design: GLips/Figma-Context-MCP (78)
+
+## Category pages
+- [Browser & scraping](https://mcp-status-directory.netlify.app/category/browser.html)
+- [Dev tools & git](https://mcp-status-directory.netlify.app/category/devtools.html)
+- [Databases](https://mcp-status-directory.netlify.app/category/databases.html)
+- [Files & office](https://mcp-status-directory.netlify.app/category/files.html)
+- [Search](https://mcp-status-directory.netlify.app/category/search.html)
+- [Cloud & infra](https://mcp-status-directory.netlify.app/category/cloud.html)
+- [Productivity](https://mcp-status-directory.netlify.app/category/productivity.html)
+- [AI & memory](https://mcp-status-directory.netlify.app/category/ai.html)
+- [Other](https://mcp-status-directory.netlify.app/category/other.html)
