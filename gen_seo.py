@@ -1,7 +1,6 @@
 # SEO extension, exec'd at end of gen.py (shares its globals: srv,S,head,FOOT,badge,slug,PL,CATS,cnt,llm)
 import math, html as H
-CHECKED="2026-10-15T06:50:00Z"
-PP={"<=30d":25,"30-90d":15,"<=90d*":15,"90-365d":5,">365d":0}
+PP={"<=30d":25,"30-90d":15,"90-365d":5,">365d":0}
 CN=dict(CATS)
 # install snippets verified from the package README on npm/PyPI (2026-10-15); others omitted
 INST={
@@ -15,10 +14,10 @@ INST={
 def parts(s):
     st=round(10*math.log10(s["stars"])/5) if s["stars"]>0 else 0
     p=[("Repository exists",25,25),("Not archived",0 if s["archived"] else 20,20),("Last push recency ("+PL[s["push"]].replace("&gt;",">")+")",PP[s["push"]],25),("Package verified on npm/PyPI","20 ("+s["package"].split(":",1)[1]+")" if s["package"] else "0 (unchecked)",20),(f"Stars ({s['stars']:,})",st,10)]
-    tot=25+(0 if s["archived"] else 20)+PP[s["push"]]+(20 if s["package"] else 0)+st
+    tot=0 if not s.get('exists',True) else 25+(0 if s["archived"] else 20)+PP[s["push"]]+(20 if s["package"] else 0)+st
     return p,tot
 def summ(s):
-    return f'{s["repo"]} MCP server: health {s["score"]}/100 ({s["label"]}), {s["stars"]:,} GitHub stars, last push {PL[s["push"]].replace("&gt;",">")}, '+("archived on GitHub" if s["archived"] else "not archived")+f'. Checked 2026-10-15.'
+    return f'{s["repo"]} MCP server: health {s["score"]}/100 ({s["label"]}), {s["stars"]:,} GitHub stars, last push {PL[s["push"]].replace("&gt;",">")}, '+("archived on GitHub" if s["archived"] else "not archived")+f'. Checked {CD}.'
 os.makedirs("server",exist_ok=True); os.makedirs("compare",exist_ok=True)
 pages=[]  # (path,title,summary)
 for s in srv:
@@ -27,7 +26,7 @@ for s in srv:
     alts=[a for a in srv if a["category"]==s["category"] and a is not s][:5]
     t=f'{name} MCP server: status, health score &amp; install'
     d=H.escape(summ(s))
-    ld=[{"@context":"https://schema.org","@type":"SoftwareApplication","name":s["repo"],"applicationCategory":"DeveloperApplication","operatingSystem":"Cross-platform","url":S+path,"sameAs":"https://github.com/"+s["repo"],"description":summ(s),"dateModified":"2026-10-15","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
+    ld=[{"@context":"https://schema.org","@type":"SoftwareApplication","name":s["repo"],"applicationCategory":"DeveloperApplication","operatingSystem":"Cross-platform","url":S+path,"sameAs":"https://github.com/"+s["repo"],"description":summ(s),"dateModified":CD,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},
         {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"MCP Status","item":S+"/"},{"@type":"ListItem","position":2,"name":CN[s["category"]].replace("&amp;","&"),"item":f'{S}/category/{s["category"]}.html'},{"@type":"ListItem","position":3,"name":s["repo"],"item":S+path}]}]
     h=head(t,d,path,"".join('<script type="application/ld+json">'+json.dumps(x)+'</script>' for x in ld))
     h+=f'<p class="mut"><a href="/">MCP Status</a> › <a href="/category/{s["category"]}.html">{CN[s["category"]]}</a> › {s["repo"]}</p>'
@@ -56,7 +55,7 @@ for cs,rs in COMP:
     ss=[BY[r] for r in rs]; assert len({s["category"] for s in ss})==1
     nm=" vs ".join(r.split("/")[1] for r in rs); path=f"/compare/{cs}.html"; w=max(ss,key=lambda s:s["score"])
     tie=[s for s in ss if s["score"]==w["score"]]
-    verdict=("Tie on health score: "+" and ".join(s["repo"] for s in tie) if len(tie)>1 else f'{w["repo"]} has the highest health score') + f' ({w["score"]}/100) as of 2026-10-15.'
+    verdict=("Tie on health score: "+" and ".join(s["repo"] for s in tie) if len(tie)>1 else f'{w["repo"]} has the highest health score') + f' ({w["score"]}/100) as of {CD}.'
     t=f'{nm}: MCP server comparison (health, stars, maintenance)'
     h=head(t,H.escape(f"Side-by-side {nm} comparison from dated checks. {verdict}"),path)
     h+=f'<p class="mut"><a href="/">MCP Status</a> › <a href="/category/{ss[0]["category"]}.html">{CN[ss[0]["category"]]}</a> › Compare</p><h1>{nm}</h1><p class="lead"><b>Verdict:</b> {verdict} Data checked {CHECKED}.</p>\n'
