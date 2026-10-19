@@ -49,7 +49,9 @@ COMP=[("playwright-mcp-vs-chrome-devtools-mcp-vs-browser-tools-mcp",["microsoft/
 ("kubernetes-mcp-server-comparison",["containers/kubernetes-mcp-server","Flux159/mcp-server-kubernetes"]),
 ("n8n-mcp-vs-n8n-mcp-server",["czlonkowski/n8n-mcp","leonardsellem/n8n-mcp-server"]),
 ("database-mcp-toolbox-vs-postgres-mcp-vs-mysql",["googleapis/mcp-toolbox","crystaldba/postgres-mcp","benborla/mcp-server-mysql"]),
-("figma-context-mcp-vs-cursor-talk-to-figma",["GLips/Figma-Context-MCP","grab/cursor-talk-to-figma-mcp"])]
+("figma-context-mcp-vs-cursor-talk-to-figma",["GLips/Figma-Context-MCP","grab/cursor-talk-to-figma-mcp"]),
+("tavily-mcp-vs-brave-search-mcp-vs-exa-mcp",["tavily-ai/tavily-mcp","brave/brave-search-mcp-server","exa-labs/exa-mcp-server"]),
+("ghidramcp-vs-ghidra-mcp",["LaurieWired/GhidraMCP","bethington/ghidra-mcp"])]
 BY={s["repo"]:s for s in srv}
 for cs,rs in COMP:
     ss=[BY[r] for r in rs]; assert len({s["category"] for s in ss})==1

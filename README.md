@@ -11,10 +11,10 @@ Plain static site (no build step) ranking Model Context Protocol servers by a da
 - `data/servers.json` — raw data (CORS open)
 - `llms.txt`, `robots.txt`, `sitemap.xml`, JSON-LD — SEO / chatbot discoverability
 - Newsletter via Netlify Forms (`data-netlify="true"`)
-- `gen.py` — regenerates every page from the data table
+- `refresh.py` — re-checks every server (GitHub/npm/PyPI); `gen.py` (+ `gen_seo.py`, exec'd at its end) regenerates every page
 
-## Data (check of 2026-10-19T07:55:49Z)
-73 servers: 44 Healthy, 24 Stale, 5 Archived. Sources: GitHub REST API and direct npm/PyPI lookups (36 packages verified; others marked unchecked). No data is invented.
+## Data (check of 2026-10-19T09:14:35Z)
+93 servers: 64 Healthy, 24 Stale, 5 Archived. Sources: GitHub REST API and direct npm/PyPI lookups (48 packages verified; others marked unchecked). No data is invented.
 
 ## Daily refresh
 `python3 refresh.py && python3 gen.py` re-checks every server, appends to `data/changes.json`, and regenerates all pages.

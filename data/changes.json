@@ -1,5 +1,38 @@
 [
  {
+  "checked_at": "2026-10-19T09:14:35Z",
+  "counts": {
+   "Healthy": 64,
+   "Stale": 24,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "oraios/serena: added to directory (devtools) \u2014 Healthy 99, 30,379\u2605",
+   "54yyyu/zotero-mcp: added to directory (productivity) \u2014 Healthy 97, 5,462\u2605",
+   "homeassistant-ai/ha-mcp: added to directory (other) \u2014 Healthy 97, 5,135\u2605",
+   "googleanalytics/google-analytics-mcp: added to directory (productivity) \u2014 Healthy 97, 3,501\u2605",
+   "taylorwilsdon/google_workspace_mcp: added to directory (productivity) \u2014 Healthy 97, 3,373\u2605",
+   "zcaceres/markdownify-mcp: added to directory (files) \u2014 Healthy 97, 2,997\u2605",
+   "brightdata/brightdata-mcp: added to directory (browser) \u2014 Healthy 97, 2,680\u2605",
+   "tavily-ai/tavily-mcp: added to directory (search) \u2014 Healthy 97, 2,439\u2605",
+   "microsoft/azure-devops-mcp: added to directory (devtools) \u2014 Healthy 97, 2,057\u2605",
+   "zereight/gitlab-mcp: added to directory (devtools) \u2014 Healthy 97, 2,051\u2605",
+   "doobidoo/mcp-memory-service: added to directory (ai) \u2014 Healthy 97, 2,021\u2605",
+   "brave/brave-search-mcp-server: added to directory (search) \u2014 Healthy 96, 1,508\u2605",
+   "upstash/context7: added to directory (devtools) \u2014 Healthy 80, 63,279\u2605",
+   "bethington/ghidra-mcp: added to directory (devtools) \u2014 Healthy 78, 5,784\u2605",
+   "jgraph/drawio-mcp: added to directory (other) \u2014 Healthy 78, 5,657\u2605",
+   "grafana/mcp-grafana: added to directory (cloud) \u2014 Healthy 77, 3,573\u2605",
+   "supabase/mcp: added to directory (databases) \u2014 Healthy 77, 2,961\u2605",
+   "MicrosoftDocs/mcp: added to directory (search) \u2014 Healthy 77, 1,951\u2605",
+   "mongodb-js/mongodb-mcp-server: added to directory (databases) \u2014 Healthy 76, 1,144\u2605",
+   "atlassian/atlassian-mcp-server: added to directory (productivity) \u2014 Healthy 76, 1,106\u2605"
+  ]
+ },
+ {
   "checked_at": "2026-10-19T07:55:49Z",
   "counts": {
    "Healthy": 44,

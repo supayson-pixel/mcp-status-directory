@@ -72,7 +72,7 @@ prev=json.load(open("data/servers.json"))
 out=[]; errors=[]
 for o in prev["servers"]:
     repo=o["repo"]; s=dict(repo=repo,category=o["category"])
-    for k in ("note",): 
+    for k in ("note","added"): 
         if k in o: s[k]=o[k]
     c,d=get(f"https://api.github.com/repos/{repo}",True)
     if c==200:
@@ -82,7 +82,7 @@ for o in prev["servers"]:
         s.update(exists=False,stars=o.get("stars",0),archived=o.get("archived",False),pushed_at=o.get("pushed_at"))
     else:
         errors.append((repo,c,d)); s.update({k:o.get(k) for k in ("exists","stars","archived","pushed_at")}); s["exists"]=s["exists"] if s["exists"] is not None else True; s["stale_data"]=True
-    s["push"]=bucket(s.get("pushed_at")) if s.get("pushed_at") else o["push"].replace("<=90d*","30-90d")
+    s["push"]=bucket(s.get("pushed_at")) if s.get("pushed_at") else (o.get("push") or ">365d").replace("<=90d*","30-90d")
     if s["exists"]:
         pk,how=find_pkg(d["full_name"] if c==200 else repo,o.get("package")); s["package"]=pk; s["package_source"]=how
     else: s["package"]=None
@@ -95,6 +95,8 @@ P={s["repo"]:s for s in prev["servers"]}
 ch=[]
 for s in out:
     p=P[s["repo"]]
+    if p.get("label") is None:  # new entry appended this run: log once as an addition, no diff lines
+        ch.append(f'{s["repo"]}: added to directory ({s["category"]}) — {s["label"]} {s["score"]}, {s["stars"]:,}★'); continue
     if not s["exists"]: ch.append(f'{s["repo"]}: repository not found (404)')
     if s["archived"] and not p["archived"]: ch.append(f'{s["repo"]}: newly archived on GitHub')
     if p["archived"] and not s["archived"]: ch.append(f'{s["repo"]}: un-archived')

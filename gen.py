@@ -1,7 +1,8 @@
-import json, os
+import json, os, datetime as _dt
 S="https://mcp-status-directory.netlify.app"
 DATA=json.load(open("data/servers.json")); srv=DATA["servers"]
 CHECKED=DATA["checked_at"]; CD=CHECKED[:10]; CT=CHECKED[:10]+" "+CHECKED[11:16]+" UTC"
+MON=_dt.date.fromisoformat(CD).strftime("%b %Y")
 CHG=json.load(open("data/changes.json")) if os.path.exists("data/changes.json") else []
 os.makedirs("category",exist_ok=True)
 PL={"<=30d":"≤30d","30-90d":"30–90d","90-365d":"90–365d",">365d":"&gt;1 year"}
@@ -20,11 +21,13 @@ def pkg(s):
     reg,rest=p.split(":",1); v=rest.rsplit("@",1)[1]
     return f'<td class="hide-sm">✔ {"npm" if reg=="npm" else "PyPI"} {v}</td>'
 cnt={k:sum(1 for s in srv if s["label"]==k) for k in ["Healthy","Stale","Archived","Broken"]}
-ld={"@context":"https://schema.org","@type":"ItemList","name":"Healthiest MCP servers (checked "+CD+")","dateModified":CD,"itemListElement":[{"@type":"ListItem","position":s["rank"],"name":s["repo"],"url":"https://github.com/"+s["repo"]} for s in srv[:10]]}
+NEW=sorted([s for s in srv if s.get("added") and (_dt.date.fromisoformat(CD)-_dt.date.fromisoformat(s["added"])).days<=14],key=lambda s:(s["added"],s["score"],s["stars"]),reverse=True)
+ld={"@context":"https://schema.org","@type":"ItemList","name":"Healthiest MCP servers (checked "+CD+")","dateModified":CD,"numberOfItems":len(srv),"itemListElement":[{"@type":"ListItem","position":s["rank"],"name":s["repo"],"url":S+"/server/"+slug(s["repo"])+".html"} for s in srv]}
 h=head(f"MCP Status — Health-ranked MCP server directory (checked {CD})",f"{len(srv)} MCP servers ranked by a dated, evidence-based health score: archived flags, last push, package checks, stars. Find the best working MCP server for browsers, databases, search, git and more.","/",'<meta name="google-site-verification" content="vbqu_Pk-7Tv1fBKzvmXXs3_FAA5zaNYAMvvICu8ecUQ" /><script type="application/ld+json">'+json.dumps(ld)+'</script>')
 h+=f'<h1>Which MCP servers actually work right now?</h1>\n<p class="lead">{len(srv)} Model Context Protocol servers ranked by a dated, evidence-based health score — repo exists, archived flag, last push, verified npm/PyPI package, and stars. Last check: <b>{CT}</b>. <a href="/methodology.html">How scoring works</a> · <a href="/data/servers.json">raw JSON</a></p>\n'
 h+=f'<div class="stats"><div class="stat"><b>{len(srv)}</b>servers</div><div class="stat"><b style="color:var(--h)">{cnt["Healthy"]}</b>Healthy</div><div class="stat"><b style="color:var(--s)">{cnt["Stale"]}</b>Stale</div><div class="stat"><b style="color:var(--a)">{cnt["Archived"]}</b>Archived</div></div>\n<div class="cats">'
 h+="".join(f'<a href="/category/{k}.html">{n} ({sum(1 for s in srv if s["category"]==k)})</a>' for k,n in CATS)+'</div>\n'
+if NEW: h+=f'<div class="card" id="recently-added"><h2 style="margin-top:0">Recently added ({len(NEW)})</h2><p class="mut">New listings from the official MCP Registry and GitHub, scored with the same checks.</p><ul>'+"".join(f'<li><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a> — <a href="/category/{s["category"]}.html">{s["category"]}</a> · {badge(s)} · {s["stars"]:,}★ · added {s["added"]}</li>' for s in NEW)+'</ul></div>\n'
 h+='<table><thead><tr><th>#</th><th>Server</th><th class="hide-sm">Category</th><th>Health</th><th>Stars</th><th class="hide-sm">Last push</th><th class="hide-sm">Package</th></tr></thead><tbody>\n'
 for s in srv:
     h+=f'<tr id="{slug(s["repo"])}"><td>{s["rank"]}</td><td><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a>{note(s)}</td><td class="hide-sm"><a href="/category/{s["category"]}.html">{s["category"]}</a></td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td class="hide-sm">{PL[s["push"]]}</td>{pkg(s)}</tr>\n'
@@ -44,19 +47,24 @@ def lead_txt(k):
     if ar: t+=" Archived (avoid): "+", ".join(ar)+"."
     return t
 LEAD={k:(TITLE[k],lead_txt(k)) for k in TITLE}
+USE={"browser":"browser automation and web scraping","devtools":"coding, git and developer tooling","databases":"querying databases (Postgres, MySQL, MongoDB, Supabase, vector stores)","files":"files, documents and Office formats","search":"web search and documentation lookup","cloud":"cloud infrastructure, Kubernetes and observability","productivity":"productivity apps (Notion, Google Workspace, Jira/Confluence, Slack)","ai":"AI memory, agents and multi-model workflows","other":"creative, CAD, game-engine and home automation tools"}
 def cat_faq(k,n,ss):
     nn=n.replace("&amp;","and"); best=ss[0]; act=[s for s in ss if not s["archived"]]
     arch=[s["repo"] for s in ss if s["archived"]]
+    hl=[s for s in ss if s["label"]=="Healthy"]; newc=[s["repo"] for s in NEW if s["category"]==k]
     qa=[(f"What is the best {nn} MCP server right now?",f"As of the {CD} check, {best['repo']} has the highest health score in this category ({best['score']}/100, {best['label']})."),
+        (f"What is the best MCP server for {USE[k]}?",(f"The Healthy options as of {CD} are "+", ".join(f"{s['repo']} ({s['score']})" for s in hl[:5])+". Pick by the tool you need to connect; each is a non-archived repo scoring 75 or more.") if hl else f"No server in this category is Healthy as of {CD}; {best['repo']} scores highest ({best['score']}/100)."),
         (f"How many {nn} MCP servers are tracked?",f"{len(ss)} servers: {sum(s['label']=='Healthy' for s in ss)} Healthy, {sum(s['label']=='Stale' for s in ss)} Stale, {len(arch)} Archived."),
         (f"Which {nn} MCP servers are archived?",("Archived on GitHub: "+", ".join(arch)+".") if arch else f"None of the tracked servers in this category are archived as of {CD}."),
+        (f"Which {nn} MCP servers were added recently?",("Added in the last 14 days: "+", ".join(newc)+".") if newc else f"No {nn} servers were added in the 14 days before {CD}."),
         ("How is the health score calculated?","Repo exists 25, not archived 20, last push within 30/90/365 days 25/15/5, verified npm or PyPI package 20, stars up to 10 on a log scale.")]
     ld={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in qa]}
-    return '<h2>FAQ</h2>'+"".join(f'<h3>{q}</h3><p>{a}</p>' for q,a in qa)+'<script type="application/ld+json">'+json.dumps(ld)+'</script>\n'
+    il={"@context":"https://schema.org","@type":"ItemList","name":nn+" MCP servers ranked by health ("+CD+")","numberOfItems":len(ss),"itemListElement":[{"@type":"ListItem","position":i+1,"name":s["repo"],"url":S+"/server/"+slug(s["repo"])+".html"} for i,s in enumerate(ss)]}
+    return '<h2>FAQ</h2>'+"".join(f'<h3>{q}</h3><p>{a}</p>' for q,a in qa)+'<script type="application/ld+json">'+json.dumps(ld)+'</script><script type="application/ld+json">'+json.dumps(il)+'</script>\n'
 for k,n in CATS:
     t,lead=LEAD[k]; ss=[s for s in srv if s["category"]==k]
-    c=head(t+" (Oct 2026, health-ranked)",f"Health-ranked {n.replace('&amp;','and')} MCP servers with dated checks and archived/stale flags.",f"/category/{k}.html")
-    c+=f'<h1>{t}</h1><p class="lead"><b>Short answer ({CD}):</b> {lead}</p>\n<table><thead><tr><th>Server</th><th>Health</th><th>Stars</th><th>Last push</th></tr></thead><tbody>\n'
+    c=head(t+f" ({MON}, health-ranked)",f"Health-ranked {n.replace('&amp;','and')} MCP servers with dated checks and archived/stale flags.",f"/category/{k}.html")
+    c+=f'<h1>{t}</h1><p class="lead"><b>Short answer ({CD}):</b> {lead}</p>\n<p>Looking for the best MCP server for {USE[k]}? This page ranks all {len(ss)} tracked {n} MCP servers by a dated health score from GitHub and npm/PyPI checks, so you can skip archived or abandoned projects. Scores are recomputed daily; see the <a href="/methodology.html">methodology</a>.</p>\n<table><thead><tr><th>Server</th><th>Health</th><th>Stars</th><th>Last push</th></tr></thead><tbody>\n'
     for s in ss: c+=f'<tr><td><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a>{note(s)}</td><td>{badge(s)}</td><td>{s["stars"]:,}</td><td>{PL[s["push"]]}</td></tr>\n'
     c+='</tbody></table>\n'+cat_faq(k,n,ss)+'<p><a href="/">← All servers</a></p>\n'
     open(f"category/{k}.html","w").write(c+FOOT)
@@ -111,7 +119,7 @@ Last full check: {CHECKED}. {len(srv)} servers: {cnt['Healthy']} Healthy, {cnt['
 ## Best MCP servers by use case (healthiest first, as of {CD})
 """+"".join("- "+n.replace("&amp;","&")+": "+", ".join(s["repo"]+" ("+str(s["score"])+(", README says no longer actively maintained" if "note" in s else "")+")" for s in [x for x in srv if x["category"]==k and x["label"] not in ("Archived","Broken")][:3])+"\n" for k,n in CATS)+"""
 ## Category pages
-"""+"".join(f"- [{n.replace('&amp;','&')}]({S}/category/{k}.html)\n" for k,n in CATS)
+"""+"".join(f"- [{n.replace('&amp;','&')}]({S}/category/{k}.html): {sum(1 for s in srv if s['category']==k)} servers\n" for k,n in CATS)+("\n## Recently added (last 14 days)\n"+"".join(f"- [{s['repo']}]({S}/server/{slug(s['repo'])}.html): {s['category']}, {s['score']}/100 {s['label']}, {s['stars']:,} stars, added {s['added']}\n" for s in NEW) if NEW else "")
 open("llms.txt","w").write(llm)
 open("README.md","w").write(f"""# MCP Status — health-ranked MCP server directory
 
@@ -126,7 +134,7 @@ Plain static site (no build step) ranking Model Context Protocol servers by a da
 - `data/servers.json` — raw data (CORS open)
 - `llms.txt`, `robots.txt`, `sitemap.xml`, JSON-LD — SEO / chatbot discoverability
 - Newsletter via Netlify Forms (`data-netlify="true"`)
-- `gen.py` — regenerates every page from the data table
+- `refresh.py` — re-checks every server (GitHub/npm/PyPI); `gen.py` (+ `gen_seo.py`, exec'd at its end) regenerates every page
 
 ## Data (check of {CHECKED})
 {len(srv)} servers: {cnt['Healthy']} Healthy, {cnt['Stale']} Stale, {cnt['Archived']} Archived. Sources: GitHub REST API and direct npm/PyPI lookups ({sum(1 for s in srv if s['package'])} packages verified; others marked unchecked). No data is invented.
