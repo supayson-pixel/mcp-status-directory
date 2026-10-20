@@ -1,5 +1,19 @@
 [
  {
+  "checked_at": "2026-10-20T07:53:55Z",
+  "counts": {
+   "Healthy": 64,
+   "Stale": 24,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "browserbase/mcp-server-browserbase: score 67 \u2192 57"
+  ]
+ },
+ {
   "checked_at": "2026-10-19T09:14:35Z",
   "counts": {
    "Healthy": 64,
