@@ -1,5 +1,19 @@
 [
  {
+  "checked_at": "2026-10-22T08:00:54Z",
+  "counts": {
+   "Healthy": 64,
+   "Stale": 24,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "makenotion/notion-mcp-server: score 97 \u2192 87"
+  ]
+ },
+ {
   "checked_at": "2026-10-21T07:51:25Z",
   "counts": {
    "Healthy": 64,
