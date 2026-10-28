@@ -1,5 +1,23 @@
 [
  {
+  "checked_at": "2026-10-28T07:58:21Z",
+  "counts": {
+   "Healthy": 65,
+   "Stale": 23,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "BrowserMCP/mcp: Stale \u2192 Healthy (73 \u2192 98)",
+   "makenotion/notion-mcp-server: score 87 \u2192 97",
+   "mrexodia/ida-pro-mcp: score 98 \u2192 88",
+   "benborla/mcp-server-mysql: score 87 \u2192 77",
+   "grab/cursor-talk-to-figma-mcp: score 68 \u2192 58"
+  ]
+ },
+ {
   "checked_at": "2026-10-24T07:55:02Z",
   "counts": {
    "Healthy": 64,
