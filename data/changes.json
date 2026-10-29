@@ -1,5 +1,19 @@
 [
  {
+  "checked_at": "2026-10-29T07:54:28Z",
+  "counts": {
+   "Healthy": 65,
+   "Stale": 23,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "54yyyu/zotero-mcp: score 97 \u2192 98"
+  ]
+ },
+ {
   "checked_at": "2026-10-28T07:58:21Z",
   "counts": {
    "Healthy": 65,
