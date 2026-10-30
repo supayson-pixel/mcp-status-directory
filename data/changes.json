@@ -1,5 +1,17 @@
 [
  {
+  "checked_at": "2026-10-30T08:00:09Z",
+  "counts": {
+   "Healthy": 65,
+   "Stale": 23,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": []
+ },
+ {
   "checked_at": "2026-10-29T07:54:28Z",
   "counts": {
    "Healthy": 65,
