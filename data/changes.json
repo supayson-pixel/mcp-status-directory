@@ -1,5 +1,19 @@
 [
  {
+  "checked_at": "2026-11-01T07:54:29Z",
+  "counts": {
+   "Healthy": 64,
+   "Stale": 24,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 48,
+  "api_errors": 0,
+  "changes": [
+   "mukul975/cve-mcp-server: Healthy \u2192 Stale (76 \u2192 66)"
+  ]
+ },
+ {
   "checked_at": "2026-10-31T07:54:50Z",
   "counts": {
    "Healthy": 65,
