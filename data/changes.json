@@ -1,5 +1,38 @@
 [
  {
+  "checked_at": "2026-11-02T09:01:38Z",
+  "counts": {
+   "Healthy": 82,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 60,
+  "api_errors": 0,
+  "changes": [
+   "CodeGraphContext/CodeGraphContext: added to directory (devtools) \u2014 Healthy 97, 4,373\u2605",
+   "samuelgursky/davinci-resolve-mcp: added to directory (other) \u2014 Healthy 97, 3,894\u2605",
+   "perplexityai/modelcontextprotocol: added to directory (search) \u2014 Healthy 97, 2,601\u2605",
+   "datalayer/jupyter-mcp-server: added to directory (devtools) \u2014 Healthy 96, 1,317\u2605",
+   "Softeria/ms-365-mcp-server: added to directory (productivity) \u2014 Healthy 96, 1,104\u2605",
+   "tufantunc/ssh-mcp: added to directory (devtools) \u2014 Healthy 96, 854\u2605",
+   "dbt-labs/dbt-mcp: added to directory (databases) \u2014 Healthy 96, 615\u2605",
+   "argoproj-labs/mcp-for-argocd: added to directory (cloud) \u2014 Healthy 96, 602\u2605",
+   "mozilla/firefox-devtools-mcp: added to directory (browser) \u2014 Healthy 95, 537\u2605",
+   "pab1it0/prometheus-mcp-server: added to directory (cloud) \u2014 Healthy 95, 521\u2605",
+   "MiniMax-AI/MiniMax-MCP: added to directory (ai) \u2014 Healthy 86, 1,595\u2605",
+   "nickclyde/duckduckgo-mcp-server: added to directory (search) \u2014 Healthy 86, 1,565\u2605",
+   "IvanMurzak/Unity-MCP: added to directory (other) \u2014 Healthy 77, 4,568\u2605",
+   "bytebase/dbhub: added to directory (databases) \u2014 Healthy 77, 3,769\u2605",
+   "laravel/boost: added to directory (devtools) \u2014 Healthy 77, 3,673\u2605",
+   "zinja-coder/jadx-ai-mcp: added to directory (devtools) \u2014 Healthy 77, 2,964\u2605",
+   "WordPress/mcp-adapter: added to directory (productivity) \u2014 Healthy 77, 1,899\u2605",
+   "datagouv/datagouv-mcp: added to directory (search) \u2014 Healthy 76, 1,604\u2605",
+   "0x4m4/hexstrike-ai: added to directory (other) \u2014 Stale 68, 13,283\u2605",
+   "intuit/quickbooks-online-mcp-server: added to directory (productivity) \u2014 Stale 65, 440\u2605"
+  ]
+ },
+ {
   "checked_at": "2026-11-02T08:01:04Z",
   "counts": {
    "Healthy": 64,

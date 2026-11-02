@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-02T08:01:04Z",
+ "checked_at": "2026-11-02T09:01:38Z",
  "site": "https://mcp-status-directory.netlify.app",
  "scoring": "repo 25 + not archived 20 + push(<=30d 25,<=90d 15,<=365d 5) + verified package 20 + round(10*log10(stars)/5)",
  "push_note": "push bucket from the GitHub API pushed_at timestamp at check time",
@@ -8,7 +8,7 @@
    "repo": "ChromeDevTools/chrome-devtools-mcp",
    "category": "browser",
    "exists": true,
-   "stars": 54640,
+   "stars": 54641,
    "archived": false,
    "pushed_at": "2026-11-02T05:22:22Z",
    "push": "<=30d",
@@ -22,7 +22,7 @@
    "repo": "microsoft/playwright-mcp",
    "category": "browser",
    "exists": true,
-   "stars": 38967,
+   "stars": 38970,
    "archived": false,
    "pushed_at": "2026-11-01T23:12:55Z",
    "push": "<=30d",
@@ -36,7 +36,7 @@
    "repo": "ahujasid/mcp-for-blender",
    "category": "other",
    "exists": true,
-   "stars": 33029,
+   "stars": 33038,
    "archived": false,
    "pushed_at": "2026-10-29T09:13:34Z",
    "push": "<=30d",
@@ -51,7 +51,7 @@
    "category": "devtools",
    "added": "2026-10-19",
    "exists": true,
-   "stars": 31007,
+   "stars": 31008,
    "archived": false,
    "pushed_at": "2026-10-28T10:45:55Z",
    "push": "<=30d",
@@ -79,7 +79,7 @@
    "repo": "GLips/Figma-Context-MCP",
    "category": "devtools",
    "exists": true,
-   "stars": 16134,
+   "stars": 16135,
    "archived": false,
    "pushed_at": "2026-10-27T05:37:12Z",
    "push": "<=30d",
@@ -93,7 +93,7 @@
    "repo": "apify/apify-mcp-server",
    "category": "browser",
    "exists": true,
-   "stars": 14299,
+   "stars": 14307,
    "archived": false,
    "pushed_at": "2026-10-31T21:36:53Z",
    "push": "<=30d",
@@ -107,9 +107,9 @@
    "repo": "CursorTouch/Windows-MCP",
    "category": "other",
    "exists": true,
-   "stars": 10945,
+   "stars": 10950,
    "archived": false,
-   "pushed_at": "2026-11-02T06:42:39Z",
+   "pushed_at": "2026-11-02T08:46:06Z",
    "push": "<=30d",
    "package": "pypi:windows-mcp@0.8.8",
    "package_source": "re-resolved",
@@ -121,7 +121,7 @@
    "repo": "mobile-next/mobile-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 10212,
+   "stars": 10216,
    "archived": false,
    "pushed_at": "2026-11-01T19:51:53Z",
    "push": "<=30d",
@@ -135,7 +135,7 @@
    "repo": "wonderwhy-er/DesktopCommanderMCP",
    "category": "files",
    "exists": true,
-   "stars": 10195,
+   "stars": 10197,
    "archived": false,
    "pushed_at": "2026-11-02T06:40:09Z",
    "push": "<=30d",
@@ -149,7 +149,7 @@
    "repo": "firecrawl/firecrawl-mcp-server",
    "category": "browser",
    "exists": true,
-   "stars": 7747,
+   "stars": 7749,
    "archived": false,
    "pushed_at": "2026-11-02T02:43:31Z",
    "push": "<=30d",
@@ -163,7 +163,7 @@
    "repo": "BrowserMCP/mcp",
    "category": "browser",
    "exists": true,
-   "stars": 7268,
+   "stars": 7269,
    "archived": false,
    "pushed_at": "2026-10-30T09:17:32Z",
    "push": "<=30d",
@@ -209,7 +209,7 @@
    "exists": true,
    "stars": 5399,
    "archived": false,
-   "pushed_at": "2026-11-02T05:45:26Z",
+   "pushed_at": "2026-11-02T08:10:04Z",
    "push": "<=30d",
    "package": "pypi:ha-mcp@9.0.0",
    "package_source": "re-resolved",
@@ -247,6 +247,21 @@
    "rank": 17
   },
   {
+   "repo": "CodeGraphContext/CodeGraphContext",
+   "category": "devtools",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 4373,
+   "archived": false,
+   "pushed_at": "2026-10-22T20:32:19Z",
+   "push": "<=30d",
+   "package": "pypi:codegraphcontext@0.6.13",
+   "package_source": "pyproject.toml",
+   "score": 97,
+   "label": "Healthy",
+   "rank": 18
+  },
+  {
    "repo": "haris-musa/excel-mcp-server",
    "category": "files",
    "exists": true,
@@ -258,7 +273,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 18
+   "rank": 19
   },
   {
    "repo": "stickerdaniel/linkedin-mcp-server",
@@ -272,7 +287,22 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 19
+   "rank": 20
+  },
+  {
+   "repo": "samuelgursky/davinci-resolve-mcp",
+   "category": "other",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 3894,
+   "archived": false,
+   "pushed_at": "2026-11-02T03:57:02Z",
+   "push": "<=30d",
+   "package": "npm:davinci-resolve-mcp@4.18.4",
+   "package_source": "package.json",
+   "score": 97,
+   "label": "Healthy",
+   "rank": 21
   },
   {
    "repo": "googleanalytics/google-analytics-mcp",
@@ -287,7 +317,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 20
+   "rank": 22
   },
   {
    "repo": "taylorwilsdon/google_workspace_mcp",
@@ -302,13 +332,13 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 21
+   "rank": 23
   },
   {
    "repo": "blazickjp/arxiv-mcp-server",
    "category": "search",
    "exists": true,
-   "stars": 3245,
+   "stars": 3246,
    "archived": false,
    "pushed_at": "2026-10-08T13:08:10Z",
    "push": "<=30d",
@@ -316,7 +346,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 22
+   "rank": 24
   },
   {
    "repo": "Jpisnice/shadcn-ui-mcp-server",
@@ -330,7 +360,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 23
+   "rank": 25
   },
   {
    "repo": "zcaceres/markdownify-mcp",
@@ -345,7 +375,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 24
+   "rank": 26
   },
   {
    "repo": "brightdata/brightdata-mcp",
@@ -360,7 +390,22 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 25
+   "rank": 27
+  },
+  {
+   "repo": "perplexityai/modelcontextprotocol",
+   "category": "search",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 2601,
+   "archived": false,
+   "pushed_at": "2026-10-21T23:47:09Z",
+   "push": "<=30d",
+   "package": "npm:@perplexity-ai/mcp-server@1.3.0",
+   "package_source": "package.json",
+   "score": 97,
+   "label": "Healthy",
+   "rank": 28
   },
   {
    "repo": "tavily-ai/tavily-mcp",
@@ -375,7 +420,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 26
+   "rank": 29
   },
   {
    "repo": "joshuayoes/ios-simulator-mcp",
@@ -389,7 +434,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 27
+   "rank": 30
   },
   {
    "repo": "zereight/gitlab-mcp",
@@ -404,7 +449,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 28
+   "rank": 31
   },
   {
    "repo": "microsoft/azure-devops-mcp",
@@ -419,7 +464,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 29
+   "rank": 32
   },
   {
    "repo": "doobidoo/mcp-memory-service",
@@ -428,13 +473,13 @@
    "exists": true,
    "stars": 2060,
    "archived": false,
-   "pushed_at": "2026-11-02T07:11:14Z",
+   "pushed_at": "2026-11-02T08:41:21Z",
    "push": "<=30d",
    "package": "pypi:mcp-memory-service@12.4.0",
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 30
+   "rank": 33
   },
   {
    "repo": "arabold/docs-mcp-server",
@@ -448,7 +493,7 @@
    "package_source": "re-resolved",
    "score": 97,
    "label": "Healthy",
-   "rank": 31
+   "rank": 34
   },
   {
    "repo": "Flux159/mcp-server-kubernetes",
@@ -462,7 +507,7 @@
    "package_source": "re-resolved",
    "score": 96,
    "label": "Healthy",
-   "rank": 32
+   "rank": 35
   },
   {
    "repo": "brave/brave-search-mcp-server",
@@ -477,13 +522,118 @@
    "package_source": "re-resolved",
    "score": 96,
    "label": "Healthy",
-   "rank": 33
+   "rank": 36
+  },
+  {
+   "repo": "datalayer/jupyter-mcp-server",
+   "category": "devtools",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1317,
+   "archived": false,
+   "pushed_at": "2026-11-01T16:05:36Z",
+   "push": "<=30d",
+   "package": "pypi:jupyter-mcp-server@2.2.4",
+   "package_source": "pyproject.toml",
+   "score": 96,
+   "label": "Healthy",
+   "rank": 37
+  },
+  {
+   "repo": "Softeria/ms-365-mcp-server",
+   "category": "productivity",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1104,
+   "archived": false,
+   "pushed_at": "2026-10-30T21:30:00Z",
+   "push": "<=30d",
+   "package": "npm:@softeria/ms-365-mcp-server@0.178.0",
+   "package_source": "package.json",
+   "score": 96,
+   "label": "Healthy",
+   "rank": 38
+  },
+  {
+   "repo": "tufantunc/ssh-mcp",
+   "category": "devtools",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 854,
+   "archived": false,
+   "pushed_at": "2026-11-02T07:40:30Z",
+   "push": "<=30d",
+   "package": "npm:ssh-mcp@2.22.0",
+   "package_source": "package.json",
+   "score": 96,
+   "label": "Healthy",
+   "rank": 39
+  },
+  {
+   "repo": "dbt-labs/dbt-mcp",
+   "category": "databases",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 615,
+   "archived": false,
+   "pushed_at": "2026-10-30T20:00:03Z",
+   "push": "<=30d",
+   "package": "pypi:dbt-mcp@2.10.0",
+   "package_source": "pyproject.toml",
+   "score": 96,
+   "label": "Healthy",
+   "rank": 40
+  },
+  {
+   "repo": "argoproj-labs/mcp-for-argocd",
+   "category": "cloud",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 602,
+   "archived": false,
+   "pushed_at": "2026-10-16T05:15:58Z",
+   "push": "<=30d",
+   "package": "npm:argocd-mcp@0.9.0",
+   "package_source": "package.json",
+   "score": 96,
+   "label": "Healthy",
+   "rank": 41
+  },
+  {
+   "repo": "mozilla/firefox-devtools-mcp",
+   "category": "browser",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 537,
+   "archived": false,
+   "pushed_at": "2026-10-30T08:14:35Z",
+   "push": "<=30d",
+   "package": "npm:@mozilla/firefox-devtools-mcp@0.10.7",
+   "package_source": "package.json",
+   "score": 95,
+   "label": "Healthy",
+   "rank": 42
+  },
+  {
+   "repo": "pab1it0/prometheus-mcp-server",
+   "category": "cloud",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 521,
+   "archived": false,
+   "pushed_at": "2026-10-27T15:27:24Z",
+   "push": "<=30d",
+   "package": "pypi:prometheus-mcp-server@1.6.2",
+   "package_source": "pyproject.toml",
+   "score": 95,
+   "label": "Healthy",
+   "rank": 43
   },
   {
    "repo": "mrexodia/ida-pro-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 13283,
+   "stars": 13287,
    "archived": false,
    "pushed_at": "2026-09-26T15:42:10Z",
    "push": "30-90d",
@@ -491,13 +641,13 @@
    "package_source": "re-resolved",
    "score": 88,
    "label": "Healthy",
-   "rank": 34
+   "rank": 44
   },
   {
    "repo": "21st-dev/magic-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 6341,
+   "stars": 6342,
    "archived": false,
    "pushed_at": "2026-09-09T20:38:22Z",
    "push": "30-90d",
@@ -505,7 +655,7 @@
    "package_source": "re-resolved",
    "score": 88,
    "label": "Healthy",
-   "rank": 35
+   "rank": 45
   },
   {
    "repo": "antvis/mcp-server-chart",
@@ -519,13 +669,13 @@
    "package_source": "re-resolved",
    "score": 87,
    "label": "Healthy",
-   "rank": 36
+   "rank": 46
   },
   {
    "repo": "crystaldba/postgres-mcp",
    "category": "databases",
    "exists": true,
-   "stars": 3448,
+   "stars": 3449,
    "archived": false,
    "pushed_at": "2026-08-17T05:06:35Z",
    "push": "30-90d",
@@ -533,7 +683,7 @@
    "package_source": "re-resolved",
    "score": 87,
    "label": "Healthy",
-   "rank": 37
+   "rank": 47
   },
   {
    "repo": "zhizhuodemao/js-reverse-mcp",
@@ -547,28 +697,58 @@
    "package_source": "re-resolved",
    "score": 87,
    "label": "Healthy",
-   "rank": 38
+   "rank": 48
+  },
+  {
+   "repo": "MiniMax-AI/MiniMax-MCP",
+   "category": "ai",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1595,
+   "archived": false,
+   "pushed_at": "2026-08-20T12:06:49Z",
+   "push": "30-90d",
+   "package": "pypi:minimax-mcp@0.0.19",
+   "package_source": "pyproject.toml",
+   "score": 86,
+   "label": "Healthy",
+   "rank": 49
+  },
+  {
+   "repo": "nickclyde/duckduckgo-mcp-server",
+   "category": "search",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1565,
+   "archived": false,
+   "pushed_at": "2026-09-04T18:31:25Z",
+   "push": "30-90d",
+   "package": "pypi:duckduckgo-mcp-server@0.7.0",
+   "package_source": "pyproject.toml",
+   "score": 86,
+   "label": "Healthy",
+   "rank": 50
   },
   {
    "repo": "upstash/context7",
    "category": "devtools",
    "added": "2026-10-19",
    "exists": true,
-   "stars": 64063,
+   "stars": 64064,
    "archived": false,
-   "pushed_at": "2026-11-02T07:55:39Z",
+   "pushed_at": "2026-11-02T08:58:53Z",
    "push": "<=30d",
    "package": null,
    "package_source": "none found",
    "score": 80,
    "label": "Healthy",
-   "rank": 39
+   "rank": 51
   },
   {
    "repo": "DeusData/codebase-memory-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 47975,
+   "stars": 47981,
    "archived": false,
    "pushed_at": "2026-11-02T06:46:29Z",
    "push": "<=30d",
@@ -576,13 +756,13 @@
    "package_source": "none found",
    "score": 79,
    "label": "Healthy",
-   "rank": 40
+   "rank": 52
   },
   {
    "repo": "github/github-mcp-server",
    "category": "devtools",
    "exists": true,
-   "stars": 34151,
+   "stars": 34153,
    "archived": false,
    "pushed_at": "2026-10-30T20:23:35Z",
    "push": "<=30d",
@@ -590,7 +770,7 @@
    "package_source": "none found",
    "score": 79,
    "label": "Healthy",
-   "rank": 41
+   "rank": 53
   },
   {
    "repo": "googleapis/mcp-toolbox",
@@ -604,13 +784,13 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 42
+   "rank": 54
   },
   {
    "repo": "xpzouying/xiaohongshu-mcp",
    "category": "other",
    "exists": true,
-   "stars": 16737,
+   "stars": 16738,
    "archived": false,
    "pushed_at": "2026-11-02T04:35:32Z",
    "push": "<=30d",
@@ -618,13 +798,13 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 43
+   "rank": 55
   },
   {
    "repo": "CoplayDev/unity-mcp",
    "category": "other",
    "exists": true,
-   "stars": 15629,
+   "stars": 15632,
    "archived": false,
    "pushed_at": "2026-10-30T18:15:23Z",
    "push": "<=30d",
@@ -632,7 +812,7 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 44
+   "rank": 56
   },
   {
    "repo": "tadata-org/fastapi_mcp",
@@ -646,13 +826,13 @@
    "package_source": "re-resolved",
    "score": 78,
    "label": "Healthy",
-   "rank": 45
+   "rank": 57
   },
   {
    "repo": "LaurieWired/GhidraMCP",
    "category": "devtools",
    "exists": true,
-   "stars": 11698,
+   "stars": 11700,
    "archived": false,
    "pushed_at": "2026-10-10T20:08:37Z",
    "push": "<=30d",
@@ -660,7 +840,7 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 46
+   "rank": 58
   },
   {
    "repo": "awslabs/mcp",
@@ -674,7 +854,7 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 47
+   "rank": 59
   },
   {
    "repo": "AgentDeskAI/browser-tools-mcp",
@@ -688,14 +868,14 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 48
+   "rank": 60
   },
   {
    "repo": "bethington/ghidra-mcp",
    "category": "devtools",
    "added": "2026-10-19",
    "exists": true,
-   "stars": 6055,
+   "stars": 6058,
    "archived": false,
    "pushed_at": "2026-11-02T06:31:05Z",
    "push": "<=30d",
@@ -703,7 +883,7 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 49
+   "rank": 61
   },
   {
    "repo": "jgraph/drawio-mcp",
@@ -718,7 +898,7 @@
    "package_source": "none found",
    "score": 78,
    "label": "Healthy",
-   "rank": 50
+   "rank": 62
   },
   {
    "repo": "executeautomation/mcp-playwright",
@@ -732,7 +912,22 @@
    "package_source": "re-resolved",
    "score": 78,
    "label": "Healthy",
-   "rank": 51
+   "rank": 63
+  },
+  {
+   "repo": "IvanMurzak/Unity-MCP",
+   "category": "other",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 4568,
+   "archived": false,
+   "pushed_at": "2026-10-31T11:45:58Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 77,
+   "label": "Healthy",
+   "rank": 64
   },
   {
    "repo": "cloudflare/mcp-server-cloudflare",
@@ -746,7 +941,37 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 52
+   "rank": 65
+  },
+  {
+   "repo": "bytebase/dbhub",
+   "category": "databases",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 3769,
+   "archived": false,
+   "pushed_at": "2026-10-26T09:22:30Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 77,
+   "label": "Healthy",
+   "rank": 66
+  },
+  {
+   "repo": "laravel/boost",
+   "category": "devtools",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 3673,
+   "archived": false,
+   "pushed_at": "2026-11-02T07:39:27Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 77,
+   "label": "Healthy",
+   "rank": 67
   },
   {
    "repo": "grafana/mcp-grafana",
@@ -755,13 +980,13 @@
    "exists": true,
    "stars": 3631,
    "archived": false,
-   "pushed_at": "2026-11-02T07:58:30Z",
+   "pushed_at": "2026-11-02T08:59:53Z",
    "push": "<=30d",
    "package": null,
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 53
+   "rank": 68
   },
   {
    "repo": "mixelpixx/KiCAD-MCP-Server",
@@ -775,7 +1000,7 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 54
+   "rank": 69
   },
   {
    "repo": "supabase/mcp",
@@ -790,13 +1015,28 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 55
+   "rank": 70
+  },
+  {
+   "repo": "zinja-coder/jadx-ai-mcp",
+   "category": "devtools",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 2964,
+   "archived": false,
+   "pushed_at": "2026-10-19T00:39:37Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 77,
+   "label": "Healthy",
+   "rank": 71
   },
   {
    "repo": "duty1g/x64dbg-mcp-server",
    "category": "devtools",
    "exists": true,
-   "stars": 2731,
+   "stars": 2732,
    "archived": false,
    "pushed_at": "2026-10-12T08:49:17Z",
    "push": "<=30d",
@@ -804,7 +1044,7 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 56
+   "rank": 72
   },
   {
    "repo": "jamubc/gemini-mcp-tool",
@@ -818,7 +1058,7 @@
    "package_source": "re-resolved",
    "score": 77,
    "label": "Healthy",
-   "rank": 57
+   "rank": 73
   },
   {
    "repo": "containers/kubernetes-mcp-server",
@@ -832,13 +1072,13 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 58
+   "rank": 74
   },
   {
    "repo": "benborla/mcp-server-mysql",
    "category": "databases",
    "exists": true,
-   "stars": 2196,
+   "stars": 2198,
    "archived": false,
    "pushed_at": "2026-07-27T13:36:52Z",
    "push": "90-365d",
@@ -846,7 +1086,7 @@
    "package_source": "re-resolved",
    "score": 77,
    "label": "Healthy",
-   "rank": 59
+   "rank": 75
   },
   {
    "repo": "MicrosoftDocs/mcp",
@@ -861,7 +1101,22 @@
    "package_source": "none found",
    "score": 77,
    "label": "Healthy",
-   "rank": 60
+   "rank": 76
+  },
+  {
+   "repo": "WordPress/mcp-adapter",
+   "category": "productivity",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1899,
+   "archived": false,
+   "pushed_at": "2026-10-28T17:44:23Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 77,
+   "label": "Healthy",
+   "rank": 77
   },
   {
    "repo": "matlab/matlab-mcp-server",
@@ -875,7 +1130,22 @@
    "package_source": "none found",
    "score": 76,
    "label": "Healthy",
-   "rank": 61
+   "rank": 78
+  },
+  {
+   "repo": "datagouv/datagouv-mcp",
+   "category": "search",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 1604,
+   "archived": false,
+   "pushed_at": "2026-10-20T10:14:53Z",
+   "push": "<=30d",
+   "package": null,
+   "package_source": "none found",
+   "score": 76,
+   "label": "Healthy",
+   "rank": 79
   },
   {
    "repo": "hashicorp/terraform-mcp-server",
@@ -889,7 +1159,7 @@
    "package_source": "none found",
    "score": 76,
    "label": "Healthy",
-   "rank": 62
+   "rank": 80
   },
   {
    "repo": "mongodb-js/mongodb-mcp-server",
@@ -904,7 +1174,7 @@
    "package_source": "none found",
    "score": 76,
    "label": "Healthy",
-   "rank": 63
+   "rank": 81
   },
   {
    "repo": "atlassian/atlassian-mcp-server",
@@ -919,7 +1189,7 @@
    "package_source": "none found",
    "score": 76,
    "label": "Healthy",
-   "rank": 64
+   "rank": 82
   },
   {
    "repo": "cjo4m06/mcp-shrimp-task-manager",
@@ -933,7 +1203,7 @@
    "package_source": "re-resolved",
    "score": 72,
    "label": "Stale",
-   "rank": 65
+   "rank": 83
   },
   {
    "repo": "leonardsellem/n8n-mcp-server",
@@ -947,7 +1217,22 @@
    "package_source": "re-resolved",
    "score": 71,
    "label": "Stale",
-   "rank": 66
+   "rank": 84
+  },
+  {
+   "repo": "0x4m4/hexstrike-ai",
+   "category": "other",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 13283,
+   "archived": false,
+   "pushed_at": "2026-08-03T14:33:09Z",
+   "push": "30-90d",
+   "package": null,
+   "package_source": "none found",
+   "score": 68,
+   "label": "Stale",
+   "rank": 85
   },
   {
    "repo": "google/mcp",
@@ -961,7 +1246,7 @@
    "package_source": "none found",
    "score": 67,
    "label": "Stale",
-   "rank": 67
+   "rank": 86
   },
   {
    "repo": "MarkusPfundstein/mcp-obsidian",
@@ -975,7 +1260,7 @@
    "package_source": "none found",
    "score": 67,
    "label": "Stale",
-   "rank": 68
+   "rank": 87
   },
   {
    "repo": "6551Team/opennews-mcp",
@@ -989,7 +1274,7 @@
    "package_source": "none found",
    "score": 67,
    "label": "Stale",
-   "rank": 69
+   "rank": 88
   },
   {
    "repo": "anysearch-ai/anysearch-mcp-server",
@@ -1003,7 +1288,7 @@
    "package_source": "none found",
    "score": 67,
    "label": "Stale",
-   "rank": 70
+   "rank": 89
   },
   {
    "repo": "mukul975/cve-mcp-server",
@@ -1017,7 +1302,7 @@
    "package_source": "none found",
    "score": 66,
    "label": "Stale",
-   "rank": 71
+   "rank": 90
   },
   {
    "repo": "qdrant/mcp-server-qdrant",
@@ -1031,13 +1316,28 @@
    "package_source": "none found",
    "score": 66,
    "label": "Stale",
-   "rank": 72
+   "rank": 91
+  },
+  {
+   "repo": "intuit/quickbooks-online-mcp-server",
+   "category": "productivity",
+   "added": "2026-11-02",
+   "exists": true,
+   "stars": 440,
+   "archived": false,
+   "pushed_at": "2026-09-15T17:56:34Z",
+   "push": "30-90d",
+   "package": null,
+   "package_source": "none found",
+   "score": 65,
+   "label": "Stale",
+   "rank": 92
   },
   {
    "repo": "hangwin/mcp-chrome",
    "category": "browser",
    "exists": true,
-   "stars": 12527,
+   "stars": 12526,
    "archived": false,
    "pushed_at": "2026-01-06T13:05:39Z",
    "push": "90-365d",
@@ -1045,7 +1345,7 @@
    "package_source": "none found",
    "score": 58,
    "label": "Stale",
-   "rank": 73
+   "rank": 93
   },
   {
    "repo": "BeehiveInnovations/pal-mcp-server",
@@ -1059,13 +1359,13 @@
    "package_source": "none found",
    "score": 58,
    "label": "Stale",
-   "rank": 74
+   "rank": 94
   },
   {
    "repo": "idosal/git-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 8499,
+   "stars": 8500,
    "archived": false,
    "pushed_at": "2026-05-08T14:21:24Z",
    "push": "90-365d",
@@ -1073,13 +1373,13 @@
    "package_source": "none found",
    "score": 58,
    "label": "Stale",
-   "rank": 75
+   "rank": 95
   },
   {
    "repo": "grab/cursor-talk-to-figma-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 7076,
+   "stars": 7075,
    "archived": false,
    "pushed_at": "2026-07-26T07:14:26Z",
    "push": "90-365d",
@@ -1087,7 +1387,7 @@
    "package_source": "none found",
    "score": 58,
    "label": "Stale",
-   "rank": 76
+   "rank": 96
   },
   {
    "repo": "Coding-Solo/godot-mcp",
@@ -1101,7 +1401,7 @@
    "package_source": "none found",
    "score": 58,
    "label": "Stale",
-   "rank": 77
+   "rank": 97
   },
   {
    "repo": "excalidraw/excalidraw-mcp",
@@ -1115,13 +1415,13 @@
    "package_source": "none found",
    "score": 57,
    "label": "Stale",
-   "rank": 78
+   "rank": 98
   },
   {
    "repo": "Pimzino/spec-workflow-mcp",
    "category": "devtools",
    "exists": true,
-   "stars": 4307,
+   "stars": 4306,
    "archived": false,
    "pushed_at": "2026-07-03T19:19:12Z",
    "push": "90-365d",
@@ -1129,7 +1429,7 @@
    "package_source": "none found",
    "score": 57,
    "label": "Stale",
-   "rank": 79
+   "rank": 99
   },
   {
    "repo": "louislva/claude-peers-mcp",
@@ -1143,7 +1443,7 @@
    "package_source": "none found",
    "score": 57,
    "label": "Stale",
-   "rank": 80
+   "rank": 100
   },
   {
    "repo": "korotovsky/slack-mcp-server",
@@ -1157,7 +1457,7 @@
    "package_source": "none found",
    "score": 57,
    "label": "Stale",
-   "rank": 81
+   "rank": 101
   },
   {
    "repo": "isaacphi/mcp-language-server",
@@ -1171,7 +1471,7 @@
    "package_source": "none found",
    "score": 56,
    "label": "Stale",
-   "rank": 82
+   "rank": 102
   },
   {
    "repo": "lharries/whatsapp-mcp",
@@ -1185,7 +1485,7 @@
    "package_source": "none found",
    "score": 53,
    "label": "Stale",
-   "rank": 83
+   "rank": 103
   },
   {
    "repo": "financial-datasets/mcp-server",
@@ -1199,7 +1499,7 @@
    "package_source": "none found",
    "score": 52,
    "label": "Stale",
-   "rank": 84
+   "rank": 104
   },
   {
    "repo": "coleam00/mcp-crawl4ai-rag",
@@ -1213,7 +1513,7 @@
    "package_source": "none found",
    "score": 52,
    "label": "Stale",
-   "rank": 85
+   "rank": 105
   },
   {
    "repo": "chongdashu/unreal-mcp",
@@ -1227,7 +1527,7 @@
    "package_source": "none found",
    "score": 52,
    "label": "Stale",
-   "rank": 86
+   "rank": 106
   },
   {
    "repo": "noopstudios/interactive-feedback-mcp",
@@ -1241,7 +1541,7 @@
    "package_source": "none found",
    "score": 51,
    "label": "Stale",
-   "rank": 87
+   "rank": 107
   },
   {
    "repo": "anaisbetts/mcp-installer",
@@ -1255,7 +1555,7 @@
    "package_source": "none found",
    "score": 51,
    "label": "Stale",
-   "rank": 88
+   "rank": 108
   },
   {
    "repo": "PleasePrompto/notebooklm-mcp",
@@ -1269,7 +1569,7 @@
    "package_source": "re-resolved",
    "score": 67,
    "label": "Archived",
-   "rank": 89
+   "rank": 109
   },
   {
    "repo": "browserbase/mcp-server-browserbase",
@@ -1283,7 +1583,7 @@
    "package_source": "re-resolved",
    "score": 57,
    "label": "Archived",
-   "rank": 90
+   "rank": 110
   },
   {
    "repo": "GongRzhe/Office-Word-MCP-Server",
@@ -1297,7 +1597,7 @@
    "package_source": "re-resolved",
    "score": 57,
    "label": "Archived",
-   "rank": 91
+   "rank": 111
   },
   {
    "repo": "GongRzhe/Office-PowerPoint-MCP-Server",
@@ -1311,7 +1611,7 @@
    "package_source": "re-resolved",
    "score": 57,
    "label": "Archived",
-   "rank": 92
+   "rank": 112
   },
   {
    "repo": "supermemoryai/apple-mcp",
@@ -1325,7 +1625,7 @@
    "package_source": "none found",
    "score": 32,
    "label": "Archived",
-   "rank": 93
+   "rank": 113
   }
  ]
 }
