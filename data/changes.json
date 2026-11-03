@@ -1,5 +1,20 @@
 [
  {
+  "checked_at": "2026-11-03T07:59:52Z",
+  "counts": {
+   "Healthy": 82,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 60,
+  "api_errors": 0,
+  "changes": [
+   "0x4m4/hexstrike-ai: score 68 \u2192 58",
+   "excalidraw/excalidraw-mcp: score 57 \u2192 58"
+  ]
+ },
+ {
   "checked_at": "2026-11-02T09:01:38Z",
   "counts": {
    "Healthy": 82,
