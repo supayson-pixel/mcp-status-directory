@@ -51,7 +51,13 @@ COMP=[("playwright-mcp-vs-chrome-devtools-mcp-vs-browser-tools-mcp",["microsoft/
 ("database-mcp-toolbox-vs-postgres-mcp-vs-mysql",["googleapis/mcp-toolbox","crystaldba/postgres-mcp","benborla/mcp-server-mysql"]),
 ("figma-context-mcp-vs-cursor-talk-to-figma",["GLips/Figma-Context-MCP","grab/cursor-talk-to-figma-mcp"]),
 ("tavily-mcp-vs-brave-search-mcp-vs-exa-mcp",["tavily-ai/tavily-mcp","brave/brave-search-mcp-server","exa-labs/exa-mcp-server"]),
-("ghidramcp-vs-ghidra-mcp",["LaurieWired/GhidraMCP","bethington/ghidra-mcp"])]
+("ghidramcp-vs-ghidra-mcp",["LaurieWired/GhidraMCP","bethington/ghidra-mcp"]),
+("mysql-mcp-server-comparison",["benborla/mcp-server-mysql","designcomputer/mysql_mcp_server"]),
+("excel-mcp-server-vs-mcp-server-excel",["haris-musa/excel-mcp-server","sbroenne/mcp-server-excel"]),
+("ida-pro-mcp-vs-ida-mcp",["mrexodia/ida-pro-mcp","HexRaysSA/ida-mcp"]),
+("unreal-mcp-comparison",["chongdashu/unreal-mcp","ChiR24/Unreal_mcp"]),
+("drawio-mcp-vs-drawio-mcp-server",["jgraph/drawio-mcp","lgazo/drawio-mcp-server"]),
+("searxng-mcp-vs-duckduckgo-mcp",["ihor-sokoliuk/mcp-searxng","nickclyde/duckduckgo-mcp-server"])]
 BY={s["repo"]:s for s in srv}
 for cs,rs in COMP:
     ss=[BY[r] for r in rs]; assert len({s["category"] for s in ss})==1
@@ -71,10 +77,40 @@ for cs,rs in COMP:
 ci=head("MCP server comparisons — MCP Status","Side-by-side health comparisons of popular MCP servers in the same category.","/compare/")
 ci+='<h1>MCP server comparisons</h1><ul>'+"".join(f'<li><a href="{p}">{n}</a> — {v}</li>' for p,n,v in pages if p.startswith("/compare/"))+'</ul>\n'
 open("compare/index.html","w").write(ci+FOOT)
+# "Best MCP server for X" use-case page (tool -> tracked repos; ranking is by the same health score)
+BEST=[("MySQL",["benborla/mcp-server-mysql","designcomputer/mysql_mcp_server","googleapis/mcp-toolbox","bytebase/dbhub"]),
+("PostgreSQL",["crystaldba/postgres-mcp","neondatabase/mcp-server-neon","supabase/mcp","googleapis/mcp-toolbox","bytebase/dbhub"]),
+("DuckDB and MotherDuck",["motherduckdb/mcp-server-motherduck"]),("Power BI",["microsoft/powerbi-modeling-mcp"]),
+("Excel",["haris-musa/excel-mcp-server","sbroenne/mcp-server-excel"]),
+("PDF and document conversion",["docling-project/docling-mcp","zcaceres/markdownify-mcp"]),
+("Diagrams (draw.io, Excalidraw, charts)",["jgraph/drawio-mcp","lgazo/drawio-mcp-server","excalidraw/excalidraw-mcp","antvis/mcp-server-chart"]),
+("Reverse engineering (IDA Pro, Ghidra, JADX, x64dbg)",["mrexodia/ida-pro-mcp","HexRaysSA/ida-mcp","LaurieWired/GhidraMCP","bethington/ghidra-mcp","zinja-coder/jadx-ai-mcp","duty1g/x64dbg-mcp-server"]),
+("Code search and retrieval",["jgravelle/jcodemunch-mcp","oraios/serena","CodeGraphContext/CodeGraphContext","DeusData/codebase-memory-mcp"]),
+("Code quality (SonarQube)",["SonarSource/sonarqube-mcp-server"]),("NixOS",["utensils/mcp-nixos"]),
+("Unreal Engine",["chongdashu/unreal-mcp","ChiR24/Unreal_mcp"]),("Unity",["CoplayDev/unity-mcp","IvanMurzak/Unity-MCP"]),
+("Robotics (ROS)",["robotmcp/ros-mcp-server"]),
+("Private web search",["ihor-sokoliuk/mcp-searxng","nickclyde/duckduckgo-mcp-server","brave/brave-search-mcp-server"]),
+("Reddit",["karanb192/reddit-mcp-buddy"]),
+("Stock trading and market data",["alpacahq/alpaca-mcp-server","atilaahmettaner/tradingview-mcp","financial-datasets/mcp-server"]),
+("Stealth / anti-bot browsing",["vibheksoni/stealth-browser-mcp","brightdata/brightdata-mcp"]),
+("Task management",["Doist/todoist-mcp","atlassian/atlassian-mcp-server"]),
+("Messaging (Slack, WhatsApp, LINE)",["korotovsky/slack-mcp-server","lharries/whatsapp-mcp","line/line-bot-mcp-server"])]
+bq=[];bh=""; bl=""
+for tool,rs in BEST:
+    ss=sorted([BY[r] for r in rs if r in BY],key=lambda s:(s["label"] in ("Archived","Broken"),-s["score"],-s["stars"]))
+    if not ss: continue
+    b=ss[0]; ans=f'As of the {CD} check, {b["repo"]} scores highest ({b["score"]}/100, {b["label"]}, {b["stars"]:,} stars)'+(". Also tracked: "+", ".join(f'{s["repo"]} ({s["score"]})' for s in ss[1:]) if len(ss)>1 else "")+"."
+    bq.append((f"What is the best MCP server for {tool}?",ans)); aid=slug(tool.split(" (")[0].replace(" ","-"))
+    bh+=f'<h2 id="{aid}">Best MCP server for {tool}</h2><p><b>Short answer:</b> {H.escape(ans)}</p><ul>'+"".join(f'<li><a href="/server/{slug(s["repo"])}.html">{s["repo"]}</a> — {badge(s)} · {s["stars"]:,}★ · last push {PL[s["push"]]}</li>' for s in ss)+'</ul>\n'
+    bl+=f"- {tool}: "+", ".join(f'{s["repo"]} ({s["score"]})' for s in ss)+"\n"
+bld={"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in bq]}
+bp=head(f"Best MCP server for MySQL, Postgres, Excel, IDA Pro, trading and more ({MON})",f"Which MCP server should you use for a specific tool? {len(bq)} use cases answered from dated health checks of {len(srv)} servers.","/best-mcp-server-for.html",'<script type="application/ld+json">'+json.dumps(bld)+'</script>')
+bp+=f'<h1>Best MCP server for…</h1><p class="lead">Quick answers for {len(bq)} specific tools and use cases, ranked by the same dated <a href="/methodology.html">health score</a> (checked {CT}). Health measures maintenance, not features — check each README for fit.</p><p class="mut">'+" · ".join(f'<a href="#{slug(t.split(" (")[0].replace(" ","-"))}">{t.split(" (")[0]}</a>' for t,_ in BEST)+'</p>\n'+bh
+open("best-mcp-server-for.html","w").write(bp+FOOT); pages.append(("/best-mcp-server-for.html","Best MCP server for specific tools",f"{len(bq)} use cases (MySQL, Postgres, Excel, IDA Pro, trading, ROS...) answered from health scores."))
 core=[("/","Ranked list of all servers",f"All {len(srv)} servers ranked by health score."),("/status.html","Status & flags","Archived, stale and maintenance warnings."),("/methodology.html","Methodology","Exact scoring formula and limits."),("/submit.html","Submit a server","Free listing via GitHub issue."),("/compare/","Comparisons index","All head-to-head comparison pages."),("/data/servers.json","Raw data JSON","Machine-readable data for every server.")]
 catp=[(f"/category/{k}.html",n.replace("&amp;","&")+" MCP servers",LEAD[k][0].replace("&amp;","&")) for k,n in CATS]
 allp=core+catp+pages
-llm2=llm+"\n## Comparisons\n"+"".join(f"- [{n}]({S}{p}): {v}\n" for p,n,v in pages if p.startswith("/compare/"))
+llm2=llm+f"\n## Best MCP server for specific tools ({S}/best-mcp-server-for.html)\n"+bl+"\n## Comparisons\n"+"".join(f"- [{n}]({S}{p}): {v}\n" for p,n,v in pages if p.startswith("/compare/"))
 llm2+="\n## Server pages\n"+"".join(f"- [{n}]({S}{p}): {v}\n" for p,n,v in pages if p.startswith("/server/"))
 llm2+=f"\n## Optional\n- [llms-full.txt]({S}/llms-full.txt): full per-server data in one file\n"
 open("llms.txt","w").write(llm2)

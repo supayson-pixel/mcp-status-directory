@@ -1,5 +1,39 @@
 [
  {
+  "checked_at": "2026-11-09T09:06:12Z",
+  "counts": {
+   "Healthy": 102,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 75,
+  "api_errors": 0,
+  "changes": [
+   "atilaahmettaner/tradingview-mcp: added to directory (other) \u2014 Healthy 97, 5,243\u2605",
+   "vibheksoni/stealth-browser-mcp: added to directory (browser) \u2014 Healthy 97, 3,352\u2605",
+   "jgravelle/jcodemunch-mcp: added to directory (devtools) \u2014 Healthy 97, 2,837\u2605",
+   "HexRaysSA/ida-mcp: added to directory (devtools) \u2014 Healthy 96, 1,569\u2605",
+   "robotmcp/ros-mcp-server: added to directory (other) \u2014 Healthy 96, 1,519\u2605",
+   "designcomputer/mysql_mcp_server: added to directory (databases) \u2014 Healthy 96, 1,410\u2605",
+   "ihor-sokoliuk/mcp-searxng: added to directory (search) \u2014 Healthy 96, 1,353\u2605",
+   "alpacahq/alpaca-mcp-server: added to directory (other) \u2014 Healthy 96, 1,071\u2605",
+   "karanb192/reddit-mcp-buddy: added to directory (search) \u2014 Healthy 96, 889\u2605",
+   "utensils/mcp-nixos: added to directory (devtools) \u2014 Healthy 96, 880\u2605",
+   "line/line-bot-mcp-server: added to directory (productivity) \u2014 Healthy 96, 800\u2605",
+   "docling-project/docling-mcp: added to directory (files) \u2014 Healthy 96, 789\u2605",
+   "neondatabase/mcp-server-neon: added to directory (databases) \u2014 Healthy 96, 663\u2605",
+   "Doist/todoist-mcp: added to directory (productivity) \u2014 Healthy 96, 563\u2605",
+   "motherduckdb/mcp-server-motherduck: added to directory (databases) \u2014 Healthy 95, 540\u2605",
+   "lgazo/drawio-mcp-server: added to directory (other) \u2014 Healthy 76, 1,498\u2605",
+   "microsoft/powerbi-modeling-mcp: added to directory (databases) \u2014 Healthy 76, 1,272\u2605",
+   "ChiR24/Unreal_mcp: added to directory (other) \u2014 Healthy 76, 1,025\u2605",
+   "sbroenne/mcp-server-excel: added to directory (files) \u2014 Healthy 76, 868\u2605",
+   "SonarSource/sonarqube-mcp-server: added to directory (devtools) \u2014 Healthy 76, 680\u2605"
+  ],
+  "note": "Weekly growth run: 20 servers added from the official MCP Registry (updated since 2026-11-02) and GitHub search, scored with the same checks."
+ },
+ {
   "checked_at": "2026-11-09T07:59:12Z",
   "counts": {
    "Healthy": 82,
