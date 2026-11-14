@@ -1,5 +1,19 @@
 [
  {
+  "checked_at": "2026-11-14T08:00:43Z",
+  "counts": {
+   "Healthy": 102,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 75,
+  "api_errors": 0,
+  "changes": [
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp"
+  ]
+ },
+ {
   "checked_at": "2026-11-13T08:01:00Z",
   "counts": {
    "Healthy": 102,
