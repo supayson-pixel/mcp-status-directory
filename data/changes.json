@@ -1,5 +1,22 @@
 [
  {
+  "checked_at": "2026-11-16T07:55:31Z",
+  "counts": {
+   "Healthy": 103,
+   "Stale": 25,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 75,
+  "api_errors": 0,
+  "changes": [
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "argoproj-labs/mcp-for-argocd: score 96 \u2192 86",
+   "crystaldba/postgres-mcp: score 87 \u2192 77",
+   "anysearch-ai/anysearch-mcp-server: Stale \u2192 Healthy (67 \u2192 77)"
+  ]
+ },
+ {
   "checked_at": "2026-11-15T07:54:17Z",
   "counts": {
    "Healthy": 102,
