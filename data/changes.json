@@ -1,5 +1,39 @@
 [
  {
+  "checked_at": "2026-11-16T09:00:20Z",
+  "counts": {
+   "Healthy": 123,
+   "Stale": 25,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 89,
+  "api_errors": 0,
+  "changes": [
+   "MinishLab/semble: added to directory (devtools) \u2014 Healthy 98, 6,430\u2605",
+   "callstack/agent-device: added to directory (devtools) \u2014 Healthy 97, 5,409\u2605",
+   "vitali87/code-graph-rag: added to directory (devtools) \u2014 Healthy 97, 5,355\u2605",
+   "punitarani/fli: added to directory (other) \u2014 Healthy 97, 3,504\u2605",
+   "neka-nat/freecad-mcp: added to directory (other) \u2014 Healthy 97, 3,353\u2605",
+   "dgunning/edgartools: added to directory (other) \u2014 Healthy 97, 2,857\u2605",
+   "akfamily/aktools: added to directory (other) \u2014 Healthy 96, 1,568\u2605",
+   "alisaitteke/photoshop-mcp: added to directory (other) \u2014 Healthy 96, 892\u2605",
+   "cyanheads/obsidian-mcp-server: added to directory (productivity) \u2014 Healthy 96, 706\u2605",
+   "RekklesNA/ProxmoxMCP-Plus: added to directory (cloud) \u2014 Healthy 96, 657\u2605",
+   "StuMason/coolify-mcp: added to directory (cloud) \u2014 Healthy 96, 625\u2605",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "bvisible/mcp-ssh-manager: added to directory (devtools) \u2014 Healthy 95, 544\u2605",
+   "jkawamoto/mcp-youtube-transcript: added to directory (productivity) \u2014 Healthy 95, 498\u2605",
+   "mapbox/mcp-server: added to directory (other) \u2014 Healthy 95, 371\u2605",
+   "clidey/whodb: added to directory (databases) \u2014 Healthy 77, 5,058\u2605",
+   "skyhook-io/radar: added to directory (cloud) \u2014 Healthy 77, 4,133\u2605",
+   "iwe-org/iwe: added to directory (ai) \u2014 Healthy 77, 1,825\u2605",
+   "TencentCloudBase/CloudBase-AI-Toolkit: added to directory (cloud) \u2014 Healthy 76, 1,165\u2605",
+   "mihai-dinculescu/tapo: added to directory (other) \u2014 Healthy 76, 877\u2605",
+   "eat-pray-ai/yutu: added to directory (productivity) \u2014 Healthy 76, 723\u2605"
+  ]
+ },
+ {
   "checked_at": "2026-11-16T07:55:31Z",
   "counts": {
    "Healthy": 103,
