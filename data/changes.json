@@ -1,5 +1,20 @@
 [
  {
+  "checked_at": "2026-11-18T07:59:59Z",
+  "counts": {
+   "Healthy": 123,
+   "Stale": 25,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 89,
+  "api_errors": 0,
+  "changes": [
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp"
+  ]
+ },
+ {
   "checked_at": "2026-11-17T07:57:56Z",
   "counts": {
    "Healthy": 123,

@@ -19,7 +19,10 @@ def ghfile(repo,path):
     c,d=get(f"https://api.github.com/repos/{repo}/contents/{path}",True)
     if c==200 and isinstance(d,dict) and d.get("content"): return base64.b64decode(d["content"]).decode("utf-8","replace")
     return None
-def links_back(text,repo): return repo.lower() in json.dumps(text).lower()
+def links_back(text,repos):
+    blob=json.dumps(text).lower()
+    if isinstance(repos,str): repos=[repos]
+    return any(r.lower() in blob for r in repos if r)
 def npm(name,repo):
     c,d=get("https://registry.npmjs.org/"+name.replace("/","%2f"))
     if c!=200 or not d or "dist-tags" not in d: return None
@@ -32,17 +35,18 @@ def pypi(name,repo):
     i=d["info"]
     if not links_back([i.get("project_urls"),i.get("home_page"),i.get("description","")[:20000]],repo): return None
     return f"pypi:{i['name']}@{i['version']}"
-def find_pkg(repo,old):
+def find_pkg(repo,old,aliases=None):
+    aliases=aliases or (repo,)
     if old:  # re-resolve the known package at its latest version
         reg,rest=old.split(":",1); name=rest.rsplit("@",1)[0]
-        r=(npm if reg=="npm" else pypi)(name,repo)
+        r=(npm if reg=="npm" else pypi)(name,aliases)
         if r: return r,"re-resolved"
     pj=ghfile(repo,"package.json")
     if pj:
         try:
             j=json.loads(pj)
             if j.get("name") and not j.get("private"):
-                r=npm(j["name"],repo)
+                r=npm(j["name"],aliases)
                 if r: return r,"package.json"
         except Exception: pass
     pt=ghfile(repo,"pyproject.toml")
@@ -53,7 +57,7 @@ def find_pkg(repo,old):
         if not name:
             m=re.search(r'^\[project\][^\[]*?^name\s*=\s*["\']([^"\']+)',pt,re.M|re.S); name=m and m.group(1)
         if name:
-            r=pypi(name,repo)
+            r=pypi(name,aliases)
             if r: return r,"pyproject.toml"
     return None,"none found"
 PP={"<=30d":25,"30-90d":15,"90-365d":5,">365d":0}
@@ -84,7 +88,8 @@ for o in prev["servers"]:
         errors.append((repo,c,d)); s.update({k:o.get(k) for k in ("exists","stars","archived","pushed_at")}); s["exists"]=s["exists"] if s["exists"] is not None else True; s["stale_data"]=True
     s["push"]=bucket(s.get("pushed_at")) if s.get("pushed_at") else (o.get("push") or ">365d").replace("<=90d*","30-90d")
     if s["exists"]:
-        pk,how=find_pkg(d["full_name"] if c==200 else repo,o.get("package")); s["package"]=pk; s["package_source"]=how
+        canon=d["full_name"] if c==200 else repo
+        pk,how=find_pkg(canon,o.get("package"),tuple(dict.fromkeys([repo,canon]))); s["package"]=pk; s["package_source"]=how
     else: s["package"]=None
     s["score"]=score(s); s["label"]=label(s); out.append(s)
     print(f'{repo:50} {s["stars"]:>6} arch={s["archived"]} {s["push"]:8} {s["package"]} {s["score"]} {s["label"]}',flush=True)
