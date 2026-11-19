@@ -107,7 +107,7 @@ urls=["/","/status.html","/methodology.html","/submit.html"]+[f"/category/{k}.ht
 open("sitemap.xml","w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+"".join(f"<url><loc>{S}{u}</loc><lastmod>{CD}</lastmod></url>\n" for u in urls)+"</urlset>\n")
 open("robots.txt","w").write(f"User-agent: *\nAllow: /\n\nSitemap: {S}/sitemap.xml\n")
 open("netlify.toml","w").write('[build]\n  publish = "."\n  command = ""\n\n[[headers]]\n  for = "/data/*"\n  [headers.values]\n    Access-Control-Allow-Origin = "*"\n')
-open(".gitignore","w").write(".netlify\n")
+open(".gitignore","w").write(".netlify\n__pycache__/\n*.pyc\n")
 llm=f"""# MCP Status
 
 > MCP Status ({S}) is a health-ranked directory of Model Context Protocol (MCP) servers. Every listing carries a dated, evidence-based health score (0-100) from public signals: GitHub repo exists, archived flag, last push recency, whether the npm/PyPI package resolves, and stars. Archived and stale servers are flagged explicitly.
