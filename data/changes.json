@@ -1,5 +1,21 @@
 [
  {
+  "checked_at": "2026-11-22T07:52:23Z",
+  "counts": {
+   "Healthy": 122,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 89,
+  "api_errors": 0,
+  "changes": [
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "perplexityai/modelcontextprotocol: score 97 \u2192 87"
+  ]
+ },
+ {
   "checked_at": "2026-11-21T07:57:54Z",
   "counts": {
    "Healthy": 122,
