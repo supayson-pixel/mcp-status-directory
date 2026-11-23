@@ -58,7 +58,8 @@ COMP=[("playwright-mcp-vs-chrome-devtools-mcp-vs-browser-tools-mcp",["microsoft/
 ("unreal-mcp-comparison",["chongdashu/unreal-mcp","ChiR24/Unreal_mcp"]),
 ("drawio-mcp-vs-drawio-mcp-server",["jgraph/drawio-mcp","lgazo/drawio-mcp-server"]),
 ("searxng-mcp-vs-duckduckgo-mcp",["ihor-sokoliuk/mcp-searxng","nickclyde/duckduckgo-mcp-server"]),
-("obsidian-mcp-server-vs-mcp-obsidian",["cyanheads/obsidian-mcp-server","MarkusPfundstein/mcp-obsidian"])]
+("obsidian-mcp-server-vs-mcp-obsidian",["cyanheads/obsidian-mcp-server","MarkusPfundstein/mcp-obsidian"]),
+("mcp-atlassian-vs-atlassian-mcp-server",["sooperset/mcp-atlassian","atlassian/atlassian-mcp-server"])]
 BY={s["repo"]:s for s in srv}
 for cs,rs in COMP:
     ss=[BY[r] for r in rs]; assert len({s["category"] for s in ss})==1
@@ -84,19 +85,19 @@ BEST=[("MySQL",["benborla/mcp-server-mysql","designcomputer/mysql_mcp_server","g
 ("DuckDB and MotherDuck",["motherduckdb/mcp-server-motherduck"]),("Power BI",["microsoft/powerbi-modeling-mcp"]),
 ("Excel",["haris-musa/excel-mcp-server","sbroenne/mcp-server-excel"]),
 ("PDF and document conversion",["docling-project/docling-mcp","zcaceres/markdownify-mcp"]),
-("Diagrams (draw.io, Excalidraw, charts)",["jgraph/drawio-mcp","lgazo/drawio-mcp-server","excalidraw/excalidraw-mcp","antvis/mcp-server-chart"]),
-("Reverse engineering (IDA Pro, Ghidra, JADX, x64dbg)",["mrexodia/ida-pro-mcp","HexRaysSA/ida-mcp","LaurieWired/GhidraMCP","bethington/ghidra-mcp","zinja-coder/jadx-ai-mcp","duty1g/x64dbg-mcp-server"]),
+("Diagrams (draw.io, Excalidraw, charts)",["jgraph/drawio-mcp","lgazo/drawio-mcp-server","excalidraw/excalidraw-mcp","yctimlin/mcp_excalidraw","antvis/mcp-server-chart"]),
+("Reverse engineering (IDA Pro, Ghidra, JADX, x64dbg)",["mrexodia/ida-pro-mcp","HexRaysSA/ida-mcp","LaurieWired/GhidraMCP","bethington/ghidra-mcp","zinja-coder/jadx-ai-mcp","duty1g/x64dbg-mcp-server","svnscha/mcp-windbg"]),
 ("Code search and retrieval",["jgravelle/jcodemunch-mcp","oraios/serena","CodeGraphContext/CodeGraphContext","DeusData/codebase-memory-mcp","MinishLab/semble","vitali87/code-graph-rag"]),
 ("Code quality (SonarQube)",["SonarSource/sonarqube-mcp-server"]),("NixOS",["utensils/mcp-nixos"]),
 ("Unreal Engine",["chongdashu/unreal-mcp","ChiR24/Unreal_mcp"]),("Unity",["CoplayDev/unity-mcp","IvanMurzak/Unity-MCP"]),
 ("Robotics (ROS)",["robotmcp/ros-mcp-server"]),
-("Private web search",["ihor-sokoliuk/mcp-searxng","nickclyde/duckduckgo-mcp-server","brave/brave-search-mcp-server"]),
+("Private web search",["ihor-sokoliuk/mcp-searxng","nickclyde/duckduckgo-mcp-server","brave/brave-search-mcp-server","KnockOutEZ/wigolo"]),
 ("Reddit",["karanb192/reddit-mcp-buddy"]),
 ("Stock trading and market data",["alpacahq/alpaca-mcp-server","atilaahmettaner/tradingview-mcp","financial-datasets/mcp-server"]),
 ("Stealth / anti-bot browsing",["vibheksoni/stealth-browser-mcp","brightdata/brightdata-mcp"]),
-("Task management",["Doist/todoist-mcp","atlassian/atlassian-mcp-server"]),
-("Messaging (Slack, WhatsApp, LINE)",["korotovsky/slack-mcp-server","lharries/whatsapp-mcp","line/line-bot-mcp-server"]),
-("Obsidian",["cyanheads/obsidian-mcp-server","MarkusPfundstein/mcp-obsidian"]),
+("Task management",["Doist/todoist-mcp","atlassian/atlassian-mcp-server","sooperset/mcp-atlassian"]),
+("Messaging (Slack, WhatsApp, Telegram, LINE)",["korotovsky/slack-mcp-server","lharries/whatsapp-mcp","chigwell/telegram-mcp","line/line-bot-mcp-server"]),
+("Obsidian",["cyanheads/obsidian-mcp-server","MarkusPfundstein/mcp-obsidian","bitbonsai/mcpvault","coddingtonbear/obsidian-local-rest-api"]),
 ("YouTube (transcripts and channel management)",["jkawamoto/mcp-youtube-transcript","eat-pray-ai/yutu"]),
 ("3D CAD (FreeCAD, KiCad)",["neka-nat/freecad-mcp","mixelpixx/KiCAD-MCP-Server"]),
 ("Photoshop",["alisaitteke/photoshop-mcp"]),
@@ -105,8 +106,19 @@ BEST=[("MySQL",["benborla/mcp-server-mysql","designcomputer/mysql_mcp_server","g
 ("SEC filings and financial data",["dgunning/edgartools","akfamily/aktools","financial-datasets/mcp-server"]),
 ("Self-hosted infrastructure (Coolify, Proxmox, SSH)",["StuMason/coolify-mcp","RekklesNA/ProxmoxMCP-Plus","bvisible/mcp-ssh-manager","tufantunc/ssh-mcp"]),
 ("Kubernetes",["Flux159/mcp-server-kubernetes","containers/kubernetes-mcp-server","skyhook-io/radar"]),
-("Mobile app automation (iOS, Android)",["mobile-next/mobile-mcp","callstack/agent-device"]),
-("Smart home",["homeassistant-ai/ha-mcp","mihai-dinculescu/tapo"])]
+("Mobile app automation (iOS, Android)",["mobile-next/mobile-mcp","callstack/agent-device","software-mansion/argent","joshuayoes/ios-simulator-mcp"]),
+("Smart home",["homeassistant-ai/ha-mcp","mihai-dinculescu/tapo"]),
+("Jira and Confluence",["sooperset/mcp-atlassian","atlassian/atlassian-mcp-server"]),
+("Figma",["GLips/Figma-Context-MCP","southleft/figma-console-mcp","grab/cursor-talk-to-figma-mcp"]),
+("Telegram",["chigwell/telegram-mcp"]),
+("SEO and Google Search Console",["AminForou/mcp-gsc","googleanalytics/google-analytics-mcp"]),
+("Godot game engine",["hi-godot/godot-ai","Coding-Solo/godot-mcp"]),
+("macOS apps (Messages, Contacts, Reminders, screenshots)",["mattt/iMCP","supermemoryai/apple-mcp","openclaw/Peekaboo"]),
+("Web scraping and crawling for LLMs",["firecrawl/firecrawl-mcp-server","apify/apify-mcp-server","0xMassi/webclaw","fastcrw/crw","coleam00/mcp-crawl4ai-rag"]),
+("AWS and Azure",["awslabs/mcp","aws/agent-toolkit-for-aws","microsoft/mcp"]),
+("NotebookLM",["PleasePrompto/notebooklm-mcp","jacob-bd/gemini-notebook-mcp-cli"]),
+("Human-in-the-loop feedback",["Minidoracat/mcp-feedback-enhanced","noopstudios/interactive-feedback-mcp"]),
+("Legal research (Korean law)",["chrisryugj/korean-law-mcp"])]
 bq=[];bh=""; bl=""
 for tool,rs in BEST:
     ss=sorted([BY[r] for r in rs if r in BY],key=lambda s:(s["label"] in ("Archived","Broken"),-s["score"],-s["stars"]))

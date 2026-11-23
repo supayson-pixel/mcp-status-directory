@@ -1,5 +1,40 @@
 [
  {
+  "checked_at": "2026-11-23T09:05:37Z",
+  "counts": {
+   "Healthy": 142,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 101,
+  "api_errors": 0,
+  "changes": [
+   "jacob-bd/gemini-notebook-mcp-cli: added to directory (ai) \u2014 Healthy 98, 6,558\u2605",
+   "sooperset/mcp-atlassian: added to directory (productivity) \u2014 Healthy 98, 6,145\u2605",
+   "KnockOutEZ/wigolo: added to directory (search) \u2014 Healthy 97, 5,560\u2605",
+   "openclaw/Peekaboo: added to directory (other) \u2014 Healthy 97, 5,513\u2605",
+   "Minidoracat/mcp-feedback-enhanced: added to directory (ai) \u2014 Healthy 97, 3,749\u2605",
+   "hi-godot/godot-ai: added to directory (other) \u2014 Healthy 97, 3,656\u2605",
+   "southleft/figma-console-mcp: added to directory (devtools) \u2014 Healthy 97, 3,389\u2605",
+   "chrisryugj/korean-law-mcp: added to directory (other) \u2014 Healthy 97, 2,922\u2605",
+   "yctimlin/mcp_excalidraw: added to directory (other) \u2014 Healthy 97, 2,677\u2605",
+   "AminForou/mcp-gsc: added to directory (productivity) \u2014 Healthy 97, 2,269\u2605",
+   "bitbonsai/mcpvault: added to directory (productivity) \u2014 Healthy 96, 1,729\u2605",
+   "svnscha/mcp-windbg: added to directory (devtools) \u2014 Healthy 96, 1,676\u2605",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "microsoft/mcp: added to directory (cloud) \u2014 Healthy 77, 3,887\u2605",
+   "aws/agent-toolkit-for-aws: added to directory (cloud) \u2014 Healthy 77, 3,546\u2605",
+   "software-mansion/argent: added to directory (devtools) \u2014 Healthy 77, 3,225\u2605",
+   "coddingtonbear/obsidian-local-rest-api: added to directory (productivity) \u2014 Healthy 77, 3,184\u2605",
+   "0xMassi/webclaw: added to directory (browser) \u2014 Healthy 77, 2,443\u2605",
+   "chigwell/telegram-mcp: added to directory (productivity) \u2014 Healthy 77, 2,082\u2605",
+   "mattt/iMCP: added to directory (productivity) \u2014 Healthy 77, 2,000\u2605",
+   "fastcrw/crw: added to directory (browser) \u2014 Healthy 76, 1,293\u2605"
+  ]
+ },
+ {
   "checked_at": "2026-11-23T07:56:03Z",
   "counts": {
    "Healthy": 122,
