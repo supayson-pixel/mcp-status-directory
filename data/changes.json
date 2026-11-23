@@ -1,5 +1,22 @@
 [
  {
+  "checked_at": "2026-11-23T07:56:03Z",
+  "counts": {
+   "Healthy": 122,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 89,
+  "api_errors": 0,
+  "changes": [
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "BeehiveInnovations/pal-mcp-server: Stale \u2192 Healthy (58 \u2192 78)",
+   "cloudflare/mcp-server-cloudflare: Healthy \u2192 Stale (77 \u2192 67)"
+  ]
+ },
+ {
   "checked_at": "2026-11-22T07:52:23Z",
   "counts": {
    "Healthy": 122,
