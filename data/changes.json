@@ -1,5 +1,21 @@
 [
  {
+  "checked_at": "2026-11-24T07:57:21Z",
+  "counts": {
+   "Healthy": 142,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 101,
+  "api_errors": 0,
+  "changes": [
+   "argoproj-labs/mcp-for-argocd: score 86 \u2192 96",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp"
+  ]
+ },
+ {
   "checked_at": "2026-11-23T09:05:37Z",
   "counts": {
    "Healthy": 142,
