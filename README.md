@@ -13,8 +13,8 @@ Plain static site (no build step) ranking Model Context Protocol servers by a da
 - Newsletter via Netlify Forms (`data-netlify="true"`)
 - `refresh.py` — re-checks every server (GitHub/npm/PyPI); `gen.py` (+ `gen_seo.py`, exec'd at its end) regenerates every page
 
-## Data (check of 2026-11-24T07:57:21Z)
-173 servers: 142 Healthy, 26 Stale, 5 Archived. Sources: GitHub REST API and direct npm/PyPI lookups (101 packages verified; others marked unchecked). No data is invented.
+## Data (check of 2026-11-25T07:56:23Z)
+173 servers: 142 Healthy, 26 Stale, 5 Archived. Sources: GitHub REST API and direct npm/PyPI lookups (102 packages verified; others marked unchecked). No data is invented.
 
 ## Daily refresh
 `python3 refresh.py && python3 gen.py` re-checks every server, appends to `data/changes.json`, and regenerates all pages.

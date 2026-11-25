@@ -1,5 +1,24 @@
 [
  {
+  "checked_at": "2026-11-25T07:56:23Z",
+  "counts": {
+   "Healthy": 142,
+   "Stale": 26,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 102,
+  "api_errors": 0,
+  "changes": [
+   "apify/apify-mcp-server: score 98 \u2192 99",
+   "BeehiveInnovations/pal-mcp-server: score 78 \u2192 98",
+   "BeehiveInnovations/pal-mcp-server: package verified (pypi:pal-mcp-server@13.0.0)",
+   "perplexityai/modelcontextprotocol: score 87 \u2192 97",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp"
+  ]
+ },
+ {
   "checked_at": "2026-11-24T07:57:21Z",
   "counts": {
    "Healthy": 142,
