@@ -1,5 +1,23 @@
 [
  {
+  "checked_at": "2026-11-26T07:59:18Z",
+  "counts": {
+   "Healthy": 141,
+   "Stale": 27,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 102,
+  "api_errors": 0,
+  "changes": [
+   "crystaldba/postgres-mcp: score 77 \u2192 97",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp",
+   "antvis/mcp-server-chart: score 87 \u2192 77",
+   "tadata-org/fastapi_mcp: Healthy \u2192 Stale (78 \u2192 73)"
+  ]
+ },
+ {
   "checked_at": "2026-11-25T07:56:23Z",
   "counts": {
    "Healthy": 142,
