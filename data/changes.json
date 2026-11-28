@@ -1,5 +1,21 @@
 [
  {
+  "checked_at": "2026-11-28T07:54:16Z",
+  "counts": {
+   "Healthy": 141,
+   "Stale": 27,
+   "Archived": 5,
+   "Broken": 0
+  },
+  "packages_verified": 102,
+  "api_errors": 0,
+  "changes": [
+   "RekklesNA/ProxmoxMCP-Plus: GitHub redirects to im-xiangda-li/ProxmoxMCP-Plus",
+   "mozilla/firefox-devtools-mcp: GitHub redirects to mozilla/firefox-mcp",
+   "Doist/todoist-mcp: GitHub redirects to todoist/todoist-mcp"
+  ]
+ },
+ {
   "checked_at": "2026-11-27T08:04:26Z",
   "counts": {
    "Healthy": 141,

@@ -1,4 +1,4 @@
-# MCP Status — full data (checked 2026-11-27T08:04:26Z)
+# MCP Status — full data (checked 2026-11-28T07:54:16Z)
 
 Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not archived 20 + push(<=30d 25, <=90d 15, <=365d 5) + verified package 20 + round(10*log10(stars)/5). Healthy >=75, Stale 40-74, Broken <40, Archived if GitHub-archived.
 
@@ -18,197 +18,197 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - https://mcp-status-directory.netlify.app/category/productivity.html — Productivity MCP servers: Best productivity MCP servers: Notion, Obsidian, Jira/Confluence, Microsoft 365, n8n, Slack, Telegram, Todoist, Search Console
 - https://mcp-status-directory.netlify.app/category/ai.html — AI & memory MCP servers: AI, memory & multi-model MCP servers
 - https://mcp-status-directory.netlify.app/category/other.html — Other MCP servers: Other MCP servers: Blender, FreeCAD, Photoshop, Unity, Godot, Unreal, Excalidraw, macOS screenshots, Mapbox maps, flights, SEC/market data, smart home & ROS
-- https://mcp-status-directory.netlify.app/server/chromedevtools-chrome-devtools-mcp.html — ChromeDevTools/chrome-devtools-mcp MCP server: ChromeDevTools/chrome-devtools-mcp MCP server: health 100/100 (Healthy), 59,543 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/microsoft-playwright-mcp.html — microsoft/playwright-mcp MCP server: microsoft/playwright-mcp MCP server: health 99/100 (Healthy), 40,196 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/ahujasid-mcp-for-blender.html — ahujasid/mcp-for-blender MCP server: ahujasid/mcp-for-blender MCP server: health 99/100 (Healthy), 35,956 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/oraios-serena.html — oraios/serena MCP server: oraios/serena MCP server: health 99/100 (Healthy), 31,740 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/czlonkowski-n8n-mcp.html — czlonkowski/n8n-mcp MCP server: czlonkowski/n8n-mcp MCP server: health 99/100 (Healthy), 23,316 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/apify-apify-mcp-server.html — apify/apify-mcp-server MCP server: apify/apify-mcp-server MCP server: health 99/100 (Healthy), 18,098 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/glips-figma-context-mcp.html — GLips/Figma-Context-MCP MCP server: GLips/Figma-Context-MCP MCP server: health 98/100 (Healthy), 16,326 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mrexodia-ida-pro-mcp.html — mrexodia/ida-pro-mcp MCP server: mrexodia/ida-pro-mcp MCP server: health 98/100 (Healthy), 13,598 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/cursortouch-windows-mcp.html — CursorTouch/Windows-MCP MCP server: CursorTouch/Windows-MCP MCP server: health 98/100 (Healthy), 12,200 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/beehiveinnovations-pal-mcp-server.html — BeehiveInnovations/pal-mcp-server MCP server: BeehiveInnovations/pal-mcp-server MCP server: health 98/100 (Healthy), 11,859 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mobile-next-mobile-mcp.html — mobile-next/mobile-mcp MCP server: mobile-next/mobile-mcp MCP server: health 98/100 (Healthy), 10,922 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/wonderwhy-er-desktopcommandermcp.html — wonderwhy-er/DesktopCommanderMCP MCP server: wonderwhy-er/DesktopCommanderMCP MCP server: health 98/100 (Healthy), 10,439 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/homeassistant-ai-ha-mcp.html — homeassistant-ai/ha-mcp MCP server: homeassistant-ai/ha-mcp MCP server: health 98/100 (Healthy), 8,141 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/firecrawl-firecrawl-mcp-server.html — firecrawl/firecrawl-mcp-server MCP server: firecrawl/firecrawl-mcp-server MCP server: health 98/100 (Healthy), 7,926 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/browsermcp-mcp.html — BrowserMCP/mcp MCP server: BrowserMCP/mcp MCP server: health 98/100 (Healthy), 7,422 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/getsentry-mobilebuildmcp.html — getsentry/MobileBuildMCP MCP server: getsentry/MobileBuildMCP MCP server: health 98/100 (Healthy), 6,606 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jacob-bd-gemini-notebook-mcp-cli.html — jacob-bd/gemini-notebook-mcp-cli MCP server: jacob-bd/gemini-notebook-mcp-cli MCP server: health 98/100 (Healthy), 6,586 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/minishlab-semble.html — MinishLab/semble MCP server: MinishLab/semble MCP server: health 98/100 (Healthy), 6,497 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/sooperset-mcp-atlassian.html — sooperset/mcp-atlassian MCP server: sooperset/mcp-atlassian MCP server: health 98/100 (Healthy), 6,164 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/54yyyu-zotero-mcp.html — 54yyyu/zotero-mcp MCP server: 54yyyu/zotero-mcp MCP server: health 98/100 (Healthy), 6,082 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/knockoutez-wigolo.html — KnockOutEZ/wigolo MCP server: KnockOutEZ/wigolo MCP server: health 97/100 (Healthy), 5,568 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/openclaw-peekaboo.html — openclaw/Peekaboo MCP server: openclaw/Peekaboo MCP server: health 97/100 (Healthy), 5,549 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/callstack-agent-device.html — callstack/agent-device MCP server: callstack/agent-device MCP server: health 97/100 (Healthy), 5,526 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/vitali87-code-graph-rag.html — vitali87/code-graph-rag MCP server: vitali87/code-graph-rag MCP server: health 97/100 (Healthy), 5,449 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/atilaahmettaner-tradingview-mcp.html — atilaahmettaner/tradingview-mcp MCP server: atilaahmettaner/tradingview-mcp MCP server: health 97/100 (Healthy), 5,346 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/exa-labs-exa-mcp-server.html — exa-labs/exa-mcp-server MCP server: exa-labs/exa-mcp-server MCP server: health 97/100 (Healthy), 5,274 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/makenotion-notion-mcp-server.html — makenotion/notion-mcp-server MCP server: makenotion/notion-mcp-server MCP server: health 97/100 (Healthy), 4,727 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/codegraphcontext-codegraphcontext.html — CodeGraphContext/CodeGraphContext MCP server: CodeGraphContext/CodeGraphContext MCP server: health 97/100 (Healthy), 4,453 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/samuelgursky-davinci-resolve-mcp.html — samuelgursky/davinci-resolve-mcp MCP server: samuelgursky/davinci-resolve-mcp MCP server: health 97/100 (Healthy), 4,444 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/haris-musa-excel-mcp-server.html — haris-musa/excel-mcp-server MCP server: haris-musa/excel-mcp-server MCP server: health 97/100 (Healthy), 4,327 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/stickerdaniel-linkedin-mcp-server.html — stickerdaniel/linkedin-mcp-server MCP server: stickerdaniel/linkedin-mcp-server MCP server: health 97/100 (Healthy), 4,321 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/googleanalytics-google-analytics-mcp.html — googleanalytics/google-analytics-mcp MCP server: googleanalytics/google-analytics-mcp MCP server: health 97/100 (Healthy), 3,882 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/minidoracat-mcp-feedback-enhanced.html — Minidoracat/mcp-feedback-enhanced MCP server: Minidoracat/mcp-feedback-enhanced MCP server: health 97/100 (Healthy), 3,747 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/hi-godot-godot-ai.html — hi-godot/godot-ai MCP server: hi-godot/godot-ai MCP server: health 97/100 (Healthy), 3,721 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/taylorwilsdon-google_workspace_mcp.html — taylorwilsdon/google_workspace_mcp MCP server: taylorwilsdon/google_workspace_mcp MCP server: health 97/100 (Healthy), 3,596 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/punitarani-fli.html — punitarani/fli MCP server: punitarani/fli MCP server: health 97/100 (Healthy), 3,520 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/crystaldba-postgres-mcp.html — crystaldba/postgres-mcp MCP server: crystaldba/postgres-mcp MCP server: health 97/100 (Healthy), 3,502 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/neka-nat-freecad-mcp.html — neka-nat/freecad-mcp MCP server: neka-nat/freecad-mcp MCP server: health 97/100 (Healthy), 3,499 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/southleft-figma-console-mcp.html — southleft/figma-console-mcp MCP server: southleft/figma-console-mcp MCP server: health 97/100 (Healthy), 3,449 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/vibheksoni-stealth-browser-mcp.html — vibheksoni/stealth-browser-mcp MCP server: vibheksoni/stealth-browser-mcp MCP server: health 97/100 (Healthy), 3,390 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/blazickjp-arxiv-mcp-server.html — blazickjp/arxiv-mcp-server MCP server: blazickjp/arxiv-mcp-server MCP server: health 97/100 (Healthy), 3,303 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/zcaceres-markdownify-mcp.html — zcaceres/markdownify-mcp MCP server: zcaceres/markdownify-mcp MCP server: health 97/100 (Healthy), 3,008 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/chrisryugj-korean-law-mcp.html — chrisryugj/korean-law-mcp MCP server: chrisryugj/korean-law-mcp MCP server: health 97/100 (Healthy), 2,940 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/dgunning-edgartools.html — dgunning/edgartools MCP server: dgunning/edgartools MCP server: health 97/100 (Healthy), 2,886 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jgravelle-jcodemunch-mcp.html — jgravelle/jcodemunch-mcp MCP server: jgravelle/jcodemunch-mcp MCP server: health 97/100 (Healthy), 2,872 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/brightdata-brightdata-mcp.html — brightdata/brightdata-mcp MCP server: brightdata/brightdata-mcp MCP server: health 97/100 (Healthy), 2,739 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/yctimlin-mcp_excalidraw.html — yctimlin/mcp_excalidraw MCP server: yctimlin/mcp_excalidraw MCP server: health 97/100 (Healthy), 2,692 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/perplexityai-modelcontextprotocol.html — perplexityai/modelcontextprotocol MCP server: perplexityai/modelcontextprotocol MCP server: health 97/100 (Healthy), 2,661 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/tavily-ai-tavily-mcp.html — tavily-ai/tavily-mcp MCP server: tavily-ai/tavily-mcp MCP server: health 97/100 (Healthy), 2,502 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jamubc-gemini-mcp-tool.html — jamubc/gemini-mcp-tool MCP server: jamubc/gemini-mcp-tool MCP server: health 97/100 (Healthy), 2,310 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/aminforou-mcp-gsc.html — AminForou/mcp-gsc MCP server: AminForou/mcp-gsc MCP server: health 97/100 (Healthy), 2,299 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/joshuayoes-ios-simulator-mcp.html — joshuayoes/ios-simulator-mcp MCP server: joshuayoes/ios-simulator-mcp MCP server: health 97/100 (Healthy), 2,239 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/doobidoo-mcp-memory-service.html — doobidoo/mcp-memory-service MCP server: doobidoo/mcp-memory-service MCP server: health 97/100 (Healthy), 2,158 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/zereight-gitlab-mcp.html — zereight/gitlab-mcp MCP server: zereight/gitlab-mcp MCP server: health 97/100 (Healthy), 2,128 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/microsoft-azure-devops-mcp.html — microsoft/azure-devops-mcp MCP server: microsoft/azure-devops-mcp MCP server: health 97/100 (Healthy), 2,097 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/arabold-docs-mcp-server.html — arabold/docs-mcp-server MCP server: arabold/docs-mcp-server MCP server: health 97/100 (Healthy), 1,921 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/bitbonsai-mcpvault.html — bitbonsai/mcpvault MCP server: bitbonsai/mcpvault MCP server: health 96/100 (Healthy), 1,732 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/hexrayssa-ida-mcp.html — HexRaysSA/ida-mcp MCP server: HexRaysSA/ida-mcp MCP server: health 96/100 (Healthy), 1,693 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/svnscha-mcp-windbg.html — svnscha/mcp-windbg MCP server: svnscha/mcp-windbg MCP server: health 96/100 (Healthy), 1,679 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/flux159-mcp-server-kubernetes.html — Flux159/mcp-server-kubernetes MCP server: Flux159/mcp-server-kubernetes MCP server: health 96/100 (Healthy), 1,616 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/minimax-ai-minimax-mcp.html — MiniMax-AI/MiniMax-MCP MCP server: MiniMax-AI/MiniMax-MCP MCP server: health 96/100 (Healthy), 1,615 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/brave-brave-search-mcp-server.html — brave/brave-search-mcp-server MCP server: brave/brave-search-mcp-server MCP server: health 96/100 (Healthy), 1,597 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/akfamily-aktools.html — akfamily/aktools MCP server: akfamily/aktools MCP server: health 96/100 (Healthy), 1,584 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/robotmcp-ros-mcp-server.html — robotmcp/ros-mcp-server MCP server: robotmcp/ros-mcp-server MCP server: health 96/100 (Healthy), 1,539 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/designcomputer-mysql_mcp_server.html — designcomputer/mysql_mcp_server MCP server: designcomputer/mysql_mcp_server MCP server: health 96/100 (Healthy), 1,424 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/ihor-sokoliuk-mcp-searxng.html — ihor-sokoliuk/mcp-searxng MCP server: ihor-sokoliuk/mcp-searxng MCP server: health 96/100 (Healthy), 1,391 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/datalayer-jupyter-mcp-server.html — datalayer/jupyter-mcp-server MCP server: datalayer/jupyter-mcp-server MCP server: health 96/100 (Healthy), 1,333 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/softeria-ms-365-mcp-server.html — Softeria/ms-365-mcp-server MCP server: Softeria/ms-365-mcp-server MCP server: health 96/100 (Healthy), 1,173 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/alpacahq-alpaca-mcp-server.html — alpacahq/alpaca-mcp-server MCP server: alpacahq/alpaca-mcp-server MCP server: health 96/100 (Healthy), 1,117 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/alisaitteke-photoshop-mcp.html — alisaitteke/photoshop-mcp MCP server: alisaitteke/photoshop-mcp MCP server: health 96/100 (Healthy), 975 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/karanb192-reddit-mcp-buddy.html — karanb192/reddit-mcp-buddy MCP server: karanb192/reddit-mcp-buddy MCP server: health 96/100 (Healthy), 913 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/tufantunc-ssh-mcp.html — tufantunc/ssh-mcp MCP server: tufantunc/ssh-mcp MCP server: health 96/100 (Healthy), 910 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/utensils-mcp-nixos.html — utensils/mcp-nixos MCP server: utensils/mcp-nixos MCP server: health 96/100 (Healthy), 892 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/line-line-bot-mcp-server.html — line/line-bot-mcp-server MCP server: line/line-bot-mcp-server MCP server: health 96/100 (Healthy), 807 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/docling-project-docling-mcp.html — docling-project/docling-mcp MCP server: docling-project/docling-mcp MCP server: health 96/100 (Healthy), 806 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/cyanheads-obsidian-mcp-server.html — cyanheads/obsidian-mcp-server MCP server: cyanheads/obsidian-mcp-server MCP server: health 96/100 (Healthy), 719 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/rekklesna-proxmoxmcp-plus.html — RekklesNA/ProxmoxMCP-Plus MCP server: RekklesNA/ProxmoxMCP-Plus MCP server: health 96/100 (Healthy), 669 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/neondatabase-mcp-server-neon.html — neondatabase/mcp-server-neon MCP server: neondatabase/mcp-server-neon MCP server: health 96/100 (Healthy), 667 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/stumason-coolify-mcp.html — StuMason/coolify-mcp MCP server: StuMason/coolify-mcp MCP server: health 96/100 (Healthy), 631 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/dbt-labs-dbt-mcp.html — dbt-labs/dbt-mcp MCP server: dbt-labs/dbt-mcp MCP server: health 96/100 (Healthy), 625 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mozilla-firefox-devtools-mcp.html — mozilla/firefox-devtools-mcp MCP server: mozilla/firefox-devtools-mcp MCP server: health 96/100 (Healthy), 617 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/argoproj-labs-mcp-for-argocd.html — argoproj-labs/mcp-for-argocd MCP server: argoproj-labs/mcp-for-argocd MCP server: health 96/100 (Healthy), 609 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/doist-todoist-mcp.html — Doist/todoist-mcp MCP server: Doist/todoist-mcp MCP server: health 96/100 (Healthy), 568 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/bvisible-mcp-ssh-manager.html — bvisible/mcp-ssh-manager MCP server: bvisible/mcp-ssh-manager MCP server: health 95/100 (Healthy), 552 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/motherduckdb-mcp-server-motherduck.html — motherduckdb/mcp-server-motherduck MCP server: motherduckdb/mcp-server-motherduck MCP server: health 95/100 (Healthy), 544 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/pab1it0-prometheus-mcp-server.html — pab1it0/prometheus-mcp-server MCP server: pab1it0/prometheus-mcp-server MCP server: health 95/100 (Healthy), 525 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jkawamoto-mcp-youtube-transcript.html — jkawamoto/mcp-youtube-transcript MCP server: jkawamoto/mcp-youtube-transcript MCP server: health 95/100 (Healthy), 502 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mapbox-mcp-server.html — mapbox/mcp-server MCP server: mapbox/mcp-server MCP server: health 95/100 (Healthy), 375 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/21st-dev-magic-mcp.html — 21st-dev/magic-mcp MCP server: 21st-dev/magic-mcp MCP server: health 88/100 (Healthy), 6,680 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jpisnice-shadcn-ui-mcp-server.html — Jpisnice/shadcn-ui-mcp-server MCP server: Jpisnice/shadcn-ui-mcp-server MCP server: health 87/100 (Healthy), 3,113 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/zhizhuodemao-js-reverse-mcp.html — zhizhuodemao/js-reverse-mcp MCP server: zhizhuodemao/js-reverse-mcp MCP server: health 87/100 (Healthy), 3,099 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/nickclyde-duckduckgo-mcp-server.html — nickclyde/duckduckgo-mcp-server MCP server: nickclyde/duckduckgo-mcp-server MCP server: health 86/100 (Healthy), 1,590 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/upstash-context7.html — upstash/context7 MCP server: upstash/context7 MCP server: health 80/100 (Healthy), 65,532 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/deusdata-codebase-memory-mcp.html — DeusData/codebase-memory-mcp MCP server: DeusData/codebase-memory-mcp MCP server: health 79/100 (Healthy), 49,234 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/github-github-mcp-server.html — github/github-mcp-server MCP server: github/github-mcp-server MCP server: health 79/100 (Healthy), 34,794 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/xpzouying-xiaohongshu-mcp.html — xpzouying/xiaohongshu-mcp MCP server: xpzouying/xiaohongshu-mcp MCP server: health 78/100 (Healthy), 17,352 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/googleapis-mcp-toolbox.html — googleapis/mcp-toolbox MCP server: googleapis/mcp-toolbox MCP server: health 78/100 (Healthy), 16,969 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/coplaydev-unity-mcp.html — CoplayDev/unity-mcp MCP server: CoplayDev/unity-mcp MCP server: health 78/100 (Healthy), 16,230 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/awslabs-mcp.html — awslabs/mcp MCP server: awslabs/mcp MCP server: health 78/100 (Healthy), 9,961 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/agentdeskai-browser-tools-mcp.html — AgentDeskAI/browser-tools-mcp MCP server: AgentDeskAI/browser-tools-mcp MCP server: health 78/100 (Healthy), 7,343 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/bethington-ghidra-mcp.html — bethington/ghidra-mcp MCP server: bethington/ghidra-mcp MCP server: health 78/100 (Healthy), 6,377 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/jgraph-drawio-mcp.html — jgraph/drawio-mcp MCP server: jgraph/drawio-mcp MCP server: health 78/100 (Healthy), 5,903 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/executeautomation-mcp-playwright.html — executeautomation/mcp-playwright MCP server: executeautomation/mcp-playwright MCP server: health 78/100 (Healthy), 5,683 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/clidey-whodb.html — clidey/whodb MCP server: clidey/whodb MCP server: health 77/100 (Healthy), 5,071 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/ivanmurzak-unity-mcp.html — IvanMurzak/Unity-MCP MCP server: IvanMurzak/Unity-MCP MCP server: health 77/100 (Healthy), 4,705 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/antvis-mcp-server-chart.html — antvis/mcp-server-chart MCP server: antvis/mcp-server-chart MCP server: health 77/100 (Healthy), 4,424 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/skyhook-io-radar.html — skyhook-io/radar MCP server: skyhook-io/radar MCP server: health 77/100 (Healthy), 4,244 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/bytebase-dbhub.html — bytebase/dbhub MCP server: bytebase/dbhub MCP server: health 77/100 (Healthy), 4,004 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/microsoft-mcp.html — microsoft/mcp MCP server: microsoft/mcp MCP server: health 77/100 (Healthy), 3,897 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/grafana-mcp-grafana.html — grafana/mcp-grafana MCP server: grafana/mcp-grafana MCP server: health 77/100 (Healthy), 3,705 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/laravel-boost.html — laravel/boost MCP server: laravel/boost MCP server: health 77/100 (Healthy), 3,697 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/aws-agent-toolkit-for-aws.html — aws/agent-toolkit-for-aws MCP server: aws/agent-toolkit-for-aws MCP server: health 77/100 (Healthy), 3,594 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mixelpixx-kicad-mcp-server.html — mixelpixx/KiCAD-MCP-Server MCP server: mixelpixx/KiCAD-MCP-Server MCP server: health 77/100 (Healthy), 3,584 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/software-mansion-argent.html — software-mansion/argent MCP server: software-mansion/argent MCP server: health 77/100 (Healthy), 3,258 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/coddingtonbear-obsidian-local-rest-api.html — coddingtonbear/obsidian-local-rest-api MCP server: coddingtonbear/obsidian-local-rest-api MCP server: health 77/100 (Healthy), 3,205 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/supabase-mcp.html — supabase/mcp MCP server: supabase/mcp MCP server: health 77/100 (Healthy), 3,024 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/duty1g-x64dbg-mcp-server.html — duty1g/x64dbg-mcp-server MCP server: duty1g/x64dbg-mcp-server MCP server: health 77/100 (Healthy), 2,883 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/0xmassi-webclaw.html — 0xMassi/webclaw MCP server: 0xMassi/webclaw MCP server: health 77/100 (Healthy), 2,452 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/containers-kubernetes-mcp-server.html — containers/kubernetes-mcp-server MCP server: containers/kubernetes-mcp-server MCP server: health 77/100 (Healthy), 2,289 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/benborla-mcp-server-mysql.html — benborla/mcp-server-mysql MCP server: benborla/mcp-server-mysql MCP server: health 77/100 (Healthy), 2,229 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/chigwell-telegram-mcp.html — chigwell/telegram-mcp MCP server: chigwell/telegram-mcp MCP server: health 77/100 (Healthy), 2,098 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/anysearch-ai-anysearch-mcp-server.html — anysearch-ai/anysearch-mcp-server MCP server: anysearch-ai/anysearch-mcp-server MCP server: health 77/100 (Healthy), 2,070 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/microsoftdocs-mcp.html — MicrosoftDocs/mcp MCP server: MicrosoftDocs/mcp MCP server: health 77/100 (Healthy), 2,010 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mattt-imcp.html — mattt/iMCP MCP server: mattt/iMCP MCP server: health 77/100 (Healthy), 2,008 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/wordpress-mcp-adapter.html — WordPress/mcp-adapter MCP server: WordPress/mcp-adapter MCP server: health 77/100 (Healthy), 1,938 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/matlab-matlab-mcp-server.html — matlab/matlab-mcp-server MCP server: matlab/matlab-mcp-server MCP server: health 77/100 (Healthy), 1,874 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/iwe-org-iwe.html — iwe-org/iwe MCP server: iwe-org/iwe MCP server: health 77/100 (Healthy), 1,846 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/datagouv-datagouv-mcp.html — datagouv/datagouv-mcp MCP server: datagouv/datagouv-mcp MCP server: health 76/100 (Healthy), 1,644 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/qdrant-mcp-server-qdrant.html — qdrant/mcp-server-qdrant MCP server: qdrant/mcp-server-qdrant MCP server: health 76/100 (Healthy), 1,579 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/hashicorp-terraform-mcp-server.html — hashicorp/terraform-mcp-server MCP server: hashicorp/terraform-mcp-server MCP server: health 76/100 (Healthy), 1,563 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/lgazo-drawio-mcp-server.html — lgazo/drawio-mcp-server MCP server: lgazo/drawio-mcp-server MCP server: health 76/100 (Healthy), 1,503 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/fastcrw-crw.html — fastcrw/crw MCP server: fastcrw/crw MCP server: health 76/100 (Healthy), 1,317 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/microsoft-powerbi-modeling-mcp.html — microsoft/powerbi-modeling-mcp MCP server: microsoft/powerbi-modeling-mcp MCP server: health 76/100 (Healthy), 1,304 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/atlassian-atlassian-mcp-server.html — atlassian/atlassian-mcp-server MCP server: atlassian/atlassian-mcp-server MCP server: health 76/100 (Healthy), 1,195 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/tencentcloudbase-cloudbase-ai-toolkit.html — TencentCloudBase/CloudBase-AI-Toolkit MCP server: TencentCloudBase/CloudBase-AI-Toolkit MCP server: health 76/100 (Healthy), 1,169 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mongodb-js-mongodb-mcp-server.html — mongodb-js/mongodb-mcp-server MCP server: mongodb-js/mongodb-mcp-server MCP server: health 76/100 (Healthy), 1,165 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/chir24-unreal_mcp.html — ChiR24/Unreal_mcp MCP server: ChiR24/Unreal_mcp MCP server: health 76/100 (Healthy), 1,064 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/sbroenne-mcp-server-excel.html — sbroenne/mcp-server-excel MCP server: sbroenne/mcp-server-excel MCP server: health 76/100 (Healthy), 971 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mihai-dinculescu-tapo.html — mihai-dinculescu/tapo MCP server: mihai-dinculescu/tapo MCP server: health 76/100 (Healthy), 881 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/eat-pray-ai-yutu.html — eat-pray-ai/yutu MCP server: eat-pray-ai/yutu MCP server: health 76/100 (Healthy), 738 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/sonarsource-sonarqube-mcp-server.html — SonarSource/sonarqube-mcp-server MCP server: SonarSource/sonarqube-mcp-server MCP server: health 76/100 (Healthy), 696 GitHub stars, last push ≤30d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/tadata-org-fastapi_mcp.html — tadata-org/fastapi_mcp MCP server: tadata-org/fastapi_mcp MCP server: health 73/100 (Stale), 12,031 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/cjo4m06-mcp-shrimp-task-manager.html — cjo4m06/mcp-shrimp-task-manager MCP server: cjo4m06/mcp-shrimp-task-manager MCP server: health 72/100 (Stale), 2,153 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/leonardsellem-n8n-mcp-server.html — leonardsellem/n8n-mcp-server MCP server: leonardsellem/n8n-mcp-server MCP server: health 71/100 (Stale), 1,629 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/lauriewired-ghidramcp.html — LaurieWired/GhidraMCP MCP server: LaurieWired/GhidraMCP MCP server: health 68/100 (Stale), 12,059 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/markuspfundstein-mcp-obsidian.html — MarkusPfundstein/mcp-obsidian MCP server: MarkusPfundstein/mcp-obsidian MCP server: health 67/100 (Stale), 4,555 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/cloudflare-mcp-server-cloudflare.html — cloudflare/mcp-server-cloudflare MCP server: cloudflare/mcp-server-cloudflare MCP server: health 67/100 (Stale), 4,498 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/zinja-coder-jadx-ai-mcp.html — zinja-coder/jadx-ai-mcp MCP server: zinja-coder/jadx-ai-mcp MCP server: health 67/100 (Stale), 3,040 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/6551team-opennews-mcp.html — 6551Team/opennews-mcp MCP server: 6551Team/opennews-mcp MCP server: health 67/100 (Stale), 2,442 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/mukul975-cve-mcp-server.html — mukul975/cve-mcp-server MCP server: mukul975/cve-mcp-server MCP server: health 67/100 (Stale), 1,796 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/intuit-quickbooks-online-mcp-server.html — intuit/quickbooks-online-mcp-server MCP server: intuit/quickbooks-online-mcp-server MCP server: health 65/100 (Stale), 461 GitHub stars, last push 30–90d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/0x4m4-hexstrike-ai.html — 0x4m4/hexstrike-ai MCP server: 0x4m4/hexstrike-ai MCP server: health 58/100 (Stale), 13,949 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/hangwin-mcp-chrome.html — hangwin/mcp-chrome MCP server: hangwin/mcp-chrome MCP server: health 58/100 (Stale), 12,563 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/idosal-git-mcp.html — idosal/git-mcp MCP server: idosal/git-mcp MCP server: health 58/100 (Stale), 8,544 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/grab-cursor-talk-to-figma-mcp.html — grab/cursor-talk-to-figma-mcp MCP server: grab/cursor-talk-to-figma-mcp MCP server: health 58/100 (Stale), 7,133 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/coding-solo-godot-mcp.html — Coding-Solo/godot-mcp MCP server: Coding-Solo/godot-mcp MCP server: health 58/100 (Stale), 6,781 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/excalidraw-excalidraw-mcp.html — excalidraw/excalidraw-mcp MCP server: excalidraw/excalidraw-mcp MCP server: health 58/100 (Stale), 5,710 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/google-mcp.html — google/mcp MCP server: google/mcp MCP server: health 57/100 (Stale), 4,743 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/pimzino-spec-workflow-mcp.html — Pimzino/spec-workflow-mcp MCP server: Pimzino/spec-workflow-mcp MCP server: health 57/100 (Stale), 4,306 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/louislva-claude-peers-mcp.html — louislva/claude-peers-mcp MCP server: louislva/claude-peers-mcp MCP server: health 57/100 (Stale), 2,211 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/korotovsky-slack-mcp-server.html — korotovsky/slack-mcp-server MCP server: korotovsky/slack-mcp-server MCP server: health 57/100 (Stale), 1,906 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/isaacphi-mcp-language-server.html — isaacphi/mcp-language-server MCP server: isaacphi/mcp-language-server MCP server: health 56/100 (Stale), 1,625 GitHub stars, last push 90–365d, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/lharries-whatsapp-mcp.html — lharries/whatsapp-mcp MCP server: lharries/whatsapp-mcp MCP server: health 53/100 (Stale), 6,962 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/financial-datasets-mcp-server.html — financial-datasets/mcp-server MCP server: financial-datasets/mcp-server MCP server: health 52/100 (Stale), 2,330 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/coleam00-mcp-crawl4ai-rag.html — coleam00/mcp-crawl4ai-rag MCP server: coleam00/mcp-crawl4ai-rag MCP server: health 52/100 (Stale), 2,268 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/chongdashu-unreal-mcp.html — chongdashu/unreal-mcp MCP server: chongdashu/unreal-mcp MCP server: health 52/100 (Stale), 2,124 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/noopstudios-interactive-feedback-mcp.html — noopstudios/interactive-feedback-mcp MCP server: noopstudios/interactive-feedback-mcp MCP server: health 51/100 (Stale), 1,702 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/anaisbetts-mcp-installer.html — anaisbetts/mcp-installer MCP server: anaisbetts/mcp-installer MCP server: health 51/100 (Stale), 1,542 GitHub stars, last push >1 year, not archived. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/pleaseprompto-notebooklm-mcp.html — PleasePrompto/notebooklm-mcp MCP server: PleasePrompto/notebooklm-mcp MCP server: health 67/100 (Archived), 3,451 GitHub stars, last push 30–90d, archived on GitHub. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/browserbase-mcp-server-browserbase.html — browserbase/mcp-server-browserbase MCP server: browserbase/mcp-server-browserbase MCP server: health 57/100 (Archived), 3,397 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/gongrzhe-office-word-mcp-server.html — GongRzhe/Office-Word-MCP-Server MCP server: GongRzhe/Office-Word-MCP-Server MCP server: health 57/100 (Archived), 2,114 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/gongrzhe-office-powerpoint-mcp-server.html — GongRzhe/Office-PowerPoint-MCP-Server MCP server: GongRzhe/Office-PowerPoint-MCP-Server MCP server: health 57/100 (Archived), 1,863 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/server/supermemoryai-apple-mcp.html — supermemoryai/apple-mcp MCP server: supermemoryai/apple-mcp MCP server: health 32/100 (Archived), 3,113 GitHub stars, last push >1 year, archived on GitHub. Checked 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/playwright-mcp-vs-chrome-devtools-mcp-vs-browser-tools-mcp.html — playwright-mcp vs chrome-devtools-mcp vs browser-tools-mcp comparison: ChromeDevTools/chrome-devtools-mcp has the highest health score (100/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/playwright-mcp-vs-executeautomation-mcp-playwright.html — playwright-mcp vs mcp-playwright comparison: microsoft/playwright-mcp has the highest health score (99/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/firecrawl-mcp-vs-apify-mcp.html — firecrawl-mcp-server vs apify-mcp-server comparison: apify/apify-mcp-server has the highest health score (99/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/browsermcp-vs-mcp-chrome.html — mcp vs mcp-chrome comparison: BrowserMCP/mcp has the highest health score (98/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/kubernetes-mcp-server-comparison.html — kubernetes-mcp-server vs mcp-server-kubernetes comparison: Flux159/mcp-server-kubernetes has the highest health score (96/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/n8n-mcp-vs-n8n-mcp-server.html — n8n-mcp vs n8n-mcp-server comparison: czlonkowski/n8n-mcp has the highest health score (99/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/database-mcp-toolbox-vs-postgres-mcp-vs-mysql.html — mcp-toolbox vs postgres-mcp vs mcp-server-mysql comparison: crystaldba/postgres-mcp has the highest health score (97/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/figma-context-mcp-vs-cursor-talk-to-figma.html — Figma-Context-MCP vs cursor-talk-to-figma-mcp comparison: GLips/Figma-Context-MCP has the highest health score (98/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/tavily-mcp-vs-brave-search-mcp-vs-exa-mcp.html — tavily-mcp vs brave-search-mcp-server vs exa-mcp-server comparison: Tie on health score: tavily-ai/tavily-mcp and exa-labs/exa-mcp-server (97/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/ghidramcp-vs-ghidra-mcp.html — GhidraMCP vs ghidra-mcp comparison: bethington/ghidra-mcp has the highest health score (78/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/mysql-mcp-server-comparison.html — mcp-server-mysql vs mysql_mcp_server comparison: designcomputer/mysql_mcp_server has the highest health score (96/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/excel-mcp-server-vs-mcp-server-excel.html — excel-mcp-server vs mcp-server-excel comparison: haris-musa/excel-mcp-server has the highest health score (97/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/ida-pro-mcp-vs-ida-mcp.html — ida-pro-mcp vs ida-mcp comparison: mrexodia/ida-pro-mcp has the highest health score (98/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/unreal-mcp-comparison.html — unreal-mcp vs Unreal_mcp comparison: ChiR24/Unreal_mcp has the highest health score (76/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/drawio-mcp-vs-drawio-mcp-server.html — drawio-mcp vs drawio-mcp-server comparison: jgraph/drawio-mcp has the highest health score (78/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/searxng-mcp-vs-duckduckgo-mcp.html — mcp-searxng vs duckduckgo-mcp-server comparison: ihor-sokoliuk/mcp-searxng has the highest health score (96/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/obsidian-mcp-server-vs-mcp-obsidian.html — obsidian-mcp-server vs mcp-obsidian comparison: cyanheads/obsidian-mcp-server has the highest health score (96/100) as of 2026-11-27.
-- https://mcp-status-directory.netlify.app/compare/mcp-atlassian-vs-atlassian-mcp-server.html — mcp-atlassian vs atlassian-mcp-server comparison: sooperset/mcp-atlassian has the highest health score (98/100) as of 2026-11-27.
+- https://mcp-status-directory.netlify.app/server/chromedevtools-chrome-devtools-mcp.html — ChromeDevTools/chrome-devtools-mcp MCP server: ChromeDevTools/chrome-devtools-mcp MCP server: health 100/100 (Healthy), 59,658 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/microsoft-playwright-mcp.html — microsoft/playwright-mcp MCP server: microsoft/playwright-mcp MCP server: health 99/100 (Healthy), 40,230 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/ahujasid-mcp-for-blender.html — ahujasid/mcp-for-blender MCP server: ahujasid/mcp-for-blender MCP server: health 99/100 (Healthy), 36,073 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/oraios-serena.html — oraios/serena MCP server: oraios/serena MCP server: health 99/100 (Healthy), 31,770 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/czlonkowski-n8n-mcp.html — czlonkowski/n8n-mcp MCP server: czlonkowski/n8n-mcp MCP server: health 99/100 (Healthy), 23,317 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/apify-apify-mcp-server.html — apify/apify-mcp-server MCP server: apify/apify-mcp-server MCP server: health 99/100 (Healthy), 18,229 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/glips-figma-context-mcp.html — GLips/Figma-Context-MCP MCP server: GLips/Figma-Context-MCP MCP server: health 98/100 (Healthy), 16,332 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mrexodia-ida-pro-mcp.html — mrexodia/ida-pro-mcp MCP server: mrexodia/ida-pro-mcp MCP server: health 98/100 (Healthy), 13,607 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/cursortouch-windows-mcp.html — CursorTouch/Windows-MCP MCP server: CursorTouch/Windows-MCP MCP server: health 98/100 (Healthy), 12,236 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/beehiveinnovations-pal-mcp-server.html — BeehiveInnovations/pal-mcp-server MCP server: BeehiveInnovations/pal-mcp-server MCP server: health 98/100 (Healthy), 11,865 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mobile-next-mobile-mcp.html — mobile-next/mobile-mcp MCP server: mobile-next/mobile-mcp MCP server: health 98/100 (Healthy), 10,948 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/wonderwhy-er-desktopcommandermcp.html — wonderwhy-er/DesktopCommanderMCP MCP server: wonderwhy-er/DesktopCommanderMCP MCP server: health 98/100 (Healthy), 10,447 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/homeassistant-ai-ha-mcp.html — homeassistant-ai/ha-mcp MCP server: homeassistant-ai/ha-mcp MCP server: health 98/100 (Healthy), 8,154 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/firecrawl-firecrawl-mcp-server.html — firecrawl/firecrawl-mcp-server MCP server: firecrawl/firecrawl-mcp-server MCP server: health 98/100 (Healthy), 7,936 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/browsermcp-mcp.html — BrowserMCP/mcp MCP server: BrowserMCP/mcp MCP server: health 98/100 (Healthy), 7,423 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/getsentry-mobilebuildmcp.html — getsentry/MobileBuildMCP MCP server: getsentry/MobileBuildMCP MCP server: health 98/100 (Healthy), 6,611 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jacob-bd-gemini-notebook-mcp-cli.html — jacob-bd/gemini-notebook-mcp-cli MCP server: jacob-bd/gemini-notebook-mcp-cli MCP server: health 98/100 (Healthy), 6,589 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/minishlab-semble.html — MinishLab/semble MCP server: MinishLab/semble MCP server: health 98/100 (Healthy), 6,501 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/sooperset-mcp-atlassian.html — sooperset/mcp-atlassian MCP server: sooperset/mcp-atlassian MCP server: health 98/100 (Healthy), 6,166 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/54yyyu-zotero-mcp.html — 54yyyu/zotero-mcp MCP server: 54yyyu/zotero-mcp MCP server: health 98/100 (Healthy), 6,102 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/knockoutez-wigolo.html — KnockOutEZ/wigolo MCP server: KnockOutEZ/wigolo MCP server: health 97/100 (Healthy), 5,569 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/openclaw-peekaboo.html — openclaw/Peekaboo MCP server: openclaw/Peekaboo MCP server: health 97/100 (Healthy), 5,556 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/callstack-agent-device.html — callstack/agent-device MCP server: callstack/agent-device MCP server: health 97/100 (Healthy), 5,537 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/vitali87-code-graph-rag.html — vitali87/code-graph-rag MCP server: vitali87/code-graph-rag MCP server: health 97/100 (Healthy), 5,451 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/atilaahmettaner-tradingview-mcp.html — atilaahmettaner/tradingview-mcp MCP server: atilaahmettaner/tradingview-mcp MCP server: health 97/100 (Healthy), 5,345 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/exa-labs-exa-mcp-server.html — exa-labs/exa-mcp-server MCP server: exa-labs/exa-mcp-server MCP server: health 97/100 (Healthy), 5,275 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/makenotion-notion-mcp-server.html — makenotion/notion-mcp-server MCP server: makenotion/notion-mcp-server MCP server: health 97/100 (Healthy), 4,729 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/samuelgursky-davinci-resolve-mcp.html — samuelgursky/davinci-resolve-mcp MCP server: samuelgursky/davinci-resolve-mcp MCP server: health 97/100 (Healthy), 4,465 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/codegraphcontext-codegraphcontext.html — CodeGraphContext/CodeGraphContext MCP server: CodeGraphContext/CodeGraphContext MCP server: health 97/100 (Healthy), 4,456 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/haris-musa-excel-mcp-server.html — haris-musa/excel-mcp-server MCP server: haris-musa/excel-mcp-server MCP server: health 97/100 (Healthy), 4,332 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/stickerdaniel-linkedin-mcp-server.html — stickerdaniel/linkedin-mcp-server MCP server: stickerdaniel/linkedin-mcp-server MCP server: health 97/100 (Healthy), 4,328 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/googleanalytics-google-analytics-mcp.html — googleanalytics/google-analytics-mcp MCP server: googleanalytics/google-analytics-mcp MCP server: health 97/100 (Healthy), 3,888 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/minidoracat-mcp-feedback-enhanced.html — Minidoracat/mcp-feedback-enhanced MCP server: Minidoracat/mcp-feedback-enhanced MCP server: health 97/100 (Healthy), 3,747 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/hi-godot-godot-ai.html — hi-godot/godot-ai MCP server: hi-godot/godot-ai MCP server: health 97/100 (Healthy), 3,739 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/taylorwilsdon-google_workspace_mcp.html — taylorwilsdon/google_workspace_mcp MCP server: taylorwilsdon/google_workspace_mcp MCP server: health 97/100 (Healthy), 3,597 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/punitarani-fli.html — punitarani/fli MCP server: punitarani/fli MCP server: health 97/100 (Healthy), 3,526 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/neka-nat-freecad-mcp.html — neka-nat/freecad-mcp MCP server: neka-nat/freecad-mcp MCP server: health 97/100 (Healthy), 3,506 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/crystaldba-postgres-mcp.html — crystaldba/postgres-mcp MCP server: crystaldba/postgres-mcp MCP server: health 97/100 (Healthy), 3,503 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/southleft-figma-console-mcp.html — southleft/figma-console-mcp MCP server: southleft/figma-console-mcp MCP server: health 97/100 (Healthy), 3,455 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/vibheksoni-stealth-browser-mcp.html — vibheksoni/stealth-browser-mcp MCP server: vibheksoni/stealth-browser-mcp MCP server: health 97/100 (Healthy), 3,393 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/blazickjp-arxiv-mcp-server.html — blazickjp/arxiv-mcp-server MCP server: blazickjp/arxiv-mcp-server MCP server: health 97/100 (Healthy), 3,306 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/zcaceres-markdownify-mcp.html — zcaceres/markdownify-mcp MCP server: zcaceres/markdownify-mcp MCP server: health 97/100 (Healthy), 3,009 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/chrisryugj-korean-law-mcp.html — chrisryugj/korean-law-mcp MCP server: chrisryugj/korean-law-mcp MCP server: health 97/100 (Healthy), 2,941 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/dgunning-edgartools.html — dgunning/edgartools MCP server: dgunning/edgartools MCP server: health 97/100 (Healthy), 2,890 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jgravelle-jcodemunch-mcp.html — jgravelle/jcodemunch-mcp MCP server: jgravelle/jcodemunch-mcp MCP server: health 97/100 (Healthy), 2,873 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/brightdata-brightdata-mcp.html — brightdata/brightdata-mcp MCP server: brightdata/brightdata-mcp MCP server: health 97/100 (Healthy), 2,741 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/yctimlin-mcp_excalidraw.html — yctimlin/mcp_excalidraw MCP server: yctimlin/mcp_excalidraw MCP server: health 97/100 (Healthy), 2,695 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/perplexityai-modelcontextprotocol.html — perplexityai/modelcontextprotocol MCP server: perplexityai/modelcontextprotocol MCP server: health 97/100 (Healthy), 2,663 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/tavily-ai-tavily-mcp.html — tavily-ai/tavily-mcp MCP server: tavily-ai/tavily-mcp MCP server: health 97/100 (Healthy), 2,504 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jamubc-gemini-mcp-tool.html — jamubc/gemini-mcp-tool MCP server: jamubc/gemini-mcp-tool MCP server: health 97/100 (Healthy), 2,311 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/aminforou-mcp-gsc.html — AminForou/mcp-gsc MCP server: AminForou/mcp-gsc MCP server: health 97/100 (Healthy), 2,306 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/joshuayoes-ios-simulator-mcp.html — joshuayoes/ios-simulator-mcp MCP server: joshuayoes/ios-simulator-mcp MCP server: health 97/100 (Healthy), 2,238 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/doobidoo-mcp-memory-service.html — doobidoo/mcp-memory-service MCP server: doobidoo/mcp-memory-service MCP server: health 97/100 (Healthy), 2,163 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/zereight-gitlab-mcp.html — zereight/gitlab-mcp MCP server: zereight/gitlab-mcp MCP server: health 97/100 (Healthy), 2,129 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/microsoft-azure-devops-mcp.html — microsoft/azure-devops-mcp MCP server: microsoft/azure-devops-mcp MCP server: health 97/100 (Healthy), 2,097 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/arabold-docs-mcp-server.html — arabold/docs-mcp-server MCP server: arabold/docs-mcp-server MCP server: health 97/100 (Healthy), 1,922 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/bitbonsai-mcpvault.html — bitbonsai/mcpvault MCP server: bitbonsai/mcpvault MCP server: health 96/100 (Healthy), 1,733 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/hexrayssa-ida-mcp.html — HexRaysSA/ida-mcp MCP server: HexRaysSA/ida-mcp MCP server: health 96/100 (Healthy), 1,697 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/svnscha-mcp-windbg.html — svnscha/mcp-windbg MCP server: svnscha/mcp-windbg MCP server: health 96/100 (Healthy), 1,682 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/flux159-mcp-server-kubernetes.html — Flux159/mcp-server-kubernetes MCP server: Flux159/mcp-server-kubernetes MCP server: health 96/100 (Healthy), 1,615 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/minimax-ai-minimax-mcp.html — MiniMax-AI/MiniMax-MCP MCP server: MiniMax-AI/MiniMax-MCP MCP server: health 96/100 (Healthy), 1,614 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/brave-brave-search-mcp-server.html — brave/brave-search-mcp-server MCP server: brave/brave-search-mcp-server MCP server: health 96/100 (Healthy), 1,601 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/akfamily-aktools.html — akfamily/aktools MCP server: akfamily/aktools MCP server: health 96/100 (Healthy), 1,584 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/robotmcp-ros-mcp-server.html — robotmcp/ros-mcp-server MCP server: robotmcp/ros-mcp-server MCP server: health 96/100 (Healthy), 1,540 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/designcomputer-mysql_mcp_server.html — designcomputer/mysql_mcp_server MCP server: designcomputer/mysql_mcp_server MCP server: health 96/100 (Healthy), 1,424 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/ihor-sokoliuk-mcp-searxng.html — ihor-sokoliuk/mcp-searxng MCP server: ihor-sokoliuk/mcp-searxng MCP server: health 96/100 (Healthy), 1,395 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/datalayer-jupyter-mcp-server.html — datalayer/jupyter-mcp-server MCP server: datalayer/jupyter-mcp-server MCP server: health 96/100 (Healthy), 1,333 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/softeria-ms-365-mcp-server.html — Softeria/ms-365-mcp-server MCP server: Softeria/ms-365-mcp-server MCP server: health 96/100 (Healthy), 1,175 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/alpacahq-alpaca-mcp-server.html — alpacahq/alpaca-mcp-server MCP server: alpacahq/alpaca-mcp-server MCP server: health 96/100 (Healthy), 1,121 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/alisaitteke-photoshop-mcp.html — alisaitteke/photoshop-mcp MCP server: alisaitteke/photoshop-mcp MCP server: health 96/100 (Healthy), 981 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/karanb192-reddit-mcp-buddy.html — karanb192/reddit-mcp-buddy MCP server: karanb192/reddit-mcp-buddy MCP server: health 96/100 (Healthy), 915 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/tufantunc-ssh-mcp.html — tufantunc/ssh-mcp MCP server: tufantunc/ssh-mcp MCP server: health 96/100 (Healthy), 913 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/utensils-mcp-nixos.html — utensils/mcp-nixos MCP server: utensils/mcp-nixos MCP server: health 96/100 (Healthy), 892 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/line-line-bot-mcp-server.html — line/line-bot-mcp-server MCP server: line/line-bot-mcp-server MCP server: health 96/100 (Healthy), 808 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/docling-project-docling-mcp.html — docling-project/docling-mcp MCP server: docling-project/docling-mcp MCP server: health 96/100 (Healthy), 806 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/cyanheads-obsidian-mcp-server.html — cyanheads/obsidian-mcp-server MCP server: cyanheads/obsidian-mcp-server MCP server: health 96/100 (Healthy), 720 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/rekklesna-proxmoxmcp-plus.html — RekklesNA/ProxmoxMCP-Plus MCP server: RekklesNA/ProxmoxMCP-Plus MCP server: health 96/100 (Healthy), 670 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/neondatabase-mcp-server-neon.html — neondatabase/mcp-server-neon MCP server: neondatabase/mcp-server-neon MCP server: health 96/100 (Healthy), 668 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/stumason-coolify-mcp.html — StuMason/coolify-mcp MCP server: StuMason/coolify-mcp MCP server: health 96/100 (Healthy), 632 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/dbt-labs-dbt-mcp.html — dbt-labs/dbt-mcp MCP server: dbt-labs/dbt-mcp MCP server: health 96/100 (Healthy), 626 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mozilla-firefox-devtools-mcp.html — mozilla/firefox-devtools-mcp MCP server: mozilla/firefox-devtools-mcp MCP server: health 96/100 (Healthy), 621 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/argoproj-labs-mcp-for-argocd.html — argoproj-labs/mcp-for-argocd MCP server: argoproj-labs/mcp-for-argocd MCP server: health 96/100 (Healthy), 610 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/doist-todoist-mcp.html — Doist/todoist-mcp MCP server: Doist/todoist-mcp MCP server: health 96/100 (Healthy), 568 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/bvisible-mcp-ssh-manager.html — bvisible/mcp-ssh-manager MCP server: bvisible/mcp-ssh-manager MCP server: health 95/100 (Healthy), 552 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/motherduckdb-mcp-server-motherduck.html — motherduckdb/mcp-server-motherduck MCP server: motherduckdb/mcp-server-motherduck MCP server: health 95/100 (Healthy), 544 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/pab1it0-prometheus-mcp-server.html — pab1it0/prometheus-mcp-server MCP server: pab1it0/prometheus-mcp-server MCP server: health 95/100 (Healthy), 526 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jkawamoto-mcp-youtube-transcript.html — jkawamoto/mcp-youtube-transcript MCP server: jkawamoto/mcp-youtube-transcript MCP server: health 95/100 (Healthy), 502 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mapbox-mcp-server.html — mapbox/mcp-server MCP server: mapbox/mcp-server MCP server: health 95/100 (Healthy), 375 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/21st-dev-magic-mcp.html — 21st-dev/magic-mcp MCP server: 21st-dev/magic-mcp MCP server: health 88/100 (Healthy), 6,688 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jpisnice-shadcn-ui-mcp-server.html — Jpisnice/shadcn-ui-mcp-server MCP server: Jpisnice/shadcn-ui-mcp-server MCP server: health 87/100 (Healthy), 3,114 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/zhizhuodemao-js-reverse-mcp.html — zhizhuodemao/js-reverse-mcp MCP server: zhizhuodemao/js-reverse-mcp MCP server: health 87/100 (Healthy), 3,104 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/nickclyde-duckduckgo-mcp-server.html — nickclyde/duckduckgo-mcp-server MCP server: nickclyde/duckduckgo-mcp-server MCP server: health 86/100 (Healthy), 1,592 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/upstash-context7.html — upstash/context7 MCP server: upstash/context7 MCP server: health 80/100 (Healthy), 65,563 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/deusdata-codebase-memory-mcp.html — DeusData/codebase-memory-mcp MCP server: DeusData/codebase-memory-mcp MCP server: health 79/100 (Healthy), 49,266 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/github-github-mcp-server.html — github/github-mcp-server MCP server: github/github-mcp-server MCP server: health 79/100 (Healthy), 34,811 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/xpzouying-xiaohongshu-mcp.html — xpzouying/xiaohongshu-mcp MCP server: xpzouying/xiaohongshu-mcp MCP server: health 78/100 (Healthy), 17,362 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/googleapis-mcp-toolbox.html — googleapis/mcp-toolbox MCP server: googleapis/mcp-toolbox MCP server: health 78/100 (Healthy), 16,977 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/coplaydev-unity-mcp.html — CoplayDev/unity-mcp MCP server: CoplayDev/unity-mcp MCP server: health 78/100 (Healthy), 16,248 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/awslabs-mcp.html — awslabs/mcp MCP server: awslabs/mcp MCP server: health 78/100 (Healthy), 9,962 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/agentdeskai-browser-tools-mcp.html — AgentDeskAI/browser-tools-mcp MCP server: AgentDeskAI/browser-tools-mcp MCP server: health 78/100 (Healthy), 7,344 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/bethington-ghidra-mcp.html — bethington/ghidra-mcp MCP server: bethington/ghidra-mcp MCP server: health 78/100 (Healthy), 6,384 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/jgraph-drawio-mcp.html — jgraph/drawio-mcp MCP server: jgraph/drawio-mcp MCP server: health 78/100 (Healthy), 5,905 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/executeautomation-mcp-playwright.html — executeautomation/mcp-playwright MCP server: executeautomation/mcp-playwright MCP server: health 78/100 (Healthy), 5,684 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/clidey-whodb.html — clidey/whodb MCP server: clidey/whodb MCP server: health 77/100 (Healthy), 5,071 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/ivanmurzak-unity-mcp.html — IvanMurzak/Unity-MCP MCP server: IvanMurzak/Unity-MCP MCP server: health 77/100 (Healthy), 4,712 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/antvis-mcp-server-chart.html — antvis/mcp-server-chart MCP server: antvis/mcp-server-chart MCP server: health 77/100 (Healthy), 4,424 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/skyhook-io-radar.html — skyhook-io/radar MCP server: skyhook-io/radar MCP server: health 77/100 (Healthy), 4,251 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/bytebase-dbhub.html — bytebase/dbhub MCP server: bytebase/dbhub MCP server: health 77/100 (Healthy), 4,010 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/microsoft-mcp.html — microsoft/mcp MCP server: microsoft/mcp MCP server: health 77/100 (Healthy), 3,900 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/grafana-mcp-grafana.html — grafana/mcp-grafana MCP server: grafana/mcp-grafana MCP server: health 77/100 (Healthy), 3,706 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/laravel-boost.html — laravel/boost MCP server: laravel/boost MCP server: health 77/100 (Healthy), 3,698 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mixelpixx-kicad-mcp-server.html — mixelpixx/KiCAD-MCP-Server MCP server: mixelpixx/KiCAD-MCP-Server MCP server: health 77/100 (Healthy), 3,600 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/aws-agent-toolkit-for-aws.html — aws/agent-toolkit-for-aws MCP server: aws/agent-toolkit-for-aws MCP server: health 77/100 (Healthy), 3,597 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/software-mansion-argent.html — software-mansion/argent MCP server: software-mansion/argent MCP server: health 77/100 (Healthy), 3,263 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/coddingtonbear-obsidian-local-rest-api.html — coddingtonbear/obsidian-local-rest-api MCP server: coddingtonbear/obsidian-local-rest-api MCP server: health 77/100 (Healthy), 3,208 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/supabase-mcp.html — supabase/mcp MCP server: supabase/mcp MCP server: health 77/100 (Healthy), 3,026 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/duty1g-x64dbg-mcp-server.html — duty1g/x64dbg-mcp-server MCP server: duty1g/x64dbg-mcp-server MCP server: health 77/100 (Healthy), 2,887 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/0xmassi-webclaw.html — 0xMassi/webclaw MCP server: 0xMassi/webclaw MCP server: health 77/100 (Healthy), 2,454 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/containers-kubernetes-mcp-server.html — containers/kubernetes-mcp-server MCP server: containers/kubernetes-mcp-server MCP server: health 77/100 (Healthy), 2,290 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/benborla-mcp-server-mysql.html — benborla/mcp-server-mysql MCP server: benborla/mcp-server-mysql MCP server: health 77/100 (Healthy), 2,229 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/chigwell-telegram-mcp.html — chigwell/telegram-mcp MCP server: chigwell/telegram-mcp MCP server: health 77/100 (Healthy), 2,103 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/anysearch-ai-anysearch-mcp-server.html — anysearch-ai/anysearch-mcp-server MCP server: anysearch-ai/anysearch-mcp-server MCP server: health 77/100 (Healthy), 2,069 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/microsoftdocs-mcp.html — MicrosoftDocs/mcp MCP server: MicrosoftDocs/mcp MCP server: health 77/100 (Healthy), 2,015 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mattt-imcp.html — mattt/iMCP MCP server: mattt/iMCP MCP server: health 77/100 (Healthy), 2,008 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/wordpress-mcp-adapter.html — WordPress/mcp-adapter MCP server: WordPress/mcp-adapter MCP server: health 77/100 (Healthy), 1,940 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/matlab-matlab-mcp-server.html — matlab/matlab-mcp-server MCP server: matlab/matlab-mcp-server MCP server: health 77/100 (Healthy), 1,883 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/iwe-org-iwe.html — iwe-org/iwe MCP server: iwe-org/iwe MCP server: health 77/100 (Healthy), 1,848 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/datagouv-datagouv-mcp.html — datagouv/datagouv-mcp MCP server: datagouv/datagouv-mcp MCP server: health 76/100 (Healthy), 1,644 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/qdrant-mcp-server-qdrant.html — qdrant/mcp-server-qdrant MCP server: qdrant/mcp-server-qdrant MCP server: health 76/100 (Healthy), 1,580 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/hashicorp-terraform-mcp-server.html — hashicorp/terraform-mcp-server MCP server: hashicorp/terraform-mcp-server MCP server: health 76/100 (Healthy), 1,563 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/lgazo-drawio-mcp-server.html — lgazo/drawio-mcp-server MCP server: lgazo/drawio-mcp-server MCP server: health 76/100 (Healthy), 1,502 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/fastcrw-crw.html — fastcrw/crw MCP server: fastcrw/crw MCP server: health 76/100 (Healthy), 1,323 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/microsoft-powerbi-modeling-mcp.html — microsoft/powerbi-modeling-mcp MCP server: microsoft/powerbi-modeling-mcp MCP server: health 76/100 (Healthy), 1,307 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/atlassian-atlassian-mcp-server.html — atlassian/atlassian-mcp-server MCP server: atlassian/atlassian-mcp-server MCP server: health 76/100 (Healthy), 1,194 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/tencentcloudbase-cloudbase-ai-toolkit.html — TencentCloudBase/CloudBase-AI-Toolkit MCP server: TencentCloudBase/CloudBase-AI-Toolkit MCP server: health 76/100 (Healthy), 1,170 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mongodb-js-mongodb-mcp-server.html — mongodb-js/mongodb-mcp-server MCP server: mongodb-js/mongodb-mcp-server MCP server: health 76/100 (Healthy), 1,165 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/chir24-unreal_mcp.html — ChiR24/Unreal_mcp MCP server: ChiR24/Unreal_mcp MCP server: health 76/100 (Healthy), 1,065 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/sbroenne-mcp-server-excel.html — sbroenne/mcp-server-excel MCP server: sbroenne/mcp-server-excel MCP server: health 76/100 (Healthy), 971 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mihai-dinculescu-tapo.html — mihai-dinculescu/tapo MCP server: mihai-dinculescu/tapo MCP server: health 76/100 (Healthy), 881 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/eat-pray-ai-yutu.html — eat-pray-ai/yutu MCP server: eat-pray-ai/yutu MCP server: health 76/100 (Healthy), 739 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/sonarsource-sonarqube-mcp-server.html — SonarSource/sonarqube-mcp-server MCP server: SonarSource/sonarqube-mcp-server MCP server: health 76/100 (Healthy), 696 GitHub stars, last push ≤30d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/tadata-org-fastapi_mcp.html — tadata-org/fastapi_mcp MCP server: tadata-org/fastapi_mcp MCP server: health 73/100 (Stale), 12,031 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/cjo4m06-mcp-shrimp-task-manager.html — cjo4m06/mcp-shrimp-task-manager MCP server: cjo4m06/mcp-shrimp-task-manager MCP server: health 72/100 (Stale), 2,153 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/leonardsellem-n8n-mcp-server.html — leonardsellem/n8n-mcp-server MCP server: leonardsellem/n8n-mcp-server MCP server: health 71/100 (Stale), 1,629 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/lauriewired-ghidramcp.html — LaurieWired/GhidraMCP MCP server: LaurieWired/GhidraMCP MCP server: health 68/100 (Stale), 12,068 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/markuspfundstein-mcp-obsidian.html — MarkusPfundstein/mcp-obsidian MCP server: MarkusPfundstein/mcp-obsidian MCP server: health 67/100 (Stale), 4,555 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/cloudflare-mcp-server-cloudflare.html — cloudflare/mcp-server-cloudflare MCP server: cloudflare/mcp-server-cloudflare MCP server: health 67/100 (Stale), 4,500 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/zinja-coder-jadx-ai-mcp.html — zinja-coder/jadx-ai-mcp MCP server: zinja-coder/jadx-ai-mcp MCP server: health 67/100 (Stale), 3,040 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/6551team-opennews-mcp.html — 6551Team/opennews-mcp MCP server: 6551Team/opennews-mcp MCP server: health 67/100 (Stale), 2,442 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/mukul975-cve-mcp-server.html — mukul975/cve-mcp-server MCP server: mukul975/cve-mcp-server MCP server: health 67/100 (Stale), 1,797 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/intuit-quickbooks-online-mcp-server.html — intuit/quickbooks-online-mcp-server MCP server: intuit/quickbooks-online-mcp-server MCP server: health 65/100 (Stale), 462 GitHub stars, last push 30–90d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/0x4m4-hexstrike-ai.html — 0x4m4/hexstrike-ai MCP server: 0x4m4/hexstrike-ai MCP server: health 58/100 (Stale), 13,968 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/hangwin-mcp-chrome.html — hangwin/mcp-chrome MCP server: hangwin/mcp-chrome MCP server: health 58/100 (Stale), 12,563 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/idosal-git-mcp.html — idosal/git-mcp MCP server: idosal/git-mcp MCP server: health 58/100 (Stale), 8,544 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/grab-cursor-talk-to-figma-mcp.html — grab/cursor-talk-to-figma-mcp MCP server: grab/cursor-talk-to-figma-mcp MCP server: health 58/100 (Stale), 7,134 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/coding-solo-godot-mcp.html — Coding-Solo/godot-mcp MCP server: Coding-Solo/godot-mcp MCP server: health 58/100 (Stale), 6,801 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/excalidraw-excalidraw-mcp.html — excalidraw/excalidraw-mcp MCP server: excalidraw/excalidraw-mcp MCP server: health 58/100 (Stale), 5,711 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/google-mcp.html — google/mcp MCP server: google/mcp MCP server: health 57/100 (Stale), 4,747 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/pimzino-spec-workflow-mcp.html — Pimzino/spec-workflow-mcp MCP server: Pimzino/spec-workflow-mcp MCP server: health 57/100 (Stale), 4,305 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/louislva-claude-peers-mcp.html — louislva/claude-peers-mcp MCP server: louislva/claude-peers-mcp MCP server: health 57/100 (Stale), 2,211 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/korotovsky-slack-mcp-server.html — korotovsky/slack-mcp-server MCP server: korotovsky/slack-mcp-server MCP server: health 57/100 (Stale), 1,905 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/isaacphi-mcp-language-server.html — isaacphi/mcp-language-server MCP server: isaacphi/mcp-language-server MCP server: health 56/100 (Stale), 1,625 GitHub stars, last push 90–365d, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/lharries-whatsapp-mcp.html — lharries/whatsapp-mcp MCP server: lharries/whatsapp-mcp MCP server: health 53/100 (Stale), 6,966 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/financial-datasets-mcp-server.html — financial-datasets/mcp-server MCP server: financial-datasets/mcp-server MCP server: health 52/100 (Stale), 2,331 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/coleam00-mcp-crawl4ai-rag.html — coleam00/mcp-crawl4ai-rag MCP server: coleam00/mcp-crawl4ai-rag MCP server: health 52/100 (Stale), 2,269 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/chongdashu-unreal-mcp.html — chongdashu/unreal-mcp MCP server: chongdashu/unreal-mcp MCP server: health 52/100 (Stale), 2,126 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/noopstudios-interactive-feedback-mcp.html — noopstudios/interactive-feedback-mcp MCP server: noopstudios/interactive-feedback-mcp MCP server: health 51/100 (Stale), 1,702 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/anaisbetts-mcp-installer.html — anaisbetts/mcp-installer MCP server: anaisbetts/mcp-installer MCP server: health 51/100 (Stale), 1,542 GitHub stars, last push >1 year, not archived. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/pleaseprompto-notebooklm-mcp.html — PleasePrompto/notebooklm-mcp MCP server: PleasePrompto/notebooklm-mcp MCP server: health 67/100 (Archived), 3,452 GitHub stars, last push 30–90d, archived on GitHub. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/browserbase-mcp-server-browserbase.html — browserbase/mcp-server-browserbase MCP server: browserbase/mcp-server-browserbase MCP server: health 57/100 (Archived), 3,397 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/gongrzhe-office-word-mcp-server.html — GongRzhe/Office-Word-MCP-Server MCP server: GongRzhe/Office-Word-MCP-Server MCP server: health 57/100 (Archived), 2,114 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/gongrzhe-office-powerpoint-mcp-server.html — GongRzhe/Office-PowerPoint-MCP-Server MCP server: GongRzhe/Office-PowerPoint-MCP-Server MCP server: health 57/100 (Archived), 1,863 GitHub stars, last push 90–365d, archived on GitHub. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/server/supermemoryai-apple-mcp.html — supermemoryai/apple-mcp MCP server: supermemoryai/apple-mcp MCP server: health 32/100 (Archived), 3,113 GitHub stars, last push >1 year, archived on GitHub. Checked 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/playwright-mcp-vs-chrome-devtools-mcp-vs-browser-tools-mcp.html — playwright-mcp vs chrome-devtools-mcp vs browser-tools-mcp comparison: ChromeDevTools/chrome-devtools-mcp has the highest health score (100/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/playwright-mcp-vs-executeautomation-mcp-playwright.html — playwright-mcp vs mcp-playwright comparison: microsoft/playwright-mcp has the highest health score (99/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/firecrawl-mcp-vs-apify-mcp.html — firecrawl-mcp-server vs apify-mcp-server comparison: apify/apify-mcp-server has the highest health score (99/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/browsermcp-vs-mcp-chrome.html — mcp vs mcp-chrome comparison: BrowserMCP/mcp has the highest health score (98/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/kubernetes-mcp-server-comparison.html — kubernetes-mcp-server vs mcp-server-kubernetes comparison: Flux159/mcp-server-kubernetes has the highest health score (96/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/n8n-mcp-vs-n8n-mcp-server.html — n8n-mcp vs n8n-mcp-server comparison: czlonkowski/n8n-mcp has the highest health score (99/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/database-mcp-toolbox-vs-postgres-mcp-vs-mysql.html — mcp-toolbox vs postgres-mcp vs mcp-server-mysql comparison: crystaldba/postgres-mcp has the highest health score (97/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/figma-context-mcp-vs-cursor-talk-to-figma.html — Figma-Context-MCP vs cursor-talk-to-figma-mcp comparison: GLips/Figma-Context-MCP has the highest health score (98/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/tavily-mcp-vs-brave-search-mcp-vs-exa-mcp.html — tavily-mcp vs brave-search-mcp-server vs exa-mcp-server comparison: Tie on health score: tavily-ai/tavily-mcp and exa-labs/exa-mcp-server (97/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/ghidramcp-vs-ghidra-mcp.html — GhidraMCP vs ghidra-mcp comparison: bethington/ghidra-mcp has the highest health score (78/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/mysql-mcp-server-comparison.html — mcp-server-mysql vs mysql_mcp_server comparison: designcomputer/mysql_mcp_server has the highest health score (96/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/excel-mcp-server-vs-mcp-server-excel.html — excel-mcp-server vs mcp-server-excel comparison: haris-musa/excel-mcp-server has the highest health score (97/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/ida-pro-mcp-vs-ida-mcp.html — ida-pro-mcp vs ida-mcp comparison: mrexodia/ida-pro-mcp has the highest health score (98/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/unreal-mcp-comparison.html — unreal-mcp vs Unreal_mcp comparison: ChiR24/Unreal_mcp has the highest health score (76/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/drawio-mcp-vs-drawio-mcp-server.html — drawio-mcp vs drawio-mcp-server comparison: jgraph/drawio-mcp has the highest health score (78/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/searxng-mcp-vs-duckduckgo-mcp.html — mcp-searxng vs duckduckgo-mcp-server comparison: ihor-sokoliuk/mcp-searxng has the highest health score (96/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/obsidian-mcp-server-vs-mcp-obsidian.html — obsidian-mcp-server vs mcp-obsidian comparison: cyanheads/obsidian-mcp-server has the highest health score (96/100) as of 2026-11-28.
+- https://mcp-status-directory.netlify.app/compare/mcp-atlassian-vs-atlassian-mcp-server.html — mcp-atlassian vs atlassian-mcp-server comparison: sooperset/mcp-atlassian has the highest health score (98/100) as of 2026-11-28.
 - https://mcp-status-directory.netlify.app/best-mcp-server-for.html — Best MCP server for specific tools: 42 use cases (MySQL, Postgres, Excel, IDA Pro, trading, ROS...) answered from health scores.
 
 ## Servers
@@ -218,7 +218,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Category: browser
 - Health: 100/100 (Healthy), rank #1
-- Stars: 59543
+- Stars: 59658
 - Archived: no
 - Last push: <=30d
 - Package: npm:chrome-devtools-mcp@1.14.0
@@ -229,7 +229,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/microsoft/playwright-mcp
 - Category: browser
 - Health: 99/100 (Healthy), rank #2
-- Stars: 40196
+- Stars: 40230
 - Archived: no
 - Last push: <=30d
 - Package: npm:@playwright/mcp@0.0.86
@@ -240,7 +240,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/ahujasid/mcp-for-blender
 - Category: other
 - Health: 99/100 (Healthy), rank #3
-- Stars: 35956
+- Stars: 36073
 - Archived: no
 - Last push: <=30d
 - Package: pypi:mcp-for-blender@2.3.3
@@ -250,7 +250,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/oraios/serena
 - Category: devtools
 - Health: 99/100 (Healthy), rank #4
-- Stars: 31740
+- Stars: 31770
 - Archived: no
 - Last push: <=30d
 - Package: pypi:serena-agent@2.1.0
@@ -260,17 +260,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/czlonkowski/n8n-mcp
 - Category: productivity
 - Health: 99/100 (Healthy), rank #5
-- Stars: 23316
+- Stars: 23317
 - Archived: no
 - Last push: <=30d
-- Package: npm:n8n-mcp@2.104.0
+- Package: npm:n8n-mcp@2.104.2
 
 ### apify/apify-mcp-server
 - Page: https://mcp-status-directory.netlify.app/server/apify-apify-mcp-server.html
 - GitHub: https://github.com/apify/apify-mcp-server
 - Category: browser
 - Health: 99/100 (Healthy), rank #6
-- Stars: 18098
+- Stars: 18229
 - Archived: no
 - Last push: <=30d
 - Package: npm:@apify/actors-mcp-server@0.23.0
@@ -280,7 +280,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/GLips/Figma-Context-MCP
 - Category: devtools
 - Health: 98/100 (Healthy), rank #7
-- Stars: 16326
+- Stars: 16332
 - Archived: no
 - Last push: <=30d
 - Package: npm:figma-developer-mcp@0.13.2
@@ -290,7 +290,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/mrexodia/ida-pro-mcp
 - Category: devtools
 - Health: 98/100 (Healthy), rank #8
-- Stars: 13598
+- Stars: 13607
 - Archived: no
 - Last push: <=30d
 - Package: pypi:ida-pro-mcp@1.4.0
@@ -300,7 +300,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/CursorTouch/Windows-MCP
 - Category: other
 - Health: 98/100 (Healthy), rank #9
-- Stars: 12200
+- Stars: 12236
 - Archived: no
 - Last push: <=30d
 - Package: pypi:windows-mcp@0.9.0
@@ -310,7 +310,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/BeehiveInnovations/pal-mcp-server
 - Category: ai
 - Health: 98/100 (Healthy), rank #10
-- Stars: 11859
+- Stars: 11865
 - Archived: no
 - Last push: <=30d
 - Package: pypi:pal-mcp-server@13.0.0
@@ -320,7 +320,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/mobile-next/mobile-mcp
 - Category: devtools
 - Health: 98/100 (Healthy), rank #11
-- Stars: 10922
+- Stars: 10948
 - Archived: no
 - Last push: <=30d
 - Package: npm:@mobilenext/mobile-mcp@1.0.20
@@ -330,7 +330,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/wonderwhy-er/DesktopCommanderMCP
 - Category: files
 - Health: 98/100 (Healthy), rank #12
-- Stars: 10439
+- Stars: 10447
 - Archived: no
 - Last push: <=30d
 - Package: npm:@wonderwhy-er/desktop-commander@0.3.4
@@ -340,7 +340,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/homeassistant-ai/ha-mcp
 - Category: other
 - Health: 98/100 (Healthy), rank #13
-- Stars: 8141
+- Stars: 8154
 - Archived: no
 - Last push: <=30d
 - Package: pypi:ha-mcp@9.3.0
@@ -350,7 +350,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/firecrawl/firecrawl-mcp-server
 - Category: browser
 - Health: 98/100 (Healthy), rank #14
-- Stars: 7926
+- Stars: 7936
 - Archived: no
 - Last push: <=30d
 - Package: npm:firecrawl-mcp@3.42.0
@@ -361,7 +361,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/BrowserMCP/mcp
 - Category: browser
 - Health: 98/100 (Healthy), rank #15
-- Stars: 7422
+- Stars: 7423
 - Archived: no
 - Last push: <=30d
 - Package: npm:@browsermcp/mcp@2.5.0
@@ -371,7 +371,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/getsentry/MobileBuildMCP
 - Category: devtools
 - Health: 98/100 (Healthy), rank #16
-- Stars: 6606
+- Stars: 6611
 - Archived: no
 - Last push: <=30d
 - Package: npm:mobilebuildmcp@2.7.1
@@ -381,7 +381,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/jacob-bd/gemini-notebook-mcp-cli
 - Category: ai
 - Health: 98/100 (Healthy), rank #17
-- Stars: 6586
+- Stars: 6589
 - Archived: no
 - Last push: <=30d
 - Package: pypi:notebooklm-mcp-cli@0.16.9
@@ -391,7 +391,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/MinishLab/semble
 - Category: devtools
 - Health: 98/100 (Healthy), rank #18
-- Stars: 6497
+- Stars: 6501
 - Archived: no
 - Last push: <=30d
 - Package: pypi:semble@0.7.4
@@ -401,7 +401,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/sooperset/mcp-atlassian
 - Category: productivity
 - Health: 98/100 (Healthy), rank #19
-- Stars: 6164
+- Stars: 6166
 - Archived: no
 - Last push: <=30d
 - Package: pypi:mcp-atlassian@0.24.8
@@ -411,7 +411,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/54yyyu/zotero-mcp
 - Category: productivity
 - Health: 98/100 (Healthy), rank #20
-- Stars: 6082
+- Stars: 6102
 - Archived: no
 - Last push: <=30d
 - Package: pypi:zotero-mcp-server@0.17.4
@@ -421,7 +421,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/KnockOutEZ/wigolo
 - Category: search
 - Health: 97/100 (Healthy), rank #21
-- Stars: 5568
+- Stars: 5569
 - Archived: no
 - Last push: <=30d
 - Package: npm:wigolo@0.3.4
@@ -431,7 +431,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/openclaw/Peekaboo
 - Category: other
 - Health: 97/100 (Healthy), rank #22
-- Stars: 5549
+- Stars: 5556
 - Archived: no
 - Last push: <=30d
 - Package: npm:@steipete/peekaboo@4.9.10
@@ -441,7 +441,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/callstack/agent-device
 - Category: devtools
 - Health: 97/100 (Healthy), rank #23
-- Stars: 5526
+- Stars: 5537
 - Archived: no
 - Last push: <=30d
 - Package: npm:agent-device@0.21.44
@@ -451,7 +451,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/vitali87/code-graph-rag
 - Category: devtools
 - Health: 97/100 (Healthy), rank #24
-- Stars: 5449
+- Stars: 5451
 - Archived: no
 - Last push: <=30d
 - Package: pypi:code-graph-rag@0.7.129
@@ -461,7 +461,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/atilaahmettaner/tradingview-mcp
 - Category: other
 - Health: 97/100 (Healthy), rank #25
-- Stars: 5346
+- Stars: 5345
 - Archived: no
 - Last push: <=30d
 - Package: pypi:tradingview-mcp-server@0.8.1
@@ -471,7 +471,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/exa-labs/exa-mcp-server
 - Category: search
 - Health: 97/100 (Healthy), rank #26
-- Stars: 5274
+- Stars: 5275
 - Archived: no
 - Last push: <=30d
 - Package: npm:exa-mcp-server@3.5.1
@@ -482,39 +482,39 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/makenotion/notion-mcp-server
 - Category: productivity
 - Health: 97/100 (Healthy), rank #27
-- Stars: 4727
+- Stars: 4729
 - Archived: no
 - Last push: <=30d
 - Package: npm:@notionhq/notion-mcp-server@2.6.1
 - Install (verified): {"mcpServers":{"notion":{"command":"npx","args":["-y","@notionhq/notion-mcp-server"]}}}
 - Warning: Package README states this self-hosted server is no longer actively maintained; Notion recommends its hosted Remote Notion MCP.
 
-### CodeGraphContext/CodeGraphContext
-- Page: https://mcp-status-directory.netlify.app/server/codegraphcontext-codegraphcontext.html
-- GitHub: https://github.com/CodeGraphContext/CodeGraphContext
-- Category: devtools
-- Health: 97/100 (Healthy), rank #28
-- Stars: 4453
-- Archived: no
-- Last push: <=30d
-- Package: pypi:codegraphcontext@0.6.13
-
 ### samuelgursky/davinci-resolve-mcp
 - Page: https://mcp-status-directory.netlify.app/server/samuelgursky-davinci-resolve-mcp.html
 - GitHub: https://github.com/samuelgursky/davinci-resolve-mcp
 - Category: other
-- Health: 97/100 (Healthy), rank #29
-- Stars: 4444
+- Health: 97/100 (Healthy), rank #28
+- Stars: 4465
 - Archived: no
 - Last push: <=30d
-- Package: npm:davinci-resolve-mcp@5.6.0
+- Package: npm:davinci-resolve-mcp@5.7.1
+
+### CodeGraphContext/CodeGraphContext
+- Page: https://mcp-status-directory.netlify.app/server/codegraphcontext-codegraphcontext.html
+- GitHub: https://github.com/CodeGraphContext/CodeGraphContext
+- Category: devtools
+- Health: 97/100 (Healthy), rank #29
+- Stars: 4456
+- Archived: no
+- Last push: <=30d
+- Package: pypi:codegraphcontext@0.6.13
 
 ### haris-musa/excel-mcp-server
 - Page: https://mcp-status-directory.netlify.app/server/haris-musa-excel-mcp-server.html
 - GitHub: https://github.com/haris-musa/excel-mcp-server
 - Category: files
 - Health: 97/100 (Healthy), rank #30
-- Stars: 4327
+- Stars: 4332
 - Archived: no
 - Last push: <=30d
 - Package: pypi:excel-mcp-server@2.3.7
@@ -525,7 +525,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/stickerdaniel/linkedin-mcp-server
 - Category: productivity
 - Health: 97/100 (Healthy), rank #31
-- Stars: 4321
+- Stars: 4328
 - Archived: no
 - Last push: <=30d
 - Package: pypi:mcp-server-linkedin@4.31.0
@@ -535,7 +535,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/googleanalytics/google-analytics-mcp
 - Category: productivity
 - Health: 97/100 (Healthy), rank #32
-- Stars: 3882
+- Stars: 3888
 - Archived: no
 - Last push: <=30d
 - Package: pypi:analytics-mcp@1.1.0
@@ -555,7 +555,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/hi-godot/godot-ai
 - Category: other
 - Health: 97/100 (Healthy), rank #34
-- Stars: 3721
+- Stars: 3739
 - Archived: no
 - Last push: <=30d
 - Package: pypi:godot-ai@4.4.2
@@ -565,7 +565,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/taylorwilsdon/google_workspace_mcp
 - Category: productivity
 - Health: 97/100 (Healthy), rank #35
-- Stars: 3596
+- Stars: 3597
 - Archived: no
 - Last push: <=30d
 - Package: pypi:workspace-mcp@2.7.1
@@ -575,47 +575,47 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/punitarani/fli
 - Category: other
 - Health: 97/100 (Healthy), rank #36
-- Stars: 3520
+- Stars: 3526
 - Archived: no
 - Last push: <=30d
 - Package: pypi:flights@0.11.1
-
-### crystaldba/postgres-mcp
-- Page: https://mcp-status-directory.netlify.app/server/crystaldba-postgres-mcp.html
-- GitHub: https://github.com/crystaldba/postgres-mcp
-- Category: databases
-- Health: 97/100 (Healthy), rank #37
-- Stars: 3502
-- Archived: no
-- Last push: <=30d
-- Package: pypi:postgres-mcp@0.3.0
 
 ### neka-nat/freecad-mcp
 - Page: https://mcp-status-directory.netlify.app/server/neka-nat-freecad-mcp.html
 - GitHub: https://github.com/neka-nat/freecad-mcp
 - Category: other
-- Health: 97/100 (Healthy), rank #38
-- Stars: 3499
+- Health: 97/100 (Healthy), rank #37
+- Stars: 3506
 - Archived: no
 - Last push: <=30d
 - Package: pypi:freecad-mcp@0.1.32
+
+### crystaldba/postgres-mcp
+- Page: https://mcp-status-directory.netlify.app/server/crystaldba-postgres-mcp.html
+- GitHub: https://github.com/crystaldba/postgres-mcp
+- Category: databases
+- Health: 97/100 (Healthy), rank #38
+- Stars: 3503
+- Archived: no
+- Last push: <=30d
+- Package: pypi:postgres-mcp@0.3.0
 
 ### southleft/figma-console-mcp
 - Page: https://mcp-status-directory.netlify.app/server/southleft-figma-console-mcp.html
 - GitHub: https://github.com/southleft/figma-console-mcp
 - Category: devtools
 - Health: 97/100 (Healthy), rank #39
-- Stars: 3449
+- Stars: 3455
 - Archived: no
 - Last push: <=30d
-- Package: npm:figma-console-mcp@2.0.0
+- Package: npm:figma-console-mcp@2.1.2
 
 ### vibheksoni/stealth-browser-mcp
 - Page: https://mcp-status-directory.netlify.app/server/vibheksoni-stealth-browser-mcp.html
 - GitHub: https://github.com/vibheksoni/stealth-browser-mcp
 - Category: browser
 - Health: 97/100 (Healthy), rank #40
-- Stars: 3390
+- Stars: 3393
 - Archived: no
 - Last push: <=30d
 - Package: pypi:browserstealthmcp@0.3.4
@@ -625,7 +625,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/blazickjp/arxiv-mcp-server
 - Category: search
 - Health: 97/100 (Healthy), rank #41
-- Stars: 3303
+- Stars: 3306
 - Archived: no
 - Last push: <=30d
 - Package: pypi:arxiv-mcp-server@0.8.2
@@ -635,7 +635,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/zcaceres/markdownify-mcp
 - Category: files
 - Health: 97/100 (Healthy), rank #42
-- Stars: 3008
+- Stars: 3009
 - Archived: no
 - Last push: <=30d
 - Package: npm:mcp-markdownify-server@1.1.0
@@ -645,17 +645,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/chrisryugj/korean-law-mcp
 - Category: other
 - Health: 97/100 (Healthy), rank #43
-- Stars: 2940
+- Stars: 2941
 - Archived: no
 - Last push: <=30d
-- Package: npm:korean-law-mcp@4.15.25
+- Package: npm:korean-law-mcp@4.15.30
 
 ### dgunning/edgartools
 - Page: https://mcp-status-directory.netlify.app/server/dgunning-edgartools.html
 - GitHub: https://github.com/dgunning/edgartools
 - Category: other
 - Health: 97/100 (Healthy), rank #44
-- Stars: 2886
+- Stars: 2890
 - Archived: no
 - Last push: <=30d
 - Package: pypi:edgartools@6.4.0
@@ -665,17 +665,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/jgravelle/jcodemunch-mcp
 - Category: devtools
 - Health: 97/100 (Healthy), rank #45
-- Stars: 2872
+- Stars: 2873
 - Archived: no
 - Last push: <=30d
-- Package: pypi:jcodemunch-mcp@1.108.494
+- Package: pypi:jcodemunch-mcp@1.108.499
 
 ### brightdata/brightdata-mcp
 - Page: https://mcp-status-directory.netlify.app/server/brightdata-brightdata-mcp.html
 - GitHub: https://github.com/brightdata/brightdata-mcp
 - Category: browser
 - Health: 97/100 (Healthy), rank #46
-- Stars: 2739
+- Stars: 2741
 - Archived: no
 - Last push: <=30d
 - Package: npm:@brightdata/mcp@4.10.0
@@ -685,7 +685,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/yctimlin/mcp_excalidraw
 - Category: other
 - Health: 97/100 (Healthy), rank #47
-- Stars: 2692
+- Stars: 2695
 - Archived: no
 - Last push: <=30d
 - Package: npm:mcp-excalidraw-server@2.2.0
@@ -695,7 +695,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/perplexityai/modelcontextprotocol
 - Category: search
 - Health: 97/100 (Healthy), rank #48
-- Stars: 2661
+- Stars: 2663
 - Archived: no
 - Last push: <=30d
 - Package: npm:@perplexity-ai/mcp-server@1.5.0
@@ -705,7 +705,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/tavily-ai/tavily-mcp
 - Category: search
 - Health: 97/100 (Healthy), rank #49
-- Stars: 2502
+- Stars: 2504
 - Archived: no
 - Last push: <=30d
 - Package: npm:tavily-mcp@0.2.22
@@ -715,7 +715,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/jamubc/gemini-mcp-tool
 - Category: ai
 - Health: 97/100 (Healthy), rank #50
-- Stars: 2310
+- Stars: 2311
 - Archived: no
 - Last push: <=30d
 - Package: npm:gemini-mcp-tool@1.1.8
@@ -725,7 +725,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/AminForou/mcp-gsc
 - Category: productivity
 - Health: 97/100 (Healthy), rank #51
-- Stars: 2299
+- Stars: 2306
 - Archived: no
 - Last push: <=30d
 - Package: pypi:mcp-search-console@0.4.2
@@ -735,7 +735,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/joshuayoes/ios-simulator-mcp
 - Category: devtools
 - Health: 97/100 (Healthy), rank #52
-- Stars: 2239
+- Stars: 2238
 - Archived: no
 - Last push: <=30d
 - Package: npm:ios-simulator-mcp@2.2.1
@@ -745,17 +745,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/doobidoo/mcp-memory-service
 - Category: ai
 - Health: 97/100 (Healthy), rank #53
-- Stars: 2158
+- Stars: 2163
 - Archived: no
 - Last push: <=30d
-- Package: pypi:mcp-memory-service@13.0.0
+- Package: pypi:mcp-memory-service@13.1.0
 
 ### zereight/gitlab-mcp
 - Page: https://mcp-status-directory.netlify.app/server/zereight-gitlab-mcp.html
 - GitHub: https://github.com/zereight/gitlab-mcp
 - Category: devtools
 - Health: 97/100 (Healthy), rank #54
-- Stars: 2128
+- Stars: 2129
 - Archived: no
 - Last push: <=30d
 - Package: npm:@zereight/mcp-gitlab@3.1.0
@@ -775,7 +775,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/arabold/docs-mcp-server
 - Category: devtools
 - Health: 97/100 (Healthy), rank #56
-- Stars: 1921
+- Stars: 1922
 - Archived: no
 - Last push: <=30d
 - Package: npm:@arabold/docs-mcp-server@3.5.0
@@ -785,7 +785,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/bitbonsai/mcpvault
 - Category: productivity
 - Health: 96/100 (Healthy), rank #57
-- Stars: 1732
+- Stars: 1733
 - Archived: no
 - Last push: <=30d
 - Package: npm:@bitbonsai/mcpvault@0.18.4
@@ -795,7 +795,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/HexRaysSA/ida-mcp
 - Category: devtools
 - Health: 96/100 (Healthy), rank #58
-- Stars: 1693
+- Stars: 1697
 - Archived: no
 - Last push: <=30d
 - Package: npm:ida-mcp@20260924.0.1
@@ -805,7 +805,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/svnscha/mcp-windbg
 - Category: devtools
 - Health: 96/100 (Healthy), rank #59
-- Stars: 1679
+- Stars: 1682
 - Archived: no
 - Last push: <=30d
 - Package: pypi:mcp-windbg@1.6.0
@@ -815,7 +815,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/Flux159/mcp-server-kubernetes
 - Category: cloud
 - Health: 96/100 (Healthy), rank #60
-- Stars: 1616
+- Stars: 1615
 - Archived: no
 - Last push: <=30d
 - Package: npm:mcp-server-kubernetes@4.2.3
@@ -825,7 +825,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/MiniMax-AI/MiniMax-MCP
 - Category: ai
 - Health: 96/100 (Healthy), rank #61
-- Stars: 1615
+- Stars: 1614
 - Archived: no
 - Last push: <=30d
 - Package: pypi:minimax-mcp@0.0.20
@@ -835,7 +835,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/brave/brave-search-mcp-server
 - Category: search
 - Health: 96/100 (Healthy), rank #62
-- Stars: 1597
+- Stars: 1601
 - Archived: no
 - Last push: <=30d
 - Package: npm:@brave/brave-search-mcp-server@2.2.0
@@ -855,7 +855,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/robotmcp/ros-mcp-server
 - Category: other
 - Health: 96/100 (Healthy), rank #64
-- Stars: 1539
+- Stars: 1540
 - Archived: no
 - Last push: <=30d
 - Package: pypi:ros-mcp@3.1.2
@@ -875,7 +875,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/ihor-sokoliuk/mcp-searxng
 - Category: search
 - Health: 96/100 (Healthy), rank #66
-- Stars: 1391
+- Stars: 1395
 - Archived: no
 - Last push: <=30d
 - Package: npm:mcp-searxng@2.12.0
@@ -895,17 +895,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/Softeria/ms-365-mcp-server
 - Category: productivity
 - Health: 96/100 (Healthy), rank #68
-- Stars: 1173
+- Stars: 1175
 - Archived: no
 - Last push: <=30d
-- Package: npm:@softeria/ms-365-mcp-server@0.191.2
+- Package: npm:@softeria/ms-365-mcp-server@0.193.0
 
 ### alpacahq/alpaca-mcp-server
 - Page: https://mcp-status-directory.netlify.app/server/alpacahq-alpaca-mcp-server.html
 - GitHub: https://github.com/alpacahq/alpaca-mcp-server
 - Category: other
 - Health: 96/100 (Healthy), rank #69
-- Stars: 1117
+- Stars: 1121
 - Archived: no
 - Last push: <=30d
 - Package: pypi:alpaca-mcp-server@2.4.1
@@ -915,7 +915,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/alisaitteke/photoshop-mcp
 - Category: other
 - Health: 96/100 (Healthy), rank #70
-- Stars: 975
+- Stars: 981
 - Archived: no
 - Last push: <=30d
 - Package: npm:@alisaitteke/photoshop-mcp@1.7.38
@@ -925,7 +925,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/karanb192/reddit-mcp-buddy
 - Category: search
 - Health: 96/100 (Healthy), rank #71
-- Stars: 913
+- Stars: 915
 - Archived: no
 - Last push: <=30d
 - Package: npm:reddit-mcp-buddy@1.3.0
@@ -935,7 +935,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/tufantunc/ssh-mcp
 - Category: devtools
 - Health: 96/100 (Healthy), rank #72
-- Stars: 910
+- Stars: 913
 - Archived: no
 - Last push: <=30d
 - Package: npm:ssh-mcp@2.29.0
@@ -955,7 +955,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/line/line-bot-mcp-server
 - Category: productivity
 - Health: 96/100 (Healthy), rank #74
-- Stars: 807
+- Stars: 808
 - Archived: no
 - Last push: <=30d
 - Package: npm:@line/line-bot-mcp-server@0.5.0
@@ -975,7 +975,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/cyanheads/obsidian-mcp-server
 - Category: productivity
 - Health: 96/100 (Healthy), rank #76
-- Stars: 719
+- Stars: 720
 - Archived: no
 - Last push: <=30d
 - Package: npm:obsidian-mcp-server@3.9.0
@@ -985,7 +985,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/RekklesNA/ProxmoxMCP-Plus
 - Category: cloud
 - Health: 96/100 (Healthy), rank #77
-- Stars: 669
+- Stars: 670
 - Archived: no
 - Last push: <=30d
 - Package: pypi:proxmox-mcp-plus@0.7.4
@@ -995,7 +995,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/neondatabase/mcp-server-neon
 - Category: databases
 - Health: 96/100 (Healthy), rank #78
-- Stars: 667
+- Stars: 668
 - Archived: no
 - Last push: <=30d
 - Package: npm:@neondatabase/mcp-server-neon@0.6.5
@@ -1005,7 +1005,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/StuMason/coolify-mcp
 - Category: cloud
 - Health: 96/100 (Healthy), rank #79
-- Stars: 631
+- Stars: 632
 - Archived: no
 - Last push: <=30d
 - Package: npm:@masonator/coolify-mcp@3.10.1
@@ -1015,7 +1015,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/dbt-labs/dbt-mcp
 - Category: databases
 - Health: 96/100 (Healthy), rank #80
-- Stars: 625
+- Stars: 626
 - Archived: no
 - Last push: <=30d
 - Package: pypi:dbt-mcp@2.10.3
@@ -1025,17 +1025,17 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/mozilla/firefox-devtools-mcp
 - Category: browser
 - Health: 96/100 (Healthy), rank #81
-- Stars: 617
+- Stars: 621
 - Archived: no
 - Last push: <=30d
-- Package: npm:@mozilla/firefox-devtools-mcp@0.11.0
+- Package: npm:@mozilla/firefox-devtools-mcp@0.11.1
 
 ### argoproj-labs/mcp-for-argocd
 - Page: https://mcp-status-directory.netlify.app/server/argoproj-labs-mcp-for-argocd.html
 - GitHub: https://github.com/argoproj-labs/mcp-for-argocd
 - Category: cloud
 - Health: 96/100 (Healthy), rank #82
-- Stars: 609
+- Stars: 610
 - Archived: no
 - Last push: <=30d
 - Package: npm:argocd-mcp@0.9.0
@@ -1058,7 +1058,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - Stars: 552
 - Archived: no
 - Last push: <=30d
-- Package: npm:mcp-ssh-manager@4.4.0
+- Package: npm:mcp-ssh-manager@4.4.1
 
 ### motherduckdb/mcp-server-motherduck
 - Page: https://mcp-status-directory.netlify.app/server/motherduckdb-mcp-server-motherduck.html
@@ -1075,7 +1075,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/pab1it0/prometheus-mcp-server
 - Category: cloud
 - Health: 95/100 (Healthy), rank #86
-- Stars: 525
+- Stars: 526
 - Archived: no
 - Last push: <=30d
 - Package: pypi:prometheus-mcp-server@1.6.2
@@ -1105,7 +1105,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/21st-dev/magic-mcp
 - Category: devtools
 - Health: 88/100 (Healthy), rank #89
-- Stars: 6680
+- Stars: 6688
 - Archived: no
 - Last push: 30-90d
 - Package: npm:@21st-dev/magic@0.2.3
@@ -1115,7 +1115,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/Jpisnice/shadcn-ui-mcp-server
 - Category: devtools
 - Health: 87/100 (Healthy), rank #90
-- Stars: 3113
+- Stars: 3114
 - Archived: no
 - Last push: 30-90d
 - Package: npm:@jpisnice/shadcn-ui-mcp-server@3.0.0
@@ -1125,7 +1125,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/zhizhuodemao/js-reverse-mcp
 - Category: browser
 - Health: 87/100 (Healthy), rank #91
-- Stars: 3099
+- Stars: 3104
 - Archived: no
 - Last push: 30-90d
 - Package: npm:js-reverse-mcp@4.0.5
@@ -1135,7 +1135,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/nickclyde/duckduckgo-mcp-server
 - Category: search
 - Health: 86/100 (Healthy), rank #92
-- Stars: 1590
+- Stars: 1592
 - Archived: no
 - Last push: 30-90d
 - Package: pypi:duckduckgo-mcp-server@0.7.0
@@ -1145,7 +1145,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/upstash/context7
 - Category: devtools
 - Health: 80/100 (Healthy), rank #93
-- Stars: 65532
+- Stars: 65563
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1155,7 +1155,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/DeusData/codebase-memory-mcp
 - Category: devtools
 - Health: 79/100 (Healthy), rank #94
-- Stars: 49234
+- Stars: 49266
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1165,7 +1165,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/github/github-mcp-server
 - Category: devtools
 - Health: 79/100 (Healthy), rank #95
-- Stars: 34794
+- Stars: 34811
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1175,7 +1175,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/xpzouying/xiaohongshu-mcp
 - Category: other
 - Health: 78/100 (Healthy), rank #96
-- Stars: 17352
+- Stars: 17362
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1185,7 +1185,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/googleapis/mcp-toolbox
 - Category: databases
 - Health: 78/100 (Healthy), rank #97
-- Stars: 16969
+- Stars: 16977
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1195,7 +1195,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/CoplayDev/unity-mcp
 - Category: other
 - Health: 78/100 (Healthy), rank #98
-- Stars: 16230
+- Stars: 16248
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1205,7 +1205,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/awslabs/mcp
 - Category: cloud
 - Health: 78/100 (Healthy), rank #99
-- Stars: 9961
+- Stars: 9962
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1215,7 +1215,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/AgentDeskAI/browser-tools-mcp
 - Category: browser
 - Health: 78/100 (Healthy), rank #100
-- Stars: 7343
+- Stars: 7344
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1225,7 +1225,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/bethington/ghidra-mcp
 - Category: devtools
 - Health: 78/100 (Healthy), rank #101
-- Stars: 6377
+- Stars: 6384
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1235,7 +1235,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/jgraph/drawio-mcp
 - Category: other
 - Health: 78/100 (Healthy), rank #102
-- Stars: 5903
+- Stars: 5905
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1245,7 +1245,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/executeautomation/mcp-playwright
 - Category: browser
 - Health: 78/100 (Healthy), rank #103
-- Stars: 5683
+- Stars: 5684
 - Archived: no
 - Last push: 90-365d
 - Package: npm:@executeautomation/playwright-mcp-server@1.0.12
@@ -1265,7 +1265,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/IvanMurzak/Unity-MCP
 - Category: other
 - Health: 77/100 (Healthy), rank #105
-- Stars: 4705
+- Stars: 4712
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1285,7 +1285,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/skyhook-io/radar
 - Category: cloud
 - Health: 77/100 (Healthy), rank #107
-- Stars: 4244
+- Stars: 4251
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1295,7 +1295,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/bytebase/dbhub
 - Category: databases
 - Health: 77/100 (Healthy), rank #108
-- Stars: 4004
+- Stars: 4010
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1305,7 +1305,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/microsoft/mcp
 - Category: cloud
 - Health: 77/100 (Healthy), rank #109
-- Stars: 3897
+- Stars: 3900
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1315,7 +1315,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/grafana/mcp-grafana
 - Category: cloud
 - Health: 77/100 (Healthy), rank #110
-- Stars: 3705
+- Stars: 3706
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1325,17 +1325,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/laravel/boost
 - Category: devtools
 - Health: 77/100 (Healthy), rank #111
-- Stars: 3697
-- Archived: no
-- Last push: <=30d
-- Package: unchecked
-
-### aws/agent-toolkit-for-aws
-- Page: https://mcp-status-directory.netlify.app/server/aws-agent-toolkit-for-aws.html
-- GitHub: https://github.com/aws/agent-toolkit-for-aws
-- Category: cloud
-- Health: 77/100 (Healthy), rank #112
-- Stars: 3594
+- Stars: 3698
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1344,8 +1334,18 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - Page: https://mcp-status-directory.netlify.app/server/mixelpixx-kicad-mcp-server.html
 - GitHub: https://github.com/mixelpixx/KiCAD-MCP-Server
 - Category: other
+- Health: 77/100 (Healthy), rank #112
+- Stars: 3600
+- Archived: no
+- Last push: <=30d
+- Package: unchecked
+
+### aws/agent-toolkit-for-aws
+- Page: https://mcp-status-directory.netlify.app/server/aws-agent-toolkit-for-aws.html
+- GitHub: https://github.com/aws/agent-toolkit-for-aws
+- Category: cloud
 - Health: 77/100 (Healthy), rank #113
-- Stars: 3584
+- Stars: 3597
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1355,7 +1355,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/software-mansion/argent
 - Category: devtools
 - Health: 77/100 (Healthy), rank #114
-- Stars: 3258
+- Stars: 3263
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1365,7 +1365,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/coddingtonbear/obsidian-local-rest-api
 - Category: productivity
 - Health: 77/100 (Healthy), rank #115
-- Stars: 3205
+- Stars: 3208
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1375,7 +1375,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/supabase/mcp
 - Category: databases
 - Health: 77/100 (Healthy), rank #116
-- Stars: 3024
+- Stars: 3026
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1385,7 +1385,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/duty1g/x64dbg-mcp-server
 - Category: devtools
 - Health: 77/100 (Healthy), rank #117
-- Stars: 2883
+- Stars: 2887
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1395,7 +1395,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/0xMassi/webclaw
 - Category: browser
 - Health: 77/100 (Healthy), rank #118
-- Stars: 2452
+- Stars: 2454
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1405,7 +1405,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/containers/kubernetes-mcp-server
 - Category: cloud
 - Health: 77/100 (Healthy), rank #119
-- Stars: 2289
+- Stars: 2290
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1425,7 +1425,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/chigwell/telegram-mcp
 - Category: productivity
 - Health: 77/100 (Healthy), rank #121
-- Stars: 2098
+- Stars: 2103
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1435,7 +1435,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/anysearch-ai/anysearch-mcp-server
 - Category: search
 - Health: 77/100 (Healthy), rank #122
-- Stars: 2070
+- Stars: 2069
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1445,7 +1445,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/MicrosoftDocs/mcp
 - Category: search
 - Health: 77/100 (Healthy), rank #123
-- Stars: 2010
+- Stars: 2015
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1465,7 +1465,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/WordPress/mcp-adapter
 - Category: productivity
 - Health: 77/100 (Healthy), rank #125
-- Stars: 1938
+- Stars: 1940
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1475,7 +1475,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/matlab/matlab-mcp-server
 - Category: devtools
 - Health: 77/100 (Healthy), rank #126
-- Stars: 1874
+- Stars: 1883
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1485,7 +1485,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/iwe-org/iwe
 - Category: ai
 - Health: 77/100 (Healthy), rank #127
-- Stars: 1846
+- Stars: 1848
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1505,7 +1505,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/qdrant/mcp-server-qdrant
 - Category: databases
 - Health: 76/100 (Healthy), rank #129
-- Stars: 1579
+- Stars: 1580
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1525,7 +1525,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/lgazo/drawio-mcp-server
 - Category: other
 - Health: 76/100 (Healthy), rank #131
-- Stars: 1503
+- Stars: 1502
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1535,7 +1535,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/fastcrw/crw
 - Category: browser
 - Health: 76/100 (Healthy), rank #132
-- Stars: 1317
+- Stars: 1323
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1545,7 +1545,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/microsoft/powerbi-modeling-mcp
 - Category: databases
 - Health: 76/100 (Healthy), rank #133
-- Stars: 1304
+- Stars: 1307
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1555,7 +1555,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/atlassian/atlassian-mcp-server
 - Category: productivity
 - Health: 76/100 (Healthy), rank #134
-- Stars: 1195
+- Stars: 1194
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1565,7 +1565,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/TencentCloudBase/CloudBase-AI-Toolkit
 - Category: cloud
 - Health: 76/100 (Healthy), rank #135
-- Stars: 1169
+- Stars: 1170
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1585,7 +1585,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/ChiR24/Unreal_mcp
 - Category: other
 - Health: 76/100 (Healthy), rank #137
-- Stars: 1064
+- Stars: 1065
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1615,7 +1615,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/eat-pray-ai/yutu
 - Category: productivity
 - Health: 76/100 (Healthy), rank #140
-- Stars: 738
+- Stars: 739
 - Archived: no
 - Last push: <=30d
 - Package: unchecked
@@ -1665,7 +1665,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/LaurieWired/GhidraMCP
 - Category: devtools
 - Health: 68/100 (Stale), rank #145
-- Stars: 12059
+- Stars: 12068
 - Archived: no
 - Last push: 30-90d
 - Package: unchecked
@@ -1685,7 +1685,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/cloudflare/mcp-server-cloudflare
 - Category: cloud
 - Health: 67/100 (Stale), rank #147
-- Stars: 4498
+- Stars: 4500
 - Archived: no
 - Last push: 30-90d
 - Package: unchecked
@@ -1715,7 +1715,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/mukul975/cve-mcp-server
 - Category: other
 - Health: 67/100 (Stale), rank #150
-- Stars: 1796
+- Stars: 1797
 - Archived: no
 - Last push: 30-90d
 - Package: unchecked
@@ -1725,7 +1725,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/intuit/quickbooks-online-mcp-server
 - Category: productivity
 - Health: 65/100 (Stale), rank #151
-- Stars: 461
+- Stars: 462
 - Archived: no
 - Last push: 30-90d
 - Package: unchecked
@@ -1735,7 +1735,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/0x4m4/hexstrike-ai
 - Category: other
 - Health: 58/100 (Stale), rank #152
-- Stars: 13949
+- Stars: 13968
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1765,7 +1765,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/grab/cursor-talk-to-figma-mcp
 - Category: devtools
 - Health: 58/100 (Stale), rank #155
-- Stars: 7133
+- Stars: 7134
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1775,7 +1775,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/Coding-Solo/godot-mcp
 - Category: other
 - Health: 58/100 (Stale), rank #156
-- Stars: 6781
+- Stars: 6801
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1785,7 +1785,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/excalidraw/excalidraw-mcp
 - Category: other
 - Health: 58/100 (Stale), rank #157
-- Stars: 5710
+- Stars: 5711
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1795,7 +1795,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/google/mcp
 - Category: cloud
 - Health: 57/100 (Stale), rank #158
-- Stars: 4743
+- Stars: 4747
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1805,7 +1805,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/Pimzino/spec-workflow-mcp
 - Category: devtools
 - Health: 57/100 (Stale), rank #159
-- Stars: 4306
+- Stars: 4305
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1825,7 +1825,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/korotovsky/slack-mcp-server
 - Category: productivity
 - Health: 57/100 (Stale), rank #161
-- Stars: 1906
+- Stars: 1905
 - Archived: no
 - Last push: 90-365d
 - Package: unchecked
@@ -1845,7 +1845,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/lharries/whatsapp-mcp
 - Category: productivity
 - Health: 53/100 (Stale), rank #163
-- Stars: 6962
+- Stars: 6966
 - Archived: no
 - Last push: >365d
 - Package: unchecked
@@ -1855,7 +1855,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/financial-datasets/mcp-server
 - Category: other
 - Health: 52/100 (Stale), rank #164
-- Stars: 2330
+- Stars: 2331
 - Archived: no
 - Last push: >365d
 - Package: unchecked
@@ -1865,7 +1865,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/coleam00/mcp-crawl4ai-rag
 - Category: ai
 - Health: 52/100 (Stale), rank #165
-- Stars: 2268
+- Stars: 2269
 - Archived: no
 - Last push: >365d
 - Package: unchecked
@@ -1875,7 +1875,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/chongdashu/unreal-mcp
 - Category: other
 - Health: 52/100 (Stale), rank #166
-- Stars: 2124
+- Stars: 2126
 - Archived: no
 - Last push: >365d
 - Package: unchecked
@@ -1905,7 +1905,7 @@ Source: https://mcp-status-directory.netlify.app. Score = repo exists 25 + not a
 - GitHub: https://github.com/PleasePrompto/notebooklm-mcp
 - Category: ai
 - Health: 67/100 (Archived), rank #169
-- Stars: 3451
+- Stars: 3452
 - Archived: yes
 - Last push: 30-90d
 - Package: npm:notebooklm-mcp@2.0.0
